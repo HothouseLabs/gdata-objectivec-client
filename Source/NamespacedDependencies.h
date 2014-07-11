@@ -5,2253 +5,2225 @@
 // properly replaced by the time we concatenate the namespace prefix.
 #define __NS_REWRITE(ns, symbol) ns ## _ ## symbol
 #define __NS_BRIDGE(ns, symbol) __NS_REWRITE(ns, symbol)
-#define __NS_SYMBOL(symbol) __NS_BRIDGE(GDATA_OBJECTIVEC_CLIENT, symbol)
+#define __NS_SYMBOL(symbol) __NS_BRIDGE(SIGMAPOINT, symbol)
 #endif
 
 
 // Classes
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataACLAdditionalRole
-#define GDATA_OBJECTIVEC_CLIENT_GDataACLAdditionalRole __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataACLAdditionalRole)
+#ifndef GDataACLAdditionalRole
+#define GDataACLAdditionalRole __NS_SYMBOL(GDataACLAdditionalRole)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataACLKeyedRole
-#define GDATA_OBJECTIVEC_CLIENT_GDataACLKeyedRole __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataACLKeyedRole)
+#ifndef GDataACLKeyedRole
+#define GDataACLKeyedRole __NS_SYMBOL(GDataACLKeyedRole)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataACLRole
-#define GDATA_OBJECTIVEC_CLIENT_GDataACLRole __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataACLRole)
+#ifndef GDataACLRole
+#define GDataACLRole __NS_SYMBOL(GDataACLRole)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataACLRoleBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataACLRoleBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataACLRoleBase)
+#ifndef GDataACLRoleBase
+#define GDataACLRoleBase __NS_SYMBOL(GDataACLRoleBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataACLScope
-#define GDATA_OBJECTIVEC_CLIENT_GDataACLScope __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataACLScope)
+#ifndef GDataACLScope
+#define GDataACLScope __NS_SYMBOL(GDataACLScope)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAccessLevelProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataAccessLevelProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAccessLevelProperty)
+#ifndef GDataAccessLevelProperty
+#define GDataAccessLevelProperty __NS_SYMBOL(GDataAccessLevelProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAdditionalGuests
-#define GDATA_OBJECTIVEC_CLIENT_GDataAdditionalGuests __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAdditionalGuests)
+#ifndef GDataAdditionalGuests
+#define GDataAdditionalGuests __NS_SYMBOL(GDataAdditionalGuests)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsAggregateGroup
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsAggregateGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsAggregateGroup)
+#ifndef GDataAnalyticsAggregateGroup
+#define GDataAnalyticsAggregateGroup __NS_SYMBOL(GDataAnalyticsAggregateGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsConstants)
+#ifndef GDataAnalyticsConstants
+#define GDataAnalyticsConstants __NS_SYMBOL(GDataAnalyticsConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsCustomVariable
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsCustomVariable __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsCustomVariable)
+#ifndef GDataAnalyticsCustomVariable
+#define GDataAnalyticsCustomVariable __NS_SYMBOL(GDataAnalyticsCustomVariable)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDataSource
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDataSource __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDataSource)
+#ifndef GDataAnalyticsDataSource
+#define GDataAnalyticsDataSource __NS_SYMBOL(GDataAnalyticsDataSource)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDefinition
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDefinition __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDefinition)
+#ifndef GDataAnalyticsDefinition
+#define GDataAnalyticsDefinition __NS_SYMBOL(GDataAnalyticsDefinition)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDestination
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDestination __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDestination)
+#ifndef GDataAnalyticsDestination
+#define GDataAnalyticsDestination __NS_SYMBOL(GDataAnalyticsDestination)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDimension
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDimension __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsDimension)
+#ifndef GDataAnalyticsDimension
+#define GDataAnalyticsDimension __NS_SYMBOL(GDataAnalyticsDimension)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsEndDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsEndDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsEndDate)
+#ifndef GDataAnalyticsEndDate
+#define GDataAnalyticsEndDate __NS_SYMBOL(GDataAnalyticsEndDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsEngagement
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsEngagement __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsEngagement)
+#ifndef GDataAnalyticsEngagement
+#define GDataAnalyticsEngagement __NS_SYMBOL(GDataAnalyticsEngagement)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsGoal
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsGoal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsGoal)
+#ifndef GDataAnalyticsGoal
+#define GDataAnalyticsGoal __NS_SYMBOL(GDataAnalyticsGoal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsMetric
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsMetric __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsMetric)
+#ifndef GDataAnalyticsMetric
+#define GDataAnalyticsMetric __NS_SYMBOL(GDataAnalyticsMetric)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsProperty)
+#ifndef GDataAnalyticsProperty
+#define GDataAnalyticsProperty __NS_SYMBOL(GDataAnalyticsProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsSegment
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsSegment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsSegment)
+#ifndef GDataAnalyticsSegment
+#define GDataAnalyticsSegment __NS_SYMBOL(GDataAnalyticsSegment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsStartDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsStartDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsStartDate)
+#ifndef GDataAnalyticsStartDate
+#define GDataAnalyticsStartDate __NS_SYMBOL(GDataAnalyticsStartDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsStep
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsStep __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsStep)
+#ifndef GDataAnalyticsStep
+#define GDataAnalyticsStep __NS_SYMBOL(GDataAnalyticsStep)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsTableID
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsTableID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsTableID)
+#ifndef GDataAnalyticsTableID
+#define GDataAnalyticsTableID __NS_SYMBOL(GDataAnalyticsTableID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsTableName
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsTableName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnalyticsTableName)
+#ifndef GDataAnalyticsTableName
+#define GDataAnalyticsTableName __NS_SYMBOL(GDataAnalyticsTableName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAnyoneCanAddSelfProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataAnyoneCanAddSelfProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAnyoneCanAddSelfProperty)
+#ifndef GDataAnyoneCanAddSelfProperty
+#define GDataAnyoneCanAddSelfProperty __NS_SYMBOL(GDataAnyoneCanAddSelfProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomAccept
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomAccept __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomAccept)
+#ifndef GDataAtomAccept
+#define GDataAtomAccept __NS_SYMBOL(GDataAtomAccept)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomAuthor
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomAuthor __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomAuthor)
+#ifndef GDataAtomAuthor
+#define GDataAtomAuthor __NS_SYMBOL(GDataAtomAuthor)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomCategoryGroup
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomCategoryGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomCategoryGroup)
+#ifndef GDataAtomCategoryGroup
+#define GDataAtomCategoryGroup __NS_SYMBOL(GDataAtomCategoryGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomCollection
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomCollection __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomCollection)
+#ifndef GDataAtomCollection
+#define GDataAtomCollection __NS_SYMBOL(GDataAtomCollection)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomContent
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomContent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomContent)
+#ifndef GDataAtomContent
+#define GDataAtomContent __NS_SYMBOL(GDataAtomContent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomContributor
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomContributor __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomContributor)
+#ifndef GDataAtomContributor
+#define GDataAtomContributor __NS_SYMBOL(GDataAtomContributor)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomID
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomID)
+#ifndef GDataAtomID
+#define GDataAtomID __NS_SYMBOL(GDataAtomID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomIcon
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomIcon __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomIcon)
+#ifndef GDataAtomIcon
+#define GDataAtomIcon __NS_SYMBOL(GDataAtomIcon)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomLogo
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomLogo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomLogo)
+#ifndef GDataAtomLogo
+#define GDataAtomLogo __NS_SYMBOL(GDataAtomLogo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomPubControl
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomPubControl __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomPubControl)
+#ifndef GDataAtomPubControl
+#define GDataAtomPubControl __NS_SYMBOL(GDataAtomPubControl)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomPubDraft
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomPubDraft __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomPubDraft)
+#ifndef GDataAtomPubDraft
+#define GDataAtomPubDraft __NS_SYMBOL(GDataAtomPubDraft)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomPubEditedDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomPubEditedDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomPubEditedDate)
+#ifndef GDataAtomPubEditedDate
+#define GDataAtomPubEditedDate __NS_SYMBOL(GDataAtomPubEditedDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomPublishedDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomPublishedDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomPublishedDate)
+#ifndef GDataAtomPublishedDate
+#define GDataAtomPublishedDate __NS_SYMBOL(GDataAtomPublishedDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomRights
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomRights __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomRights)
+#ifndef GDataAtomRights
+#define GDataAtomRights __NS_SYMBOL(GDataAtomRights)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomServiceDocument
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomServiceDocument __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomServiceDocument)
+#ifndef GDataAtomServiceDocument
+#define GDataAtomServiceDocument __NS_SYMBOL(GDataAtomServiceDocument)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomSubtitle
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomSubtitle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomSubtitle)
+#ifndef GDataAtomSubtitle
+#define GDataAtomSubtitle __NS_SYMBOL(GDataAtomSubtitle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomSummary
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomSummary __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomSummary)
+#ifndef GDataAtomSummary
+#define GDataAtomSummary __NS_SYMBOL(GDataAtomSummary)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomTitle
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomTitle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomTitle)
+#ifndef GDataAtomTitle
+#define GDataAtomTitle __NS_SYMBOL(GDataAtomTitle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomUpdatedDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomUpdatedDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomUpdatedDate)
+#ifndef GDataAtomUpdatedDate
+#define GDataAtomUpdatedDate __NS_SYMBOL(GDataAtomUpdatedDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAtomWorkspace
-#define GDATA_OBJECTIVEC_CLIENT_GDataAtomWorkspace __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAtomWorkspace)
+#ifndef GDataAtomWorkspace
+#define GDataAtomWorkspace __NS_SYMBOL(GDataAtomWorkspace)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAttendeeStatus
-#define GDATA_OBJECTIVEC_CLIENT_GDataAttendeeStatus __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAttendeeStatus)
+#ifndef GDataAttendeeStatus
+#define GDataAttendeeStatus __NS_SYMBOL(GDataAttendeeStatus)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAttendeeType
-#define GDATA_OBJECTIVEC_CLIENT_GDataAttendeeType __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAttendeeType)
+#ifndef GDataAttendeeType
+#define GDataAttendeeType __NS_SYMBOL(GDataAttendeeType)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAttribute
-#define GDATA_OBJECTIVEC_CLIENT_GDataAttribute __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAttribute)
+#ifndef GDataAttribute
+#define GDataAttribute __NS_SYMBOL(GDataAttribute)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataAuthenticationFetcher
-#define GDATA_OBJECTIVEC_CLIENT_GDataAuthenticationFetcher __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataAuthenticationFetcher)
+#ifndef GDataAuthenticationFetcher
+#define GDataAuthenticationFetcher __NS_SYMBOL(GDataAuthenticationFetcher)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataBatchID
-#define GDATA_OBJECTIVEC_CLIENT_GDataBatchID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataBatchID)
+#ifndef GDataBatchID
+#define GDataBatchID __NS_SYMBOL(GDataBatchID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataBatchInterrupted
-#define GDATA_OBJECTIVEC_CLIENT_GDataBatchInterrupted __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataBatchInterrupted)
+#ifndef GDataBatchInterrupted
+#define GDataBatchInterrupted __NS_SYMBOL(GDataBatchInterrupted)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataBatchOperation
-#define GDATA_OBJECTIVEC_CLIENT_GDataBatchOperation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataBatchOperation)
+#ifndef GDataBatchOperation
+#define GDataBatchOperation __NS_SYMBOL(GDataBatchOperation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataBatchStatus
-#define GDATA_OBJECTIVEC_CLIENT_GDataBatchStatus __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataBatchStatus)
+#ifndef GDataBatchStatus
+#define GDataBatchStatus __NS_SYMBOL(GDataBatchStatus)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataBloggerConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataBloggerConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataBloggerConstants)
+#ifndef GDataBloggerConstants
+#define GDataBloggerConstants __NS_SYMBOL(GDataBloggerConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataBookConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataBookConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataBookConstants)
+#ifndef GDataBookConstants
+#define GDataBookConstants __NS_SYMBOL(GDataBookConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataBoolValueConstruct
-#define GDATA_OBJECTIVEC_CLIENT_GDataBoolValueConstruct __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataBoolValueConstruct)
+#ifndef GDataBoolValueConstruct
+#define GDataBoolValueConstruct __NS_SYMBOL(GDataBoolValueConstruct)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCalendarBusy
-#define GDATA_OBJECTIVEC_CLIENT_GDataCalendarBusy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCalendarBusy)
+#ifndef GDataCalendarBusy
+#define GDataCalendarBusy __NS_SYMBOL(GDataCalendarBusy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCalendarSettingsProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataCalendarSettingsProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCalendarSettingsProperty)
+#ifndef GDataCalendarSettingsProperty
+#define GDataCalendarSettingsProperty __NS_SYMBOL(GDataCalendarSettingsProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCalendarTimeRange
-#define GDATA_OBJECTIVEC_CLIENT_GDataCalendarTimeRange __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCalendarTimeRange)
+#ifndef GDataCalendarTimeRange
+#define GDataCalendarTimeRange __NS_SYMBOL(GDataCalendarTimeRange)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCalendarWhen
-#define GDATA_OBJECTIVEC_CLIENT_GDataCalendarWhen __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCalendarWhen)
+#ifndef GDataCalendarWhen
+#define GDataCalendarWhen __NS_SYMBOL(GDataCalendarWhen)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCategory
-#define GDATA_OBJECTIVEC_CLIENT_GDataCategory __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCategory)
+#ifndef GDataCategory
+#define GDataCategory __NS_SYMBOL(GDataCategory)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCategoryFilter
-#define GDATA_OBJECTIVEC_CLIENT_GDataCategoryFilter __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCategoryFilter)
+#ifndef GDataCategoryFilter
+#define GDataCategoryFilter __NS_SYMBOL(GDataCategoryFilter)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCodeSearchFile
-#define GDATA_OBJECTIVEC_CLIENT_GDataCodeSearchFile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCodeSearchFile)
+#ifndef GDataCodeSearchFile
+#define GDataCodeSearchFile __NS_SYMBOL(GDataCodeSearchFile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCodeSearchMatch
-#define GDATA_OBJECTIVEC_CLIENT_GDataCodeSearchMatch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCodeSearchMatch)
+#ifndef GDataCodeSearchMatch
+#define GDataCodeSearchMatch __NS_SYMBOL(GDataCodeSearchMatch)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCodeSearchPackage
-#define GDATA_OBJECTIVEC_CLIENT_GDataCodeSearchPackage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCodeSearchPackage)
+#ifndef GDataCodeSearchPackage
+#define GDataCodeSearchPackage __NS_SYMBOL(GDataCodeSearchPackage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataColorProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataColorProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataColorProperty)
+#ifndef GDataColorProperty
+#define GDataColorProperty __NS_SYMBOL(GDataColorProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataColumnCount
-#define GDATA_OBJECTIVEC_CLIENT_GDataColumnCount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataColumnCount)
+#ifndef GDataColumnCount
+#define GDataColumnCount __NS_SYMBOL(GDataColumnCount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataComment
-#define GDATA_OBJECTIVEC_CLIENT_GDataComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataComment)
+#ifndef GDataComment
+#define GDataComment __NS_SYMBOL(GDataComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCommission
-#define GDATA_OBJECTIVEC_CLIENT_GDataCommission __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCommission)
+#ifndef GDataCommission
+#define GDataCommission __NS_SYMBOL(GDataCommission)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactBillingInformation
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactBillingInformation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactBillingInformation)
+#ifndef GDataContactBillingInformation
+#define GDataContactBillingInformation __NS_SYMBOL(GDataContactBillingInformation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactBirthday
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactBirthday __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactBirthday)
+#ifndef GDataContactBirthday
+#define GDataContactBirthday __NS_SYMBOL(GDataContactBirthday)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactCalendarLink
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactCalendarLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactCalendarLink)
+#ifndef GDataContactCalendarLink
+#define GDataContactCalendarLink __NS_SYMBOL(GDataContactCalendarLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactConstants)
+#ifndef GDataContactConstants
+#define GDataContactConstants __NS_SYMBOL(GDataContactConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactDirectoryServer
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactDirectoryServer __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactDirectoryServer)
+#ifndef GDataContactDirectoryServer
+#define GDataContactDirectoryServer __NS_SYMBOL(GDataContactDirectoryServer)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactEvent
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactEvent)
+#ifndef GDataContactEvent
+#define GDataContactEvent __NS_SYMBOL(GDataContactEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactExternalID
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactExternalID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactExternalID)
+#ifndef GDataContactExternalID
+#define GDataContactExternalID __NS_SYMBOL(GDataContactExternalID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactGender
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactGender __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactGender)
+#ifndef GDataContactGender
+#define GDataContactGender __NS_SYMBOL(GDataContactGender)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactHobby
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactHobby __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactHobby)
+#ifndef GDataContactHobby
+#define GDataContactHobby __NS_SYMBOL(GDataContactHobby)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactInitials
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactInitials __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactInitials)
+#ifndef GDataContactInitials
+#define GDataContactInitials __NS_SYMBOL(GDataContactInitials)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactJot
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactJot __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactJot)
+#ifndef GDataContactJot
+#define GDataContactJot __NS_SYMBOL(GDataContactJot)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactLanguage
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactLanguage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactLanguage)
+#ifndef GDataContactLanguage
+#define GDataContactLanguage __NS_SYMBOL(GDataContactLanguage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactLink
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactLink)
+#ifndef GDataContactLink
+#define GDataContactLink __NS_SYMBOL(GDataContactLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactMaidenName
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactMaidenName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactMaidenName)
+#ifndef GDataContactMaidenName
+#define GDataContactMaidenName __NS_SYMBOL(GDataContactMaidenName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactMileage
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactMileage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactMileage)
+#ifndef GDataContactMileage
+#define GDataContactMileage __NS_SYMBOL(GDataContactMileage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactNickname
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactNickname __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactNickname)
+#ifndef GDataContactNickname
+#define GDataContactNickname __NS_SYMBOL(GDataContactNickname)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactOccupation
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactOccupation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactOccupation)
+#ifndef GDataContactOccupation
+#define GDataContactOccupation __NS_SYMBOL(GDataContactOccupation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactPriority
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactPriority __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactPriority)
+#ifndef GDataContactPriority
+#define GDataContactPriority __NS_SYMBOL(GDataContactPriority)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactRelation
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactRelation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactRelation)
+#ifndef GDataContactRelation
+#define GDataContactRelation __NS_SYMBOL(GDataContactRelation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactSensitivity
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactSensitivity __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactSensitivity)
+#ifndef GDataContactSensitivity
+#define GDataContactSensitivity __NS_SYMBOL(GDataContactSensitivity)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactShortName
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactShortName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactShortName)
+#ifndef GDataContactShortName
+#define GDataContactShortName __NS_SYMBOL(GDataContactShortName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactSubject
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactSubject __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactSubject)
+#ifndef GDataContactSubject
+#define GDataContactSubject __NS_SYMBOL(GDataContactSubject)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactSystemGroup
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactSystemGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactSystemGroup)
+#ifndef GDataContactSystemGroup
+#define GDataContactSystemGroup __NS_SYMBOL(GDataContactSystemGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactUserDefinedField
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactUserDefinedField __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactUserDefinedField)
+#ifndef GDataContactUserDefinedField
+#define GDataContactUserDefinedField __NS_SYMBOL(GDataContactUserDefinedField)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactWebsiteLink
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactWebsiteLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactWebsiteLink)
+#ifndef GDataContactWebsiteLink
+#define GDataContactWebsiteLink __NS_SYMBOL(GDataContactWebsiteLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataContactYomiName
-#define GDATA_OBJECTIVEC_CLIENT_GDataContactYomiName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataContactYomiName)
+#ifndef GDataContactYomiName
+#define GDataContactYomiName __NS_SYMBOL(GDataContactYomiName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCostBasis
-#define GDATA_OBJECTIVEC_CLIENT_GDataCostBasis __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCostBasis)
+#ifndef GDataCostBasis
+#define GDataCostBasis __NS_SYMBOL(GDataCostBasis)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataCustomProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataCustomProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataCustomProperty)
+#ifndef GDataCustomProperty
+#define GDataCustomProperty __NS_SYMBOL(GDataCustomProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDCCreator
-#define GDATA_OBJECTIVEC_CLIENT_GDataDCCreator __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDCCreator)
+#ifndef GDataDCCreator
+#define GDataDCCreator __NS_SYMBOL(GDataDCCreator)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDCDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataDCDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDCDate)
+#ifndef GDataDCDate
+#define GDataDCDate __NS_SYMBOL(GDataDCDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDCDescription
-#define GDATA_OBJECTIVEC_CLIENT_GDataDCDescription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDCDescription)
+#ifndef GDataDCDescription
+#define GDataDCDescription __NS_SYMBOL(GDataDCDescription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDCFormat
-#define GDATA_OBJECTIVEC_CLIENT_GDataDCFormat __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDCFormat)
+#ifndef GDataDCFormat
+#define GDataDCFormat __NS_SYMBOL(GDataDCFormat)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDCIdentifier
-#define GDATA_OBJECTIVEC_CLIENT_GDataDCIdentifier __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDCIdentifier)
+#ifndef GDataDCIdentifier
+#define GDataDCIdentifier __NS_SYMBOL(GDataDCIdentifier)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDCLanguage
-#define GDATA_OBJECTIVEC_CLIENT_GDataDCLanguage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDCLanguage)
+#ifndef GDataDCLanguage
+#define GDataDCLanguage __NS_SYMBOL(GDataDCLanguage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDCPublisher
-#define GDATA_OBJECTIVEC_CLIENT_GDataDCPublisher __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDCPublisher)
+#ifndef GDataDCPublisher
+#define GDataDCPublisher __NS_SYMBOL(GDataDCPublisher)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDCSubject
-#define GDATA_OBJECTIVEC_CLIENT_GDataDCSubject __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDCSubject)
+#ifndef GDataDCSubject
+#define GDataDCSubject __NS_SYMBOL(GDataDCSubject)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDCTitle
-#define GDATA_OBJECTIVEC_CLIENT_GDataDCTitle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDCTitle)
+#ifndef GDataDCTitle
+#define GDataDCTitle __NS_SYMBOL(GDataDCTitle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDateTime
-#define GDATA_OBJECTIVEC_CLIENT_GDataDateTime __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDateTime)
+#ifndef GDataDateTime
+#define GDataDateTime __NS_SYMBOL(GDataDateTime)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDaysGain
-#define GDATA_OBJECTIVEC_CLIENT_GDataDaysGain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDaysGain)
+#ifndef GDataDaysGain
+#define GDataDaysGain __NS_SYMBOL(GDataDaysGain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDeleted
-#define GDATA_OBJECTIVEC_CLIENT_GDataDeleted __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDeleted)
+#ifndef GDataDeleted
+#define GDataDeleted __NS_SYMBOL(GDataDeleted)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocChangestamp
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocChangestamp __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocChangestamp)
+#ifndef GDataDocChangestamp
+#define GDataDocChangestamp __NS_SYMBOL(GDataDocChangestamp)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocConstants)
+#ifndef GDataDocConstants
+#define GDataDocConstants __NS_SYMBOL(GDataDocConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocDescription
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocDescription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocDescription)
+#ifndef GDataDocDescription
+#define GDataDocDescription __NS_SYMBOL(GDataDocDescription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocExportFormat
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocExportFormat __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocExportFormat)
+#ifndef GDataDocExportFormat
+#define GDataDocExportFormat __NS_SYMBOL(GDataDocExportFormat)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocFeature
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocFeature __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocFeature)
+#ifndef GDataDocFeature
+#define GDataDocFeature __NS_SYMBOL(GDataDocFeature)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocFeatureName
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocFeatureName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocFeatureName)
+#ifndef GDataDocFeatureName
+#define GDataDocFeatureName __NS_SYMBOL(GDataDocFeatureName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocFeatureRate
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocFeatureRate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocFeatureRate)
+#ifndef GDataDocFeatureRate
+#define GDataDocFeatureRate __NS_SYMBOL(GDataDocFeatureRate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocFilename
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocFilename __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocFilename)
+#ifndef GDataDocFilename
+#define GDataDocFilename __NS_SYMBOL(GDataDocFilename)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocImportFormat
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocImportFormat __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocImportFormat)
+#ifndef GDataDocImportFormat
+#define GDataDocImportFormat __NS_SYMBOL(GDataDocImportFormat)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocLargestChangestamp
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocLargestChangestamp __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocLargestChangestamp)
+#ifndef GDataDocLargestChangestamp
+#define GDataDocLargestChangestamp __NS_SYMBOL(GDataDocLargestChangestamp)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocLastCommented
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocLastCommented __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocLastCommented)
+#ifndef GDataDocLastCommented
+#define GDataDocLastCommented __NS_SYMBOL(GDataDocLastCommented)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocMD5Checksum
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocMD5Checksum __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocMD5Checksum)
+#ifndef GDataDocMD5Checksum
+#define GDataDocMD5Checksum __NS_SYMBOL(GDataDocMD5Checksum)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocMaxUploadSize
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocMaxUploadSize __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocMaxUploadSize)
+#ifndef GDataDocMaxUploadSize
+#define GDataDocMaxUploadSize __NS_SYMBOL(GDataDocMaxUploadSize)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocPublish
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocPublish __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocPublish)
+#ifndef GDataDocPublish
+#define GDataDocPublish __NS_SYMBOL(GDataDocPublish)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocPublishAuto
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocPublishAuto __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocPublishAuto)
+#ifndef GDataDocPublishAuto
+#define GDataDocPublishAuto __NS_SYMBOL(GDataDocPublishAuto)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocPublishOutsideDomain
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocPublishOutsideDomain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocPublishOutsideDomain)
+#ifndef GDataDocPublishOutsideDomain
+#define GDataDocPublishOutsideDomain __NS_SYMBOL(GDataDocPublishOutsideDomain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocRemoved
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocRemoved __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocRemoved)
+#ifndef GDataDocRemoved
+#define GDataDocRemoved __NS_SYMBOL(GDataDocRemoved)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocSuggestedFilename
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocSuggestedFilename __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocSuggestedFilename)
+#ifndef GDataDocSuggestedFilename
+#define GDataDocSuggestedFilename __NS_SYMBOL(GDataDocSuggestedFilename)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataDocTransferFormat
-#define GDATA_OBJECTIVEC_CLIENT_GDataDocTransferFormat __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataDocTransferFormat)
+#ifndef GDataDocTransferFormat
+#define GDataDocTransferFormat __NS_SYMBOL(GDataDocTransferFormat)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataETagAttribute
-#define GDATA_OBJECTIVEC_CLIENT_GDataETagAttribute __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataETagAttribute)
+#ifndef GDataETagAttribute
+#define GDataETagAttribute __NS_SYMBOL(GDataETagAttribute)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEXIFTag
-#define GDATA_OBJECTIVEC_CLIENT_GDataEXIFTag __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEXIFTag)
+#ifndef GDataEXIFTag
+#define GDataEXIFTag __NS_SYMBOL(GDataEXIFTag)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEXIFTags
-#define GDATA_OBJECTIVEC_CLIENT_GDataEXIFTags __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEXIFTags)
+#ifndef GDataEXIFTags
+#define GDataEXIFTags __NS_SYMBOL(GDataEXIFTags)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEmail
-#define GDATA_OBJECTIVEC_CLIENT_GDataEmail __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEmail)
+#ifndef GDataEmail
+#define GDataEmail __NS_SYMBOL(GDataEmail)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryACL
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryACL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryACL)
+#ifndef GDataEntryACL
+#define GDataEntryACL __NS_SYMBOL(GDataEntryACL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryAnalyticsAccount
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryAnalyticsAccount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryAnalyticsAccount)
+#ifndef GDataEntryAnalyticsAccount
+#define GDataEntryAnalyticsAccount __NS_SYMBOL(GDataEntryAnalyticsAccount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryAnalyticsData
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryAnalyticsData __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryAnalyticsData)
+#ifndef GDataEntryAnalyticsData
+#define GDataEntryAnalyticsData __NS_SYMBOL(GDataEntryAnalyticsData)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryBase)
+#ifndef GDataEntryBase
+#define GDataEntryBase __NS_SYMBOL(GDataEntryBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryBlog
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryBlog __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryBlog)
+#ifndef GDataEntryBlog
+#define GDataEntryBlog __NS_SYMBOL(GDataEntryBlog)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryBlogComment
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryBlogComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryBlogComment)
+#ifndef GDataEntryBlogComment
+#define GDataEntryBlogComment __NS_SYMBOL(GDataEntryBlogComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryBlogPost
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryBlogPost __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryBlogPost)
+#ifndef GDataEntryBlogPost
+#define GDataEntryBlogPost __NS_SYMBOL(GDataEntryBlogPost)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryCalendar
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryCalendar __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryCalendar)
+#ifndef GDataEntryCalendar
+#define GDataEntryCalendar __NS_SYMBOL(GDataEntryCalendar)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryCalendarEvent
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryCalendarEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryCalendarEvent)
+#ifndef GDataEntryCalendarEvent
+#define GDataEntryCalendarEvent __NS_SYMBOL(GDataEntryCalendarEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryCalendarSettings
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryCalendarSettings __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryCalendarSettings)
+#ifndef GDataEntryCalendarSettings
+#define GDataEntryCalendarSettings __NS_SYMBOL(GDataEntryCalendarSettings)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryCodeSearch
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryCodeSearch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryCodeSearch)
+#ifndef GDataEntryCodeSearch
+#define GDataEntryCodeSearch __NS_SYMBOL(GDataEntryCodeSearch)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryCollection
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryCollection __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryCollection)
+#ifndef GDataEntryCollection
+#define GDataEntryCollection __NS_SYMBOL(GDataEntryCollection)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryContact
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryContact __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryContact)
+#ifndef GDataEntryContact
+#define GDataEntryContact __NS_SYMBOL(GDataEntryContact)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryContactBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryContactBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryContactBase)
+#ifndef GDataEntryContactBase
+#define GDataEntryContactBase __NS_SYMBOL(GDataEntryContactBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryContactGroup
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryContactGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryContactGroup)
+#ifndef GDataEntryContactGroup
+#define GDataEntryContactGroup __NS_SYMBOL(GDataEntryContactGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryContactProfile
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryContactProfile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryContactProfile)
+#ifndef GDataEntryContactProfile
+#define GDataEntryContactProfile __NS_SYMBOL(GDataEntryContactProfile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryContent
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryContent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryContent)
+#ifndef GDataEntryContent
+#define GDataEntryContent __NS_SYMBOL(GDataEntryContent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryDocBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryDocBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryDocBase)
+#ifndef GDataEntryDocBase
+#define GDataEntryDocBase __NS_SYMBOL(GDataEntryDocBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryDocChange
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryDocChange __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryDocChange)
+#ifndef GDataEntryDocChange
+#define GDataEntryDocChange __NS_SYMBOL(GDataEntryDocChange)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryDocListMetadata
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryDocListMetadata __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryDocListMetadata)
+#ifndef GDataEntryDocListMetadata
+#define GDataEntryDocListMetadata __NS_SYMBOL(GDataEntryDocListMetadata)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryDocRevision
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryDocRevision __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryDocRevision)
+#ifndef GDataEntryDocRevision
+#define GDataEntryDocRevision __NS_SYMBOL(GDataEntryDocRevision)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryDrawingDoc
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryDrawingDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryDrawingDoc)
+#ifndef GDataEntryDrawingDoc
+#define GDataEntryDrawingDoc __NS_SYMBOL(GDataEntryDrawingDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryEvent
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryEvent)
+#ifndef GDataEntryEvent
+#define GDataEntryEvent __NS_SYMBOL(GDataEntryEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryFileDoc
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryFileDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryFileDoc)
+#ifndef GDataEntryFileDoc
+#define GDataEntryFileDoc __NS_SYMBOL(GDataEntryFileDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryFinancePortfolio
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryFinancePortfolio __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryFinancePortfolio)
+#ifndef GDataEntryFinancePortfolio
+#define GDataEntryFinancePortfolio __NS_SYMBOL(GDataEntryFinancePortfolio)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryFinancePosition
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryFinancePosition __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryFinancePosition)
+#ifndef GDataEntryFinancePosition
+#define GDataEntryFinancePosition __NS_SYMBOL(GDataEntryFinancePosition)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryFinanceTransaction
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryFinanceTransaction __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryFinanceTransaction)
+#ifndef GDataEntryFinanceTransaction
+#define GDataEntryFinanceTransaction __NS_SYMBOL(GDataEntryFinanceTransaction)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryFolderDoc
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryFolderDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryFolderDoc)
+#ifndef GDataEntryFolderDoc
+#define GDataEntryFolderDoc __NS_SYMBOL(GDataEntryFolderDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryFreeBusy
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryFreeBusy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryFreeBusy)
+#ifndef GDataEntryFreeBusy
+#define GDataEntryFreeBusy __NS_SYMBOL(GDataEntryFreeBusy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryFreeBusyBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryFreeBusyBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryFreeBusyBase)
+#ifndef GDataEntryFreeBusyBase
+#define GDataEntryFreeBusyBase __NS_SYMBOL(GDataEntryFreeBusyBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryGroupFreeBusy
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryGroupFreeBusy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryGroupFreeBusy)
+#ifndef GDataEntryGroupFreeBusy
+#define GDataEntryGroupFreeBusy __NS_SYMBOL(GDataEntryGroupFreeBusy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryLink
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryLink)
+#ifndef GDataEntryLink
+#define GDataEntryLink __NS_SYMBOL(GDataEntryLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryMap
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryMap __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryMap)
+#ifndef GDataEntryMap
+#define GDataEntryMap __NS_SYMBOL(GDataEntryMap)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryMapFeature
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryMapFeature __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryMapFeature)
+#ifndef GDataEntryMapFeature
+#define GDataEntryMapFeature __NS_SYMBOL(GDataEntryMapFeature)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryMapVersion
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryMapVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryMapVersion)
+#ifndef GDataEntryMapVersion
+#define GDataEntryMapVersion __NS_SYMBOL(GDataEntryMapVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryMessage
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryMessage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryMessage)
+#ifndef GDataEntryMessage
+#define GDataEntryMessage __NS_SYMBOL(GDataEntryMessage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryPDFDoc
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryPDFDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryPDFDoc)
+#ifndef GDataEntryPDFDoc
+#define GDataEntryPDFDoc __NS_SYMBOL(GDataEntryPDFDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryPhoto
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryPhoto __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryPhoto)
+#ifndef GDataEntryPhoto
+#define GDataEntryPhoto __NS_SYMBOL(GDataEntryPhoto)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoAlbum
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoAlbum __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoAlbum)
+#ifndef GDataEntryPhotoAlbum
+#define GDataEntryPhotoAlbum __NS_SYMBOL(GDataEntryPhotoAlbum)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoBase)
+#ifndef GDataEntryPhotoBase
+#define GDataEntryPhotoBase __NS_SYMBOL(GDataEntryPhotoBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoComment
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoComment)
+#ifndef GDataEntryPhotoComment
+#define GDataEntryPhotoComment __NS_SYMBOL(GDataEntryPhotoComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoTag
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoTag __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoTag)
+#ifndef GDataEntryPhotoTag
+#define GDataEntryPhotoTag __NS_SYMBOL(GDataEntryPhotoTag)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoUser
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoUser __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryPhotoUser)
+#ifndef GDataEntryPhotoUser
+#define GDataEntryPhotoUser __NS_SYMBOL(GDataEntryPhotoUser)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryPresentationDoc
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryPresentationDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryPresentationDoc)
+#ifndef GDataEntryPresentationDoc
+#define GDataEntryPresentationDoc __NS_SYMBOL(GDataEntryPresentationDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySite
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySite __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySite)
+#ifndef GDataEntrySite
+#define GDataEntrySite __NS_SYMBOL(GDataEntrySite)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySiteCrawlIssue
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySiteCrawlIssue __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySiteCrawlIssue)
+#ifndef GDataEntrySiteCrawlIssue
+#define GDataEntrySiteCrawlIssue __NS_SYMBOL(GDataEntrySiteCrawlIssue)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySiteDoc
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySiteDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySiteDoc)
+#ifndef GDataEntrySiteDoc
+#define GDataEntrySiteDoc __NS_SYMBOL(GDataEntrySiteDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySiteMessage
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySiteMessage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySiteMessage)
+#ifndef GDataEntrySiteMessage
+#define GDataEntrySiteMessage __NS_SYMBOL(GDataEntrySiteMessage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapBase)
+#ifndef GDataEntrySitemapBase
+#define GDataEntrySitemapBase __NS_SYMBOL(GDataEntrySitemapBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapMobile
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapMobile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapMobile)
+#ifndef GDataEntrySitemapMobile
+#define GDataEntrySitemapMobile __NS_SYMBOL(GDataEntrySitemapMobile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapNews
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapNews __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapNews)
+#ifndef GDataEntrySitemapNews
+#define GDataEntrySitemapNews __NS_SYMBOL(GDataEntrySitemapNews)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapRegular
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapRegular __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySitemapRegular)
+#ifndef GDataEntrySitemapRegular
+#define GDataEntrySitemapRegular __NS_SYMBOL(GDataEntrySitemapRegular)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheet
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheet)
+#ifndef GDataEntrySpreadsheet
+#define GDataEntrySpreadsheet __NS_SYMBOL(GDataEntrySpreadsheet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetCell
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetCell __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetCell)
+#ifndef GDataEntrySpreadsheetCell
+#define GDataEntrySpreadsheetCell __NS_SYMBOL(GDataEntrySpreadsheetCell)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetDoc
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetDoc)
+#ifndef GDataEntrySpreadsheetDoc
+#define GDataEntrySpreadsheetDoc __NS_SYMBOL(GDataEntrySpreadsheetDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetList
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetList __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetList)
+#ifndef GDataEntrySpreadsheetList
+#define GDataEntrySpreadsheetList __NS_SYMBOL(GDataEntrySpreadsheetList)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetRecord
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetRecord __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetRecord)
+#ifndef GDataEntrySpreadsheetRecord
+#define GDataEntrySpreadsheetRecord __NS_SYMBOL(GDataEntrySpreadsheetRecord)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetTable
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetTable __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntrySpreadsheetTable)
+#ifndef GDataEntrySpreadsheetTable
+#define GDataEntrySpreadsheetTable __NS_SYMBOL(GDataEntrySpreadsheetTable)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryStandardDoc
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryStandardDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryStandardDoc)
+#ifndef GDataEntryStandardDoc
+#define GDataEntryStandardDoc __NS_SYMBOL(GDataEntryStandardDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryTableDoc
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryTableDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryTableDoc)
+#ifndef GDataEntryTableDoc
+#define GDataEntryTableDoc __NS_SYMBOL(GDataEntryTableDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryVolume
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryVolume __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryVolume)
+#ifndef GDataEntryVolume
+#define GDataEntryVolume __NS_SYMBOL(GDataEntryVolume)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryWorksheet
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryWorksheet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryWorksheet)
+#ifndef GDataEntryWorksheet
+#define GDataEntryWorksheet __NS_SYMBOL(GDataEntryWorksheet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeCaptionTrack
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeCaptionTrack __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeCaptionTrack)
+#ifndef GDataEntryYouTubeCaptionTrack
+#define GDataEntryYouTubeCaptionTrack __NS_SYMBOL(GDataEntryYouTubeCaptionTrack)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeChannel
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeChannel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeChannel)
+#ifndef GDataEntryYouTubeChannel
+#define GDataEntryYouTubeChannel __NS_SYMBOL(GDataEntryYouTubeChannel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeComment
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeComment)
+#ifndef GDataEntryYouTubeComment
+#define GDataEntryYouTubeComment __NS_SYMBOL(GDataEntryYouTubeComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeComplaint
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeComplaint __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeComplaint)
+#ifndef GDataEntryYouTubeComplaint
+#define GDataEntryYouTubeComplaint __NS_SYMBOL(GDataEntryYouTubeComplaint)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeFavorite
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeFavorite __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeFavorite)
+#ifndef GDataEntryYouTubeFavorite
+#define GDataEntryYouTubeFavorite __NS_SYMBOL(GDataEntryYouTubeFavorite)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeFeedLinkBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeFeedLinkBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeFeedLinkBase)
+#ifndef GDataEntryYouTubeFeedLinkBase
+#define GDataEntryYouTubeFeedLinkBase __NS_SYMBOL(GDataEntryYouTubeFeedLinkBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeFriend
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeFriend __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeFriend)
+#ifndef GDataEntryYouTubeFriend
+#define GDataEntryYouTubeFriend __NS_SYMBOL(GDataEntryYouTubeFriend)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubePlaylist
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubePlaylist __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubePlaylist)
+#ifndef GDataEntryYouTubePlaylist
+#define GDataEntryYouTubePlaylist __NS_SYMBOL(GDataEntryYouTubePlaylist)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubePlaylistLink
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubePlaylistLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubePlaylistLink)
+#ifndef GDataEntryYouTubePlaylistLink
+#define GDataEntryYouTubePlaylistLink __NS_SYMBOL(GDataEntryYouTubePlaylistLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeRating
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeRating __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeRating)
+#ifndef GDataEntryYouTubeRating
+#define GDataEntryYouTubeRating __NS_SYMBOL(GDataEntryYouTubeRating)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeSubscription
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeSubscription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeSubscription)
+#ifndef GDataEntryYouTubeSubscription
+#define GDataEntryYouTubeSubscription __NS_SYMBOL(GDataEntryYouTubeSubscription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeUpload
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeUpload __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeUpload)
+#ifndef GDataEntryYouTubeUpload
+#define GDataEntryYouTubeUpload __NS_SYMBOL(GDataEntryYouTubeUpload)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeUserEvent
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeUserEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeUserEvent)
+#ifndef GDataEntryYouTubeUserEvent
+#define GDataEntryYouTubeUserEvent __NS_SYMBOL(GDataEntryYouTubeUserEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeUserProfile
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeUserProfile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeUserProfile)
+#ifndef GDataEntryYouTubeUserProfile
+#define GDataEntryYouTubeUserProfile __NS_SYMBOL(GDataEntryYouTubeUserProfile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeVideo
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeVideo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeVideo)
+#ifndef GDataEntryYouTubeVideo
+#define GDataEntryYouTubeVideo __NS_SYMBOL(GDataEntryYouTubeVideo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeVideoMessage
-#define GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeVideoMessage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEntryYouTubeVideoMessage)
+#ifndef GDataEntryYouTubeVideoMessage
+#define GDataEntryYouTubeVideoMessage __NS_SYMBOL(GDataEntryYouTubeVideoMessage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataEventStatus
-#define GDATA_OBJECTIVEC_CLIENT_GDataEventStatus __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataEventStatus)
+#ifndef GDataEventStatus
+#define GDataEventStatus __NS_SYMBOL(GDataEventStatus)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataExtendedProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataExtendedProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataExtendedProperty)
+#ifndef GDataExtendedProperty
+#define GDataExtendedProperty __NS_SYMBOL(GDataExtendedProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataExtensionDeclaration
-#define GDATA_OBJECTIVEC_CLIENT_GDataExtensionDeclaration __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataExtensionDeclaration)
+#ifndef GDataExtensionDeclaration
+#define GDataExtensionDeclaration __NS_SYMBOL(GDataExtensionDeclaration)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedACL
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedACL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedACL)
+#ifndef GDataFeedACL
+#define GDataFeedACL __NS_SYMBOL(GDataFeedACL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedAnalyticsAccount
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedAnalyticsAccount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedAnalyticsAccount)
+#ifndef GDataFeedAnalyticsAccount
+#define GDataFeedAnalyticsAccount __NS_SYMBOL(GDataFeedAnalyticsAccount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedAnalyticsData
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedAnalyticsData __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedAnalyticsData)
+#ifndef GDataFeedAnalyticsData
+#define GDataFeedAnalyticsData __NS_SYMBOL(GDataFeedAnalyticsData)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedBase)
+#ifndef GDataFeedBase
+#define GDataFeedBase __NS_SYMBOL(GDataFeedBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedBlog
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedBlog __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedBlog)
+#ifndef GDataFeedBlog
+#define GDataFeedBlog __NS_SYMBOL(GDataFeedBlog)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedBlogComment
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedBlogComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedBlogComment)
+#ifndef GDataFeedBlogComment
+#define GDataFeedBlogComment __NS_SYMBOL(GDataFeedBlogComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedBlogPost
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedBlogPost __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedBlogPost)
+#ifndef GDataFeedBlogPost
+#define GDataFeedBlogPost __NS_SYMBOL(GDataFeedBlogPost)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedCalendar
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedCalendar __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedCalendar)
+#ifndef GDataFeedCalendar
+#define GDataFeedCalendar __NS_SYMBOL(GDataFeedCalendar)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedCalendarEvent
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedCalendarEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedCalendarEvent)
+#ifndef GDataFeedCalendarEvent
+#define GDataFeedCalendarEvent __NS_SYMBOL(GDataFeedCalendarEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedCalendarSettings
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedCalendarSettings __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedCalendarSettings)
+#ifndef GDataFeedCalendarSettings
+#define GDataFeedCalendarSettings __NS_SYMBOL(GDataFeedCalendarSettings)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedCodeSearch
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedCodeSearch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedCodeSearch)
+#ifndef GDataFeedCodeSearch
+#define GDataFeedCodeSearch __NS_SYMBOL(GDataFeedCodeSearch)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedCollection
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedCollection __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedCollection)
+#ifndef GDataFeedCollection
+#define GDataFeedCollection __NS_SYMBOL(GDataFeedCollection)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedContact
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedContact __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedContact)
+#ifndef GDataFeedContact
+#define GDataFeedContact __NS_SYMBOL(GDataFeedContact)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedContactGroup
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedContactGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedContactGroup)
+#ifndef GDataFeedContactGroup
+#define GDataFeedContactGroup __NS_SYMBOL(GDataFeedContactGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedContactProfile
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedContactProfile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedContactProfile)
+#ifndef GDataFeedContactProfile
+#define GDataFeedContactProfile __NS_SYMBOL(GDataFeedContactProfile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedDocChange
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedDocChange __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedDocChange)
+#ifndef GDataFeedDocChange
+#define GDataFeedDocChange __NS_SYMBOL(GDataFeedDocChange)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedDocList
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedDocList __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedDocList)
+#ifndef GDataFeedDocList
+#define GDataFeedDocList __NS_SYMBOL(GDataFeedDocList)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedDocRevision
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedDocRevision __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedDocRevision)
+#ifndef GDataFeedDocRevision
+#define GDataFeedDocRevision __NS_SYMBOL(GDataFeedDocRevision)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedEvent
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedEvent)
+#ifndef GDataFeedEvent
+#define GDataFeedEvent __NS_SYMBOL(GDataFeedEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedFinancePortfolio
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedFinancePortfolio __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedFinancePortfolio)
+#ifndef GDataFeedFinancePortfolio
+#define GDataFeedFinancePortfolio __NS_SYMBOL(GDataFeedFinancePortfolio)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedFinancePosition
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedFinancePosition __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedFinancePosition)
+#ifndef GDataFeedFinancePosition
+#define GDataFeedFinancePosition __NS_SYMBOL(GDataFeedFinancePosition)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedFinanceTransaction
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedFinanceTransaction __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedFinanceTransaction)
+#ifndef GDataFeedFinanceTransaction
+#define GDataFeedFinanceTransaction __NS_SYMBOL(GDataFeedFinanceTransaction)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedFreeBusy
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedFreeBusy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedFreeBusy)
+#ifndef GDataFeedFreeBusy
+#define GDataFeedFreeBusy __NS_SYMBOL(GDataFeedFreeBusy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedGroupFreeBusy
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedGroupFreeBusy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedGroupFreeBusy)
+#ifndef GDataFeedGroupFreeBusy
+#define GDataFeedGroupFreeBusy __NS_SYMBOL(GDataFeedGroupFreeBusy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedLink
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedLink)
+#ifndef GDataFeedLink
+#define GDataFeedLink __NS_SYMBOL(GDataFeedLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedMap
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedMap __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedMap)
+#ifndef GDataFeedMap
+#define GDataFeedMap __NS_SYMBOL(GDataFeedMap)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedMapFeature
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedMapFeature __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedMapFeature)
+#ifndef GDataFeedMapFeature
+#define GDataFeedMapFeature __NS_SYMBOL(GDataFeedMapFeature)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedMapVersion
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedMapVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedMapVersion)
+#ifndef GDataFeedMapVersion
+#define GDataFeedMapVersion __NS_SYMBOL(GDataFeedMapVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedMessage
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedMessage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedMessage)
+#ifndef GDataFeedMessage
+#define GDataFeedMessage __NS_SYMBOL(GDataFeedMessage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedPhoto
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedPhoto __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedPhoto)
+#ifndef GDataFeedPhoto
+#define GDataFeedPhoto __NS_SYMBOL(GDataFeedPhoto)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedPhotoAlbum
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedPhotoAlbum __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedPhotoAlbum)
+#ifndef GDataFeedPhotoAlbum
+#define GDataFeedPhotoAlbum __NS_SYMBOL(GDataFeedPhotoAlbum)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedPhotoBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedPhotoBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedPhotoBase)
+#ifndef GDataFeedPhotoBase
+#define GDataFeedPhotoBase __NS_SYMBOL(GDataFeedPhotoBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedPhotoUser
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedPhotoUser __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedPhotoUser)
+#ifndef GDataFeedPhotoUser
+#define GDataFeedPhotoUser __NS_SYMBOL(GDataFeedPhotoUser)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSite
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSite __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSite)
+#ifndef GDataFeedSite
+#define GDataFeedSite __NS_SYMBOL(GDataFeedSite)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSiteCrawlIssue
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSiteCrawlIssue __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSiteCrawlIssue)
+#ifndef GDataFeedSiteCrawlIssue
+#define GDataFeedSiteCrawlIssue __NS_SYMBOL(GDataFeedSiteCrawlIssue)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSiteKeyword
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSiteKeyword __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSiteKeyword)
+#ifndef GDataFeedSiteKeyword
+#define GDataFeedSiteKeyword __NS_SYMBOL(GDataFeedSiteKeyword)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSiteMessage
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSiteMessage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSiteMessage)
+#ifndef GDataFeedSiteMessage
+#define GDataFeedSiteMessage __NS_SYMBOL(GDataFeedSiteMessage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSitemap
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSitemap __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSitemap)
+#ifndef GDataFeedSitemap
+#define GDataFeedSitemap __NS_SYMBOL(GDataFeedSitemap)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheet
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheet)
+#ifndef GDataFeedSpreadsheet
+#define GDataFeedSpreadsheet __NS_SYMBOL(GDataFeedSpreadsheet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetCell
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetCell __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetCell)
+#ifndef GDataFeedSpreadsheetCell
+#define GDataFeedSpreadsheetCell __NS_SYMBOL(GDataFeedSpreadsheetCell)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetList
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetList __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetList)
+#ifndef GDataFeedSpreadsheetList
+#define GDataFeedSpreadsheetList __NS_SYMBOL(GDataFeedSpreadsheetList)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetRecord
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetRecord __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetRecord)
+#ifndef GDataFeedSpreadsheetRecord
+#define GDataFeedSpreadsheetRecord __NS_SYMBOL(GDataFeedSpreadsheetRecord)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetTable
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetTable __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedSpreadsheetTable)
+#ifndef GDataFeedSpreadsheetTable
+#define GDataFeedSpreadsheetTable __NS_SYMBOL(GDataFeedSpreadsheetTable)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedVolume
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedVolume __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedVolume)
+#ifndef GDataFeedVolume
+#define GDataFeedVolume __NS_SYMBOL(GDataFeedVolume)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedWorksheet
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedWorksheet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedWorksheet)
+#ifndef GDataFeedWorksheet
+#define GDataFeedWorksheet __NS_SYMBOL(GDataFeedWorksheet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeCaptionTrack
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeCaptionTrack __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeCaptionTrack)
+#ifndef GDataFeedYouTubeCaptionTrack
+#define GDataFeedYouTubeCaptionTrack __NS_SYMBOL(GDataFeedYouTubeCaptionTrack)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeChannel
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeChannel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeChannel)
+#ifndef GDataFeedYouTubeChannel
+#define GDataFeedYouTubeChannel __NS_SYMBOL(GDataFeedYouTubeChannel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeComment
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeComment)
+#ifndef GDataFeedYouTubeComment
+#define GDataFeedYouTubeComment __NS_SYMBOL(GDataFeedYouTubeComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeComplaint
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeComplaint __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeComplaint)
+#ifndef GDataFeedYouTubeComplaint
+#define GDataFeedYouTubeComplaint __NS_SYMBOL(GDataFeedYouTubeComplaint)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeFavorite
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeFavorite __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeFavorite)
+#ifndef GDataFeedYouTubeFavorite
+#define GDataFeedYouTubeFavorite __NS_SYMBOL(GDataFeedYouTubeFavorite)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeFriend
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeFriend __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeFriend)
+#ifndef GDataFeedYouTubeFriend
+#define GDataFeedYouTubeFriend __NS_SYMBOL(GDataFeedYouTubeFriend)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubePlaylist
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubePlaylist __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubePlaylist)
+#ifndef GDataFeedYouTubePlaylist
+#define GDataFeedYouTubePlaylist __NS_SYMBOL(GDataFeedYouTubePlaylist)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubePlaylistLink
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubePlaylistLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubePlaylistLink)
+#ifndef GDataFeedYouTubePlaylistLink
+#define GDataFeedYouTubePlaylistLink __NS_SYMBOL(GDataFeedYouTubePlaylistLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeRating
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeRating __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeRating)
+#ifndef GDataFeedYouTubeRating
+#define GDataFeedYouTubeRating __NS_SYMBOL(GDataFeedYouTubeRating)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeSubscription
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeSubscription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeSubscription)
+#ifndef GDataFeedYouTubeSubscription
+#define GDataFeedYouTubeSubscription __NS_SYMBOL(GDataFeedYouTubeSubscription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeUserEvent
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeUserEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeUserEvent)
+#ifndef GDataFeedYouTubeUserEvent
+#define GDataFeedYouTubeUserEvent __NS_SYMBOL(GDataFeedYouTubeUserEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeUserProfile
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeUserProfile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeUserProfile)
+#ifndef GDataFeedYouTubeUserProfile
+#define GDataFeedYouTubeUserProfile __NS_SYMBOL(GDataFeedYouTubeUserProfile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeVideo
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeVideo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeVideo)
+#ifndef GDataFeedYouTubeVideo
+#define GDataFeedYouTubeVideo __NS_SYMBOL(GDataFeedYouTubeVideo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeVideoMessage
-#define GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeVideoMessage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFeedYouTubeVideoMessage)
+#ifndef GDataFeedYouTubeVideoMessage
+#define GDataFeedYouTubeVideoMessage __NS_SYMBOL(GDataFeedYouTubeVideoMessage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFieldsAttribute
-#define GDATA_OBJECTIVEC_CLIENT_GDataFieldsAttribute __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFieldsAttribute)
+#ifndef GDataFieldsAttribute
+#define GDataFieldsAttribute __NS_SYMBOL(GDataFieldsAttribute)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFinanceSymbol
-#define GDATA_OBJECTIVEC_CLIENT_GDataFinanceSymbol __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFinanceSymbol)
+#ifndef GDataFinanceSymbol
+#define GDataFinanceSymbol __NS_SYMBOL(GDataFinanceSymbol)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFinanceTransactionData
-#define GDATA_OBJECTIVEC_CLIENT_GDataFinanceTransactionData __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFinanceTransactionData)
+#ifndef GDataFinanceTransactionData
+#define GDataFinanceTransactionData __NS_SYMBOL(GDataFinanceTransactionData)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGain
-#define GDATA_OBJECTIVEC_CLIENT_GDataGain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGain)
+#ifndef GDataGain
+#define GDataGain __NS_SYMBOL(GDataGain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGenerator
-#define GDATA_OBJECTIVEC_CLIENT_GDataGenerator __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGenerator)
+#ifndef GDataGenerator
+#define GDataGenerator __NS_SYMBOL(GDataGenerator)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGeo
-#define GDATA_OBJECTIVEC_CLIENT_GDataGeo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGeo)
+#ifndef GDataGeo
+#define GDataGeo __NS_SYMBOL(GDataGeo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGeoPt
-#define GDATA_OBJECTIVEC_CLIENT_GDataGeoPt __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGeoPt)
+#ifndef GDataGeoPt
+#define GDataGeoPt __NS_SYMBOL(GDataGeoPt)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSFeatureName
-#define GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSFeatureName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSFeatureName)
+#ifndef GDataGeoRSSFeatureName
+#define GDataGeoRSSFeatureName __NS_SYMBOL(GDataGeoRSSFeatureName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSPoint
-#define GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSPoint __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSPoint)
+#ifndef GDataGeoRSSPoint
+#define GDataGeoRSSPoint __NS_SYMBOL(GDataGeoRSSPoint)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSRadius
-#define GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSRadius __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSRadius)
+#ifndef GDataGeoRSSRadius
+#define GDataGeoRSSRadius __NS_SYMBOL(GDataGeoRSSRadius)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSWhere
-#define GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSWhere __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGeoRSSWhere)
+#ifndef GDataGeoRSSWhere
+#define GDataGeoRSSWhere __NS_SYMBOL(GDataGeoRSSWhere)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGeoW3CPoint
-#define GDATA_OBJECTIVEC_CLIENT_GDataGeoW3CPoint __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGeoW3CPoint)
+#ifndef GDataGeoW3CPoint
+#define GDataGeoW3CPoint __NS_SYMBOL(GDataGeoW3CPoint)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGroupMembershipInfo
-#define GDATA_OBJECTIVEC_CLIENT_GDataGroupMembershipInfo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGroupMembershipInfo)
+#ifndef GDataGroupMembershipInfo
+#define GDataGroupMembershipInfo __NS_SYMBOL(GDataGroupMembershipInfo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGuestsCanInviteOthersProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataGuestsCanInviteOthersProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGuestsCanInviteOthersProperty)
+#ifndef GDataGuestsCanInviteOthersProperty
+#define GDataGuestsCanInviteOthersProperty __NS_SYMBOL(GDataGuestsCanInviteOthersProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGuestsCanModifyProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataGuestsCanModifyProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGuestsCanModifyProperty)
+#ifndef GDataGuestsCanModifyProperty
+#define GDataGuestsCanModifyProperty __NS_SYMBOL(GDataGuestsCanModifyProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataGuestsCanSeeGuestsProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataGuestsCanSeeGuestsProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataGuestsCanSeeGuestsProperty)
+#ifndef GDataGuestsCanSeeGuestsProperty
+#define GDataGuestsCanSeeGuestsProperty __NS_SYMBOL(GDataGuestsCanSeeGuestsProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataHiddenProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataHiddenProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataHiddenProperty)
+#ifndef GDataHiddenProperty
+#define GDataHiddenProperty __NS_SYMBOL(GDataHiddenProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataICalUIDProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataICalUIDProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataICalUIDProperty)
+#ifndef GDataICalUIDProperty
+#define GDataICalUIDProperty __NS_SYMBOL(GDataICalUIDProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataIM
-#define GDATA_OBJECTIVEC_CLIENT_GDataIM __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataIM)
+#ifndef GDataIM
+#define GDataIM __NS_SYMBOL(GDataIM)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataImplicitValueConstruct
-#define GDATA_OBJECTIVEC_CLIENT_GDataImplicitValueConstruct __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataImplicitValueConstruct)
+#ifndef GDataImplicitValueConstruct
+#define GDataImplicitValueConstruct __NS_SYMBOL(GDataImplicitValueConstruct)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataInReplyTo
-#define GDATA_OBJECTIVEC_CLIENT_GDataInReplyTo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataInReplyTo)
+#ifndef GDataInReplyTo
+#define GDataInReplyTo __NS_SYMBOL(GDataInReplyTo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataKindAttribute
-#define GDATA_OBJECTIVEC_CLIENT_GDataKindAttribute __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataKindAttribute)
+#ifndef GDataKindAttribute
+#define GDataKindAttribute __NS_SYMBOL(GDataKindAttribute)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataLastModifiedBy
-#define GDATA_OBJECTIVEC_CLIENT_GDataLastModifiedBy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataLastModifiedBy)
+#ifndef GDataLastModifiedBy
+#define GDataLastModifiedBy __NS_SYMBOL(GDataLastModifiedBy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataLastModifiedByMe
-#define GDATA_OBJECTIVEC_CLIENT_GDataLastModifiedByMe __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataLastModifiedByMe)
+#ifndef GDataLastModifiedByMe
+#define GDataLastModifiedByMe __NS_SYMBOL(GDataLastModifiedByMe)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataLastViewed
-#define GDATA_OBJECTIVEC_CLIENT_GDataLastViewed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataLastViewed)
+#ifndef GDataLastViewed
+#define GDataLastViewed __NS_SYMBOL(GDataLastViewed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataLink
-#define GDATA_OBJECTIVEC_CLIENT_GDataLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataLink)
+#ifndef GDataLink
+#define GDataLink __NS_SYMBOL(GDataLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMapConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataMapConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMapConstants)
+#ifndef GDataMapConstants
+#define GDataMapConstants __NS_SYMBOL(GDataMapConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMarketValue
-#define GDATA_OBJECTIVEC_CLIENT_GDataMarketValue __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMarketValue)
+#ifndef GDataMarketValue
+#define GDataMarketValue __NS_SYMBOL(GDataMarketValue)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaCategory
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaCategory __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaCategory)
+#ifndef GDataMediaCategory
+#define GDataMediaCategory __NS_SYMBOL(GDataMediaCategory)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaContent
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaContent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaContent)
+#ifndef GDataMediaContent
+#define GDataMediaContent __NS_SYMBOL(GDataMediaContent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaCredit
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaCredit __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaCredit)
+#ifndef GDataMediaCredit
+#define GDataMediaCredit __NS_SYMBOL(GDataMediaCredit)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaDescription
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaDescription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaDescription)
+#ifndef GDataMediaDescription
+#define GDataMediaDescription __NS_SYMBOL(GDataMediaDescription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaGroup
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaGroup)
+#ifndef GDataMediaGroup
+#define GDataMediaGroup __NS_SYMBOL(GDataMediaGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaKeywords
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaKeywords __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaKeywords)
+#ifndef GDataMediaKeywords
+#define GDataMediaKeywords __NS_SYMBOL(GDataMediaKeywords)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaPlayer
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaPlayer __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaPlayer)
+#ifndef GDataMediaPlayer
+#define GDataMediaPlayer __NS_SYMBOL(GDataMediaPlayer)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaRating
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaRating __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaRating)
+#ifndef GDataMediaRating
+#define GDataMediaRating __NS_SYMBOL(GDataMediaRating)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaRestriction
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaRestriction __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaRestriction)
+#ifndef GDataMediaRestriction
+#define GDataMediaRestriction __NS_SYMBOL(GDataMediaRestriction)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaThumbnail
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaThumbnail __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaThumbnail)
+#ifndef GDataMediaThumbnail
+#define GDataMediaThumbnail __NS_SYMBOL(GDataMediaThumbnail)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMediaTitle
-#define GDATA_OBJECTIVEC_CLIENT_GDataMediaTitle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMediaTitle)
+#ifndef GDataMediaTitle
+#define GDataMediaTitle __NS_SYMBOL(GDataMediaTitle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMoney
-#define GDATA_OBJECTIVEC_CLIENT_GDataMoney __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMoney)
+#ifndef GDataMoney
+#define GDataMoney __NS_SYMBOL(GDataMoney)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataMoneyElementBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataMoneyElementBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataMoneyElementBase)
+#ifndef GDataMoneyElementBase
+#define GDataMoneyElementBase __NS_SYMBOL(GDataMoneyElementBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataName
-#define GDATA_OBJECTIVEC_CLIENT_GDataName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataName)
+#ifndef GDataName
+#define GDataName __NS_SYMBOL(GDataName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataNameAdditional
-#define GDATA_OBJECTIVEC_CLIENT_GDataNameAdditional __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataNameAdditional)
+#ifndef GDataNameAdditional
+#define GDataNameAdditional __NS_SYMBOL(GDataNameAdditional)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataNameElement
-#define GDATA_OBJECTIVEC_CLIENT_GDataNameElement __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataNameElement)
+#ifndef GDataNameElement
+#define GDataNameElement __NS_SYMBOL(GDataNameElement)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataNameFamily
-#define GDATA_OBJECTIVEC_CLIENT_GDataNameFamily __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataNameFamily)
+#ifndef GDataNameFamily
+#define GDataNameFamily __NS_SYMBOL(GDataNameFamily)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataNameFull
-#define GDATA_OBJECTIVEC_CLIENT_GDataNameFull __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataNameFull)
+#ifndef GDataNameFull
+#define GDataNameFull __NS_SYMBOL(GDataNameFull)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataNameGiven
-#define GDATA_OBJECTIVEC_CLIENT_GDataNameGiven __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataNameGiven)
+#ifndef GDataNameGiven
+#define GDataNameGiven __NS_SYMBOL(GDataNameGiven)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataNamePrefix
-#define GDATA_OBJECTIVEC_CLIENT_GDataNamePrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataNamePrefix)
+#ifndef GDataNamePrefix
+#define GDataNamePrefix __NS_SYMBOL(GDataNamePrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataNameSuffix
-#define GDATA_OBJECTIVEC_CLIENT_GDataNameSuffix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataNameSuffix)
+#ifndef GDataNameSuffix
+#define GDataNameSuffix __NS_SYMBOL(GDataNameSuffix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataNameValueConstruct
-#define GDATA_OBJECTIVEC_CLIENT_GDataNameValueConstruct __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataNameValueConstruct)
+#ifndef GDataNameValueConstruct
+#define GDataNameValueConstruct __NS_SYMBOL(GDataNameValueConstruct)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataNormalPlayTime
-#define GDATA_OBJECTIVEC_CLIENT_GDataNormalPlayTime __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataNormalPlayTime)
+#ifndef GDataNormalPlayTime
+#define GDataNormalPlayTime __NS_SYMBOL(GDataNormalPlayTime)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataObject
-#define GDATA_OBJECTIVEC_CLIENT_GDataObject __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataObject)
+#ifndef GDataObject
+#define GDataObject __NS_SYMBOL(GDataObject)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOpenSearchItemsPerPage
-#define GDATA_OBJECTIVEC_CLIENT_GDataOpenSearchItemsPerPage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOpenSearchItemsPerPage)
+#ifndef GDataOpenSearchItemsPerPage
+#define GDataOpenSearchItemsPerPage __NS_SYMBOL(GDataOpenSearchItemsPerPage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOpenSearchStartIndex
-#define GDATA_OBJECTIVEC_CLIENT_GDataOpenSearchStartIndex __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOpenSearchStartIndex)
+#ifndef GDataOpenSearchStartIndex
+#define GDataOpenSearchStartIndex __NS_SYMBOL(GDataOpenSearchStartIndex)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOpenSearchTotalResults
-#define GDATA_OBJECTIVEC_CLIENT_GDataOpenSearchTotalResults __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOpenSearchTotalResults)
+#ifndef GDataOpenSearchTotalResults
+#define GDataOpenSearchTotalResults __NS_SYMBOL(GDataOpenSearchTotalResults)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOrgDepartment
-#define GDATA_OBJECTIVEC_CLIENT_GDataOrgDepartment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOrgDepartment)
+#ifndef GDataOrgDepartment
+#define GDataOrgDepartment __NS_SYMBOL(GDataOrgDepartment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOrgJobDescription
-#define GDATA_OBJECTIVEC_CLIENT_GDataOrgJobDescription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOrgJobDescription)
+#ifndef GDataOrgJobDescription
+#define GDataOrgJobDescription __NS_SYMBOL(GDataOrgJobDescription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOrgSymbol
-#define GDATA_OBJECTIVEC_CLIENT_GDataOrgSymbol __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOrgSymbol)
+#ifndef GDataOrgSymbol
+#define GDataOrgSymbol __NS_SYMBOL(GDataOrgSymbol)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOrgTitle
-#define GDATA_OBJECTIVEC_CLIENT_GDataOrgTitle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOrgTitle)
+#ifndef GDataOrgTitle
+#define GDataOrgTitle __NS_SYMBOL(GDataOrgTitle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOrganization
-#define GDATA_OBJECTIVEC_CLIENT_GDataOrganization __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOrganization)
+#ifndef GDataOrganization
+#define GDataOrganization __NS_SYMBOL(GDataOrganization)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOrganizationName
-#define GDATA_OBJECTIVEC_CLIENT_GDataOrganizationName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOrganizationName)
+#ifndef GDataOrganizationName
+#define GDataOrganizationName __NS_SYMBOL(GDataOrganizationName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOriginalEvent
-#define GDATA_OBJECTIVEC_CLIENT_GDataOriginalEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOriginalEvent)
+#ifndef GDataOriginalEvent
+#define GDataOriginalEvent __NS_SYMBOL(GDataOriginalEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataOverrideNameProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataOverrideNameProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataOverrideNameProperty)
+#ifndef GDataOverrideNameProperty
+#define GDataOverrideNameProperty __NS_SYMBOL(GDataOverrideNameProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPerson
-#define GDATA_OBJECTIVEC_CLIENT_GDataPerson __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPerson)
+#ifndef GDataPerson
+#define GDataPerson __NS_SYMBOL(GDataPerson)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPersonEmail
-#define GDATA_OBJECTIVEC_CLIENT_GDataPersonEmail __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPersonEmail)
+#ifndef GDataPersonEmail
+#define GDataPersonEmail __NS_SYMBOL(GDataPersonEmail)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPersonName
-#define GDATA_OBJECTIVEC_CLIENT_GDataPersonName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPersonName)
+#ifndef GDataPersonName
+#define GDataPersonName __NS_SYMBOL(GDataPersonName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPersonURI
-#define GDATA_OBJECTIVEC_CLIENT_GDataPersonURI __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPersonURI)
+#ifndef GDataPersonURI
+#define GDataPersonURI __NS_SYMBOL(GDataPersonURI)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhoneNumber
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhoneNumber __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhoneNumber)
+#ifndef GDataPhoneNumber
+#define GDataPhoneNumber __NS_SYMBOL(GDataPhoneNumber)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoAccess
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoAccess __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoAccess)
+#ifndef GDataPhotoAccess
+#define GDataPhotoAccess __NS_SYMBOL(GDataPhotoAccess)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoAlbumDesc
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoAlbumDesc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoAlbumDesc)
+#ifndef GDataPhotoAlbumDesc
+#define GDataPhotoAlbumDesc __NS_SYMBOL(GDataPhotoAlbumDesc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoAlbumID
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoAlbumID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoAlbumID)
+#ifndef GDataPhotoAlbumID
+#define GDataPhotoAlbumID __NS_SYMBOL(GDataPhotoAlbumID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoAlbumTitle
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoAlbumTitle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoAlbumTitle)
+#ifndef GDataPhotoAlbumTitle
+#define GDataPhotoAlbumTitle __NS_SYMBOL(GDataPhotoAlbumTitle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoBytesUsed
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoBytesUsed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoBytesUsed)
+#ifndef GDataPhotoBytesUsed
+#define GDataPhotoBytesUsed __NS_SYMBOL(GDataPhotoBytesUsed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoChecksum
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoChecksum __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoChecksum)
+#ifndef GDataPhotoChecksum
+#define GDataPhotoChecksum __NS_SYMBOL(GDataPhotoChecksum)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoCommentCount
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoCommentCount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoCommentCount)
+#ifndef GDataPhotoCommentCount
+#define GDataPhotoCommentCount __NS_SYMBOL(GDataPhotoCommentCount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoCommentingEnabled
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoCommentingEnabled __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoCommentingEnabled)
+#ifndef GDataPhotoCommentingEnabled
+#define GDataPhotoCommentingEnabled __NS_SYMBOL(GDataPhotoCommentingEnabled)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoConstants)
+#ifndef GDataPhotoConstants
+#define GDataPhotoConstants __NS_SYMBOL(GDataPhotoConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoGPhotoID
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoGPhotoID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoGPhotoID)
+#ifndef GDataPhotoGPhotoID
+#define GDataPhotoGPhotoID __NS_SYMBOL(GDataPhotoGPhotoID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoHeight
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoHeight __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoHeight)
+#ifndef GDataPhotoHeight
+#define GDataPhotoHeight __NS_SYMBOL(GDataPhotoHeight)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoLocation
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoLocation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoLocation)
+#ifndef GDataPhotoLocation
+#define GDataPhotoLocation __NS_SYMBOL(GDataPhotoLocation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoMaxPhotosPerAlbum
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoMaxPhotosPerAlbum __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoMaxPhotosPerAlbum)
+#ifndef GDataPhotoMaxPhotosPerAlbum
+#define GDataPhotoMaxPhotosPerAlbum __NS_SYMBOL(GDataPhotoMaxPhotosPerAlbum)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoNickname
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoNickname __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoNickname)
+#ifndef GDataPhotoNickname
+#define GDataPhotoNickname __NS_SYMBOL(GDataPhotoNickname)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoNumberLeft
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoNumberLeft __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoNumberLeft)
+#ifndef GDataPhotoNumberLeft
+#define GDataPhotoNumberLeft __NS_SYMBOL(GDataPhotoNumberLeft)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoNumberUsed
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoNumberUsed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoNumberUsed)
+#ifndef GDataPhotoNumberUsed
+#define GDataPhotoNumberUsed __NS_SYMBOL(GDataPhotoNumberUsed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoPhotoID
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoPhotoID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoPhotoID)
+#ifndef GDataPhotoPhotoID
+#define GDataPhotoPhotoID __NS_SYMBOL(GDataPhotoPhotoID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoQuotaLimit
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoQuotaLimit __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoQuotaLimit)
+#ifndef GDataPhotoQuotaLimit
+#define GDataPhotoQuotaLimit __NS_SYMBOL(GDataPhotoQuotaLimit)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoQuotaUsed
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoQuotaUsed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoQuotaUsed)
+#ifndef GDataPhotoQuotaUsed
+#define GDataPhotoQuotaUsed __NS_SYMBOL(GDataPhotoQuotaUsed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoRotation
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoRotation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoRotation)
+#ifndef GDataPhotoRotation
+#define GDataPhotoRotation __NS_SYMBOL(GDataPhotoRotation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoSize
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoSize __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoSize)
+#ifndef GDataPhotoSize
+#define GDataPhotoSize __NS_SYMBOL(GDataPhotoSize)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoSnippet
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoSnippet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoSnippet)
+#ifndef GDataPhotoSnippet
+#define GDataPhotoSnippet __NS_SYMBOL(GDataPhotoSnippet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoSnippetType
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoSnippetType __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoSnippetType)
+#ifndef GDataPhotoSnippetType
+#define GDataPhotoSnippetType __NS_SYMBOL(GDataPhotoSnippetType)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoThumbnail
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoThumbnail __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoThumbnail)
+#ifndef GDataPhotoThumbnail
+#define GDataPhotoThumbnail __NS_SYMBOL(GDataPhotoThumbnail)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoTimestamp
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoTimestamp __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoTimestamp)
+#ifndef GDataPhotoTimestamp
+#define GDataPhotoTimestamp __NS_SYMBOL(GDataPhotoTimestamp)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoTruncated
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoTruncated __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoTruncated)
+#ifndef GDataPhotoTruncated
+#define GDataPhotoTruncated __NS_SYMBOL(GDataPhotoTruncated)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoUser
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoUser __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoUser)
+#ifndef GDataPhotoUser
+#define GDataPhotoUser __NS_SYMBOL(GDataPhotoUser)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoVideoStatus
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoVideoStatus __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoVideoStatus)
+#ifndef GDataPhotoVideoStatus
+#define GDataPhotoVideoStatus __NS_SYMBOL(GDataPhotoVideoStatus)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoWeight
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoWeight __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoWeight)
+#ifndef GDataPhotoWeight
+#define GDataPhotoWeight __NS_SYMBOL(GDataPhotoWeight)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPhotoWidth
-#define GDATA_OBJECTIVEC_CLIENT_GDataPhotoWidth __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPhotoWidth)
+#ifndef GDataPhotoWidth
+#define GDataPhotoWidth __NS_SYMBOL(GDataPhotoWidth)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPortfolioBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataPortfolioBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPortfolioBase)
+#ifndef GDataPortfolioBase
+#define GDataPortfolioBase __NS_SYMBOL(GDataPortfolioBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPortfolioData
-#define GDATA_OBJECTIVEC_CLIENT_GDataPortfolioData __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPortfolioData)
+#ifndef GDataPortfolioData
+#define GDataPortfolioData __NS_SYMBOL(GDataPortfolioData)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPositionData
-#define GDATA_OBJECTIVEC_CLIENT_GDataPositionData __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPositionData)
+#ifndef GDataPositionData
+#define GDataPositionData __NS_SYMBOL(GDataPositionData)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddress
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddress __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddress)
+#ifndef GDataPostalAddress
+#define GDataPostalAddress __NS_SYMBOL(GDataPostalAddress)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressAgent
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressAgent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressAgent)
+#ifndef GDataPostalAddressAgent
+#define GDataPostalAddressAgent __NS_SYMBOL(GDataPostalAddressAgent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressCity
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressCity __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressCity)
+#ifndef GDataPostalAddressCity
+#define GDataPostalAddressCity __NS_SYMBOL(GDataPostalAddressCity)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressCountry
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressCountry __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressCountry)
+#ifndef GDataPostalAddressCountry
+#define GDataPostalAddressCountry __NS_SYMBOL(GDataPostalAddressCountry)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressFormattedAddress
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressFormattedAddress __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressFormattedAddress)
+#ifndef GDataPostalAddressFormattedAddress
+#define GDataPostalAddressFormattedAddress __NS_SYMBOL(GDataPostalAddressFormattedAddress)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressHouseName
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressHouseName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressHouseName)
+#ifndef GDataPostalAddressHouseName
+#define GDataPostalAddressHouseName __NS_SYMBOL(GDataPostalAddressHouseName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressNeighborhood
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressNeighborhood __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressNeighborhood)
+#ifndef GDataPostalAddressNeighborhood
+#define GDataPostalAddressNeighborhood __NS_SYMBOL(GDataPostalAddressNeighborhood)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressPOBox
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressPOBox __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressPOBox)
+#ifndef GDataPostalAddressPOBox
+#define GDataPostalAddressPOBox __NS_SYMBOL(GDataPostalAddressPOBox)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressPostCode
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressPostCode __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressPostCode)
+#ifndef GDataPostalAddressPostCode
+#define GDataPostalAddressPostCode __NS_SYMBOL(GDataPostalAddressPostCode)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressRegion
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressRegion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressRegion)
+#ifndef GDataPostalAddressRegion
+#define GDataPostalAddressRegion __NS_SYMBOL(GDataPostalAddressRegion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressStreet
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressStreet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressStreet)
+#ifndef GDataPostalAddressStreet
+#define GDataPostalAddressStreet __NS_SYMBOL(GDataPostalAddressStreet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressSubregion
-#define GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressSubregion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPostalAddressSubregion)
+#ifndef GDataPostalAddressSubregion
+#define GDataPostalAddressSubregion __NS_SYMBOL(GDataPostalAddressSubregion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPrice
-#define GDATA_OBJECTIVEC_CLIENT_GDataPrice __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPrice)
+#ifndef GDataPrice
+#define GDataPrice __NS_SYMBOL(GDataPrice)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataPrivateCopyProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataPrivateCopyProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataPrivateCopyProperty)
+#ifndef GDataPrivateCopyProperty
+#define GDataPrivateCopyProperty __NS_SYMBOL(GDataPrivateCopyProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQuery
-#define GDATA_OBJECTIVEC_CLIENT_GDataQuery __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQuery)
+#ifndef GDataQuery
+#define GDataQuery __NS_SYMBOL(GDataQuery)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQueryAnalytics
-#define GDATA_OBJECTIVEC_CLIENT_GDataQueryAnalytics __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQueryAnalytics)
+#ifndef GDataQueryAnalytics
+#define GDataQueryAnalytics __NS_SYMBOL(GDataQueryAnalytics)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQueryBooks
-#define GDATA_OBJECTIVEC_CLIENT_GDataQueryBooks __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQueryBooks)
+#ifndef GDataQueryBooks
+#define GDataQueryBooks __NS_SYMBOL(GDataQueryBooks)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQueryCalendar
-#define GDATA_OBJECTIVEC_CLIENT_GDataQueryCalendar __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQueryCalendar)
+#ifndef GDataQueryCalendar
+#define GDataQueryCalendar __NS_SYMBOL(GDataQueryCalendar)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQueryContact
-#define GDATA_OBJECTIVEC_CLIENT_GDataQueryContact __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQueryContact)
+#ifndef GDataQueryContact
+#define GDataQueryContact __NS_SYMBOL(GDataQueryContact)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQueryDocs
-#define GDATA_OBJECTIVEC_CLIENT_GDataQueryDocs __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQueryDocs)
+#ifndef GDataQueryDocs
+#define GDataQueryDocs __NS_SYMBOL(GDataQueryDocs)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQueryFinance
-#define GDATA_OBJECTIVEC_CLIENT_GDataQueryFinance __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQueryFinance)
+#ifndef GDataQueryFinance
+#define GDataQueryFinance __NS_SYMBOL(GDataQueryFinance)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQueryGooglePhotos
-#define GDATA_OBJECTIVEC_CLIENT_GDataQueryGooglePhotos __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQueryGooglePhotos)
+#ifndef GDataQueryGooglePhotos
+#define GDataQueryGooglePhotos __NS_SYMBOL(GDataQueryGooglePhotos)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQueryMaps
-#define GDATA_OBJECTIVEC_CLIENT_GDataQueryMaps __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQueryMaps)
+#ifndef GDataQueryMaps
+#define GDataQueryMaps __NS_SYMBOL(GDataQueryMaps)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQuerySpreadsheet
-#define GDATA_OBJECTIVEC_CLIENT_GDataQuerySpreadsheet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQuerySpreadsheet)
+#ifndef GDataQuerySpreadsheet
+#define GDataQuerySpreadsheet __NS_SYMBOL(GDataQuerySpreadsheet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQueryYouTube
-#define GDATA_OBJECTIVEC_CLIENT_GDataQueryYouTube __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQueryYouTube)
+#ifndef GDataQueryYouTube
+#define GDataQueryYouTube __NS_SYMBOL(GDataQueryYouTube)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQuickAddProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataQuickAddProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQuickAddProperty)
+#ifndef GDataQuickAddProperty
+#define GDataQuickAddProperty __NS_SYMBOL(GDataQuickAddProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQuotaBytesTotal
-#define GDATA_OBJECTIVEC_CLIENT_GDataQuotaBytesTotal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQuotaBytesTotal)
+#ifndef GDataQuotaBytesTotal
+#define GDataQuotaBytesTotal __NS_SYMBOL(GDataQuotaBytesTotal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQuotaBytesUsed
-#define GDATA_OBJECTIVEC_CLIENT_GDataQuotaBytesUsed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQuotaBytesUsed)
+#ifndef GDataQuotaBytesUsed
+#define GDataQuotaBytesUsed __NS_SYMBOL(GDataQuotaBytesUsed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataQuotaBytesUsedInTrash
-#define GDATA_OBJECTIVEC_CLIENT_GDataQuotaBytesUsedInTrash __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataQuotaBytesUsedInTrash)
+#ifndef GDataQuotaBytesUsedInTrash
+#define GDataQuotaBytesUsedInTrash __NS_SYMBOL(GDataQuotaBytesUsedInTrash)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataRating
-#define GDATA_OBJECTIVEC_CLIENT_GDataRating __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataRating)
+#ifndef GDataRating
+#define GDataRating __NS_SYMBOL(GDataRating)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataRecurrence
-#define GDATA_OBJECTIVEC_CLIENT_GDataRecurrence __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataRecurrence)
+#ifndef GDataRecurrence
+#define GDataRecurrence __NS_SYMBOL(GDataRecurrence)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataRecurrenceException
-#define GDATA_OBJECTIVEC_CLIENT_GDataRecurrenceException __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataRecurrenceException)
+#ifndef GDataRecurrenceException
+#define GDataRecurrenceException __NS_SYMBOL(GDataRecurrenceException)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataReminder
-#define GDATA_OBJECTIVEC_CLIENT_GDataReminder __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataReminder)
+#ifndef GDataReminder
+#define GDataReminder __NS_SYMBOL(GDataReminder)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataResourceID
-#define GDATA_OBJECTIVEC_CLIENT_GDataResourceID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataResourceID)
+#ifndef GDataResourceID
+#define GDataResourceID __NS_SYMBOL(GDataResourceID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataResourceProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataResourceProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataResourceProperty)
+#ifndef GDataResourceProperty
+#define GDataResourceProperty __NS_SYMBOL(GDataResourceProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataRowColumnCount
-#define GDATA_OBJECTIVEC_CLIENT_GDataRowColumnCount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataRowColumnCount)
+#ifndef GDataRowColumnCount
+#define GDataRowColumnCount __NS_SYMBOL(GDataRowColumnCount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataRowCount
-#define GDATA_OBJECTIVEC_CLIENT_GDataRowCount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataRowCount)
+#ifndef GDataRowCount
+#define GDataRowCount __NS_SYMBOL(GDataRowCount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSelectedProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataSelectedProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSelectedProperty)
+#ifndef GDataSelectedProperty
+#define GDataSelectedProperty __NS_SYMBOL(GDataSelectedProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSendEventNotifications
-#define GDATA_OBJECTIVEC_CLIENT_GDataSendEventNotifications __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSendEventNotifications)
+#ifndef GDataSendEventNotifications
+#define GDataSendEventNotifications __NS_SYMBOL(GDataSendEventNotifications)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSequenceProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataSequenceProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSequenceProperty)
+#ifndef GDataSequenceProperty
+#define GDataSequenceProperty __NS_SYMBOL(GDataSequenceProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServerError
-#define GDATA_OBJECTIVEC_CLIENT_GDataServerError __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServerError)
+#ifndef GDataServerError
+#define GDataServerError __NS_SYMBOL(GDataServerError)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServerErrorGroup
-#define GDATA_OBJECTIVEC_CLIENT_GDataServerErrorGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServerErrorGroup)
+#ifndef GDataServerErrorGroup
+#define GDataServerErrorGroup __NS_SYMBOL(GDataServerErrorGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceBase)
+#ifndef GDataServiceBase
+#define GDataServiceBase __NS_SYMBOL(GDataServiceBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogle
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogle)
+#ifndef GDataServiceGoogle
+#define GDataServiceGoogle __NS_SYMBOL(GDataServiceGoogle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleAnalytics
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleAnalytics __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleAnalytics)
+#ifndef GDataServiceGoogleAnalytics
+#define GDataServiceGoogleAnalytics __NS_SYMBOL(GDataServiceGoogleAnalytics)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleBlogger
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleBlogger __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleBlogger)
+#ifndef GDataServiceGoogleBlogger
+#define GDataServiceGoogleBlogger __NS_SYMBOL(GDataServiceGoogleBlogger)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleBooks
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleBooks __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleBooks)
+#ifndef GDataServiceGoogleBooks
+#define GDataServiceGoogleBooks __NS_SYMBOL(GDataServiceGoogleBooks)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleCalendar
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleCalendar __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleCalendar)
+#ifndef GDataServiceGoogleCalendar
+#define GDataServiceGoogleCalendar __NS_SYMBOL(GDataServiceGoogleCalendar)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleContact
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleContact __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleContact)
+#ifndef GDataServiceGoogleContact
+#define GDataServiceGoogleContact __NS_SYMBOL(GDataServiceGoogleContact)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleDocs
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleDocs __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleDocs)
+#ifndef GDataServiceGoogleDocs
+#define GDataServiceGoogleDocs __NS_SYMBOL(GDataServiceGoogleDocs)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleFinance
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleFinance __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleFinance)
+#ifndef GDataServiceGoogleFinance
+#define GDataServiceGoogleFinance __NS_SYMBOL(GDataServiceGoogleFinance)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleMaps
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleMaps __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleMaps)
+#ifndef GDataServiceGoogleMaps
+#define GDataServiceGoogleMaps __NS_SYMBOL(GDataServiceGoogleMaps)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGooglePhotos
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGooglePhotos __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGooglePhotos)
+#ifndef GDataServiceGooglePhotos
+#define GDataServiceGooglePhotos __NS_SYMBOL(GDataServiceGooglePhotos)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleSpreadsheet
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleSpreadsheet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleSpreadsheet)
+#ifndef GDataServiceGoogleSpreadsheet
+#define GDataServiceGoogleSpreadsheet __NS_SYMBOL(GDataServiceGoogleSpreadsheet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleWebmasterTools
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleWebmasterTools __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleWebmasterTools)
+#ifndef GDataServiceGoogleWebmasterTools
+#define GDataServiceGoogleWebmasterTools __NS_SYMBOL(GDataServiceGoogleWebmasterTools)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleYouTube
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleYouTube __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceGoogleYouTube)
+#ifndef GDataServiceGoogleYouTube
+#define GDataServiceGoogleYouTube __NS_SYMBOL(GDataServiceGoogleYouTube)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceTicket
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceTicket __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceTicket)
+#ifndef GDataServiceTicket
+#define GDataServiceTicket __NS_SYMBOL(GDataServiceTicket)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataServiceTicketBase
-#define GDATA_OBJECTIVEC_CLIENT_GDataServiceTicketBase __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataServiceTicketBase)
+#ifndef GDataServiceTicketBase
+#define GDataServiceTicketBase __NS_SYMBOL(GDataServiceTicketBase)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSharedWithMe
-#define GDATA_OBJECTIVEC_CLIENT_GDataSharedWithMe __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSharedWithMe)
+#ifndef GDataSharedWithMe
+#define GDataSharedWithMe __NS_SYMBOL(GDataSharedWithMe)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueDateDetected
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueDateDetected __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueDateDetected)
+#ifndef GDataSiteCrawlIssueDateDetected
+#define GDataSiteCrawlIssueDateDetected __NS_SYMBOL(GDataSiteCrawlIssueDateDetected)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueDetail
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueDetail __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueDetail)
+#ifndef GDataSiteCrawlIssueDetail
+#define GDataSiteCrawlIssueDetail __NS_SYMBOL(GDataSiteCrawlIssueDetail)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueLinkedFrom
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueLinkedFrom __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueLinkedFrom)
+#ifndef GDataSiteCrawlIssueLinkedFrom
+#define GDataSiteCrawlIssueLinkedFrom __NS_SYMBOL(GDataSiteCrawlIssueLinkedFrom)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueType
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueType __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueType)
+#ifndef GDataSiteCrawlIssueType
+#define GDataSiteCrawlIssueType __NS_SYMBOL(GDataSiteCrawlIssueType)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueURL
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueURL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlIssueURL)
+#ifndef GDataSiteCrawlIssueURL
+#define GDataSiteCrawlIssueURL __NS_SYMBOL(GDataSiteCrawlIssueURL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlRate
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlRate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlRate)
+#ifndef GDataSiteCrawlRate
+#define GDataSiteCrawlRate __NS_SYMBOL(GDataSiteCrawlRate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlType
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlType __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawlType)
+#ifndef GDataSiteCrawlType
+#define GDataSiteCrawlType __NS_SYMBOL(GDataSiteCrawlType)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawledDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawledDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteCrawledDate)
+#ifndef GDataSiteCrawledDate
+#define GDataSiteCrawledDate __NS_SYMBOL(GDataSiteCrawledDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteEnhancedImageSearch
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteEnhancedImageSearch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteEnhancedImageSearch)
+#ifndef GDataSiteEnhancedImageSearch
+#define GDataSiteEnhancedImageSearch __NS_SYMBOL(GDataSiteEnhancedImageSearch)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteGeoLocation
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteGeoLocation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteGeoLocation)
+#ifndef GDataSiteGeoLocation
+#define GDataSiteGeoLocation __NS_SYMBOL(GDataSiteGeoLocation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteIndexed
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteIndexed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteIndexed)
+#ifndef GDataSiteIndexed
+#define GDataSiteIndexed __NS_SYMBOL(GDataSiteIndexed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteKeyword
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteKeyword __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteKeyword)
+#ifndef GDataSiteKeyword
+#define GDataSiteKeyword __NS_SYMBOL(GDataSiteKeyword)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageBody
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageBody __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageBody)
+#ifndef GDataSiteMessageBody
+#define GDataSiteMessageBody __NS_SYMBOL(GDataSiteMessageBody)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageDate)
+#ifndef GDataSiteMessageDate
+#define GDataSiteMessageDate __NS_SYMBOL(GDataSiteMessageDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageLanguage
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageLanguage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageLanguage)
+#ifndef GDataSiteMessageLanguage
+#define GDataSiteMessageLanguage __NS_SYMBOL(GDataSiteMessageLanguage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageRead
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageRead __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageRead)
+#ifndef GDataSiteMessageRead
+#define GDataSiteMessageRead __NS_SYMBOL(GDataSiteMessageRead)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageSubject
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageSubject __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteMessageSubject)
+#ifndef GDataSiteMessageSubject
+#define GDataSiteMessageSubject __NS_SYMBOL(GDataSiteMessageSubject)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitePreferredDomain
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitePreferredDomain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitePreferredDomain)
+#ifndef GDataSitePreferredDomain
+#define GDataSitePreferredDomain __NS_SYMBOL(GDataSitePreferredDomain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteVerificationMethod
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteVerificationMethod __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteVerificationMethod)
+#ifndef GDataSiteVerificationMethod
+#define GDataSiteVerificationMethod __NS_SYMBOL(GDataSiteVerificationMethod)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSiteVerified
-#define GDATA_OBJECTIVEC_CLIENT_GDataSiteVerified __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSiteVerified)
+#ifndef GDataSiteVerified
+#define GDataSiteVerified __NS_SYMBOL(GDataSiteVerified)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapLastDownloaded
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapLastDownloaded __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapLastDownloaded)
+#ifndef GDataSitemapLastDownloaded
+#define GDataSitemapLastDownloaded __NS_SYMBOL(GDataSitemapLastDownloaded)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapMarkupLanguage
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapMarkupLanguage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapMarkupLanguage)
+#ifndef GDataSitemapMarkupLanguage
+#define GDataSitemapMarkupLanguage __NS_SYMBOL(GDataSitemapMarkupLanguage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapMobile
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapMobile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapMobile)
+#ifndef GDataSitemapMobile
+#define GDataSitemapMobile __NS_SYMBOL(GDataSitemapMobile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapMobileMarkupLanguage
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapMobileMarkupLanguage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapMobileMarkupLanguage)
+#ifndef GDataSitemapMobileMarkupLanguage
+#define GDataSitemapMobileMarkupLanguage __NS_SYMBOL(GDataSitemapMobileMarkupLanguage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapNews
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapNews __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapNews)
+#ifndef GDataSitemapNews
+#define GDataSitemapNews __NS_SYMBOL(GDataSitemapNews)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapNewsPublicationLabel
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapNewsPublicationLabel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapNewsPublicationLabel)
+#ifndef GDataSitemapNewsPublicationLabel
+#define GDataSitemapNewsPublicationLabel __NS_SYMBOL(GDataSitemapNewsPublicationLabel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapPublicationLabel
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapPublicationLabel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapPublicationLabel)
+#ifndef GDataSitemapPublicationLabel
+#define GDataSitemapPublicationLabel __NS_SYMBOL(GDataSitemapPublicationLabel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapStatus
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapStatus __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapStatus)
+#ifndef GDataSitemapStatus
+#define GDataSitemapStatus __NS_SYMBOL(GDataSitemapStatus)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapType
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapType __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapType)
+#ifndef GDataSitemapType
+#define GDataSitemapType __NS_SYMBOL(GDataSitemapType)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSitemapURLCount
-#define GDATA_OBJECTIVEC_CLIENT_GDataSitemapURLCount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSitemapURLCount)
+#ifndef GDataSitemapURLCount
+#define GDataSitemapURLCount __NS_SYMBOL(GDataSitemapURLCount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetCell
-#define GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetCell __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetCell)
+#ifndef GDataSpreadsheetCell
+#define GDataSpreadsheetCell __NS_SYMBOL(GDataSpreadsheetCell)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetColumn
-#define GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetColumn __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetColumn)
+#ifndef GDataSpreadsheetColumn
+#define GDataSpreadsheetColumn __NS_SYMBOL(GDataSpreadsheetColumn)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetConstants)
+#ifndef GDataSpreadsheetConstants
+#define GDataSpreadsheetConstants __NS_SYMBOL(GDataSpreadsheetConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetCustomElement
-#define GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetCustomElement __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetCustomElement)
+#ifndef GDataSpreadsheetCustomElement
+#define GDataSpreadsheetCustomElement __NS_SYMBOL(GDataSpreadsheetCustomElement)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetData
-#define GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetData __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetData)
+#ifndef GDataSpreadsheetData
+#define GDataSpreadsheetData __NS_SYMBOL(GDataSpreadsheetData)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetField
-#define GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetField __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetField)
+#ifndef GDataSpreadsheetField
+#define GDataSpreadsheetField __NS_SYMBOL(GDataSpreadsheetField)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetHeader
-#define GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetHeader __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSpreadsheetHeader)
+#ifndef GDataSpreadsheetHeader
+#define GDataSpreadsheetHeader __NS_SYMBOL(GDataSpreadsheetHeader)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataStructuredPostalAddress
-#define GDATA_OBJECTIVEC_CLIENT_GDataStructuredPostalAddress __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataStructuredPostalAddress)
+#ifndef GDataStructuredPostalAddress
+#define GDataStructuredPostalAddress __NS_SYMBOL(GDataStructuredPostalAddress)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSuppressReplyNotificationsProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataSuppressReplyNotificationsProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSuppressReplyNotificationsProperty)
+#ifndef GDataSuppressReplyNotificationsProperty
+#define GDataSuppressReplyNotificationsProperty __NS_SYMBOL(GDataSuppressReplyNotificationsProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataSyncEventProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataSyncEventProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataSyncEventProperty)
+#ifndef GDataSyncEventProperty
+#define GDataSyncEventProperty __NS_SYMBOL(GDataSyncEventProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataTextConstruct
-#define GDATA_OBJECTIVEC_CLIENT_GDataTextConstruct __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataTextConstruct)
+#ifndef GDataTextConstruct
+#define GDataTextConstruct __NS_SYMBOL(GDataTextConstruct)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataThreadingCount
-#define GDATA_OBJECTIVEC_CLIENT_GDataThreadingCount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataThreadingCount)
+#ifndef GDataThreadingCount
+#define GDataThreadingCount __NS_SYMBOL(GDataThreadingCount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataThreadingLink
-#define GDATA_OBJECTIVEC_CLIENT_GDataThreadingLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataThreadingLink)
+#ifndef GDataThreadingLink
+#define GDataThreadingLink __NS_SYMBOL(GDataThreadingLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataThreadingTotal
-#define GDATA_OBJECTIVEC_CLIENT_GDataThreadingTotal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataThreadingTotal)
+#ifndef GDataThreadingTotal
+#define GDataThreadingTotal __NS_SYMBOL(GDataThreadingTotal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataThreadingUpdated
-#define GDATA_OBJECTIVEC_CLIENT_GDataThreadingUpdated __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataThreadingUpdated)
+#ifndef GDataThreadingUpdated
+#define GDataThreadingUpdated __NS_SYMBOL(GDataThreadingUpdated)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataTimeZoneProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataTimeZoneProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataTimeZoneProperty)
+#ifndef GDataTimeZoneProperty
+#define GDataTimeZoneProperty __NS_SYMBOL(GDataTimeZoneProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataTimesCleanedProperty
-#define GDATA_OBJECTIVEC_CLIENT_GDataTimesCleanedProperty __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataTimesCleanedProperty)
+#ifndef GDataTimesCleanedProperty
+#define GDataTimesCleanedProperty __NS_SYMBOL(GDataTimesCleanedProperty)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataTransparency
-#define GDATA_OBJECTIVEC_CLIENT_GDataTransparency __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataTransparency)
+#ifndef GDataTransparency
+#define GDataTransparency __NS_SYMBOL(GDataTransparency)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataUtilities
-#define GDATA_OBJECTIVEC_CLIENT_GDataUtilities __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataUtilities)
+#ifndef GDataUtilities
+#define GDataUtilities __NS_SYMBOL(GDataUtilities)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataValueConstruct
-#define GDATA_OBJECTIVEC_CLIENT_GDataValueConstruct __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataValueConstruct)
+#ifndef GDataValueConstruct
+#define GDataValueConstruct __NS_SYMBOL(GDataValueConstruct)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataValueElementConstruct
-#define GDATA_OBJECTIVEC_CLIENT_GDataValueElementConstruct __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataValueElementConstruct)
+#ifndef GDataValueElementConstruct
+#define GDataValueElementConstruct __NS_SYMBOL(GDataValueElementConstruct)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataVisibility
-#define GDATA_OBJECTIVEC_CLIENT_GDataVisibility __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataVisibility)
+#ifndef GDataVisibility
+#define GDataVisibility __NS_SYMBOL(GDataVisibility)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataVolumeContentVersion
-#define GDATA_OBJECTIVEC_CLIENT_GDataVolumeContentVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataVolumeContentVersion)
+#ifndef GDataVolumeContentVersion
+#define GDataVolumeContentVersion __NS_SYMBOL(GDataVolumeContentVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataVolumeEmbeddability
-#define GDATA_OBJECTIVEC_CLIENT_GDataVolumeEmbeddability __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataVolumeEmbeddability)
+#ifndef GDataVolumeEmbeddability
+#define GDataVolumeEmbeddability __NS_SYMBOL(GDataVolumeEmbeddability)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataVolumeOpenAccess
-#define GDATA_OBJECTIVEC_CLIENT_GDataVolumeOpenAccess __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataVolumeOpenAccess)
+#ifndef GDataVolumeOpenAccess
+#define GDataVolumeOpenAccess __NS_SYMBOL(GDataVolumeOpenAccess)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataVolumePrice
-#define GDATA_OBJECTIVEC_CLIENT_GDataVolumePrice __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataVolumePrice)
+#ifndef GDataVolumePrice
+#define GDataVolumePrice __NS_SYMBOL(GDataVolumePrice)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataVolumePromotion
-#define GDATA_OBJECTIVEC_CLIENT_GDataVolumePromotion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataVolumePromotion)
+#ifndef GDataVolumePromotion
+#define GDataVolumePromotion __NS_SYMBOL(GDataVolumePromotion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataVolumeReadingPosition
-#define GDATA_OBJECTIVEC_CLIENT_GDataVolumeReadingPosition __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataVolumeReadingPosition)
+#ifndef GDataVolumeReadingPosition
+#define GDataVolumeReadingPosition __NS_SYMBOL(GDataVolumeReadingPosition)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataVolumeReview
-#define GDATA_OBJECTIVEC_CLIENT_GDataVolumeReview __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataVolumeReview)
+#ifndef GDataVolumeReview
+#define GDataVolumeReview __NS_SYMBOL(GDataVolumeReview)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataVolumeViewability
-#define GDATA_OBJECTIVEC_CLIENT_GDataVolumeViewability __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataVolumeViewability)
+#ifndef GDataVolumeViewability
+#define GDataVolumeViewability __NS_SYMBOL(GDataVolumeViewability)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataWebContent
-#define GDATA_OBJECTIVEC_CLIENT_GDataWebContent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataWebContent)
+#ifndef GDataWebContent
+#define GDataWebContent __NS_SYMBOL(GDataWebContent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataWebContentGadgetPref
-#define GDATA_OBJECTIVEC_CLIENT_GDataWebContentGadgetPref __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataWebContentGadgetPref)
+#ifndef GDataWebContentGadgetPref
+#define GDataWebContentGadgetPref __NS_SYMBOL(GDataWebContentGadgetPref)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataWebmasterToolsConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataWebmasterToolsConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataWebmasterToolsConstants)
+#ifndef GDataWebmasterToolsConstants
+#define GDataWebmasterToolsConstants __NS_SYMBOL(GDataWebmasterToolsConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataWhen
-#define GDATA_OBJECTIVEC_CLIENT_GDataWhen __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataWhen)
+#ifndef GDataWhen
+#define GDataWhen __NS_SYMBOL(GDataWhen)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataWhere
-#define GDATA_OBJECTIVEC_CLIENT_GDataWhere __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataWhere)
+#ifndef GDataWhere
+#define GDataWhere __NS_SYMBOL(GDataWhere)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataWho
-#define GDATA_OBJECTIVEC_CLIENT_GDataWho __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataWho)
+#ifndef GDataWho
+#define GDataWho __NS_SYMBOL(GDataWho)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataWorksheetName
-#define GDATA_OBJECTIVEC_CLIENT_GDataWorksheetName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataWorksheetName)
+#ifndef GDataWorksheetName
+#define GDataWorksheetName __NS_SYMBOL(GDataWorksheetName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataWritersCanInvite
-#define GDATA_OBJECTIVEC_CLIENT_GDataWritersCanInvite __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataWritersCanInvite)
+#ifndef GDataWritersCanInvite
+#define GDataWritersCanInvite __NS_SYMBOL(GDataWritersCanInvite)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataXMLDocument
-#define GDATA_OBJECTIVEC_CLIENT_GDataXMLDocument __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataXMLDocument)
+#ifndef GDataXMLDocument
+#define GDataXMLDocument __NS_SYMBOL(GDataXMLDocument)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataXMLElement
-#define GDATA_OBJECTIVEC_CLIENT_GDataXMLElement __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataXMLElement)
+#ifndef GDataXMLElement
+#define GDataXMLElement __NS_SYMBOL(GDataXMLElement)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataXMLNode
-#define GDATA_OBJECTIVEC_CLIENT_GDataXMLNode __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataXMLNode)
+#ifndef GDataXMLNode
+#define GDataXMLNode __NS_SYMBOL(GDataXMLNode)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAboutMe
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAboutMe __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAboutMe)
+#ifndef GDataYouTubeAboutMe
+#define GDataYouTubeAboutMe __NS_SYMBOL(GDataYouTubeAboutMe)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAccessControl
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAccessControl __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAccessControl)
+#ifndef GDataYouTubeAccessControl
+#define GDataYouTubeAccessControl __NS_SYMBOL(GDataYouTubeAccessControl)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAge
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAge __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAge)
+#ifndef GDataYouTubeAge
+#define GDataYouTubeAge __NS_SYMBOL(GDataYouTubeAge)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAspectRatio
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAspectRatio __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeAspectRatio)
+#ifndef GDataYouTubeAspectRatio
+#define GDataYouTubeAspectRatio __NS_SYMBOL(GDataYouTubeAspectRatio)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeBooks
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeBooks __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeBooks)
+#ifndef GDataYouTubeBooks
+#define GDataYouTubeBooks __NS_SYMBOL(GDataYouTubeBooks)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCommentRating
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCommentRating __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCommentRating)
+#ifndef GDataYouTubeCommentRating
+#define GDataYouTubeCommentRating __NS_SYMBOL(GDataYouTubeCommentRating)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCompany
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCompany __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCompany)
+#ifndef GDataYouTubeCompany
+#define GDataYouTubeCompany __NS_SYMBOL(GDataYouTubeCompany)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeConstants
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeConstants __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeConstants)
+#ifndef GDataYouTubeConstants
+#define GDataYouTubeConstants __NS_SYMBOL(GDataYouTubeConstants)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCountHint
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCountHint __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCountHint)
+#ifndef GDataYouTubeCountHint
+#define GDataYouTubeCountHint __NS_SYMBOL(GDataYouTubeCountHint)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCountryAttribute
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCountryAttribute __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeCountryAttribute)
+#ifndef GDataYouTubeCountryAttribute
+#define GDataYouTubeCountryAttribute __NS_SYMBOL(GDataYouTubeCountryAttribute)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeDerived
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeDerived __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeDerived)
+#ifndef GDataYouTubeDerived
+#define GDataYouTubeDerived __NS_SYMBOL(GDataYouTubeDerived)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeDuration
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeDuration __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeDuration)
+#ifndef GDataYouTubeDuration
+#define GDataYouTubeDuration __NS_SYMBOL(GDataYouTubeDuration)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeFirstName
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeFirstName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeFirstName)
+#ifndef GDataYouTubeFirstName
+#define GDataYouTubeFirstName __NS_SYMBOL(GDataYouTubeFirstName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeFormatAttribute
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeFormatAttribute __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeFormatAttribute)
+#ifndef GDataYouTubeFormatAttribute
+#define GDataYouTubeFormatAttribute __NS_SYMBOL(GDataYouTubeFormatAttribute)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeGender
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeGender __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeGender)
+#ifndef GDataYouTubeGender
+#define GDataYouTubeGender __NS_SYMBOL(GDataYouTubeGender)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeHobbies
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeHobbies __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeHobbies)
+#ifndef GDataYouTubeHobbies
+#define GDataYouTubeHobbies __NS_SYMBOL(GDataYouTubeHobbies)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeHometown
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeHometown __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeHometown)
+#ifndef GDataYouTubeHometown
+#define GDataYouTubeHometown __NS_SYMBOL(GDataYouTubeHometown)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeIncomplete
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeIncomplete __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeIncomplete)
+#ifndef GDataYouTubeIncomplete
+#define GDataYouTubeIncomplete __NS_SYMBOL(GDataYouTubeIncomplete)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeLastName
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeLastName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeLastName)
+#ifndef GDataYouTubeLastName
+#define GDataYouTubeLastName __NS_SYMBOL(GDataYouTubeLastName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeLocation
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeLocation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeLocation)
+#ifndef GDataYouTubeLocation
+#define GDataYouTubeLocation __NS_SYMBOL(GDataYouTubeLocation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeMediaGroup
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeMediaGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeMediaGroup)
+#ifndef GDataYouTubeMediaGroup
+#define GDataYouTubeMediaGroup __NS_SYMBOL(GDataYouTubeMediaGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeMovies
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeMovies __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeMovies)
+#ifndef GDataYouTubeMovies
+#define GDataYouTubeMovies __NS_SYMBOL(GDataYouTubeMovies)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeMusic
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeMusic __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeMusic)
+#ifndef GDataYouTubeMusic
+#define GDataYouTubeMusic __NS_SYMBOL(GDataYouTubeMusic)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeNameAttribute
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeNameAttribute __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeNameAttribute)
+#ifndef GDataYouTubeNameAttribute
+#define GDataYouTubeNameAttribute __NS_SYMBOL(GDataYouTubeNameAttribute)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeNonEmbeddable
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeNonEmbeddable __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeNonEmbeddable)
+#ifndef GDataYouTubeNonEmbeddable
+#define GDataYouTubeNonEmbeddable __NS_SYMBOL(GDataYouTubeNonEmbeddable)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeOccupation
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeOccupation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeOccupation)
+#ifndef GDataYouTubeOccupation
+#define GDataYouTubeOccupation __NS_SYMBOL(GDataYouTubeOccupation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubePlaylistID
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubePlaylistID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubePlaylistID)
+#ifndef GDataYouTubePlaylistID
+#define GDataYouTubePlaylistID __NS_SYMBOL(GDataYouTubePlaylistID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubePlaylistTitle
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubePlaylistTitle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubePlaylistTitle)
+#ifndef GDataYouTubePlaylistTitle
+#define GDataYouTubePlaylistTitle __NS_SYMBOL(GDataYouTubePlaylistTitle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubePosition
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubePosition __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubePosition)
+#ifndef GDataYouTubePosition
+#define GDataYouTubePosition __NS_SYMBOL(GDataYouTubePosition)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubePrivate
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubePrivate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubePrivate)
+#ifndef GDataYouTubePrivate
+#define GDataYouTubePrivate __NS_SYMBOL(GDataYouTubePrivate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubePublicationState
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubePublicationState __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubePublicationState)
+#ifndef GDataYouTubePublicationState
+#define GDataYouTubePublicationState __NS_SYMBOL(GDataYouTubePublicationState)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeQueryString
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeQueryString __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeQueryString)
+#ifndef GDataYouTubeQueryString
+#define GDataYouTubeQueryString __NS_SYMBOL(GDataYouTubeQueryString)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeRating
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeRating __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeRating)
+#ifndef GDataYouTubeRating
+#define GDataYouTubeRating __NS_SYMBOL(GDataYouTubeRating)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeRecordedDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeRecordedDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeRecordedDate)
+#ifndef GDataYouTubeRecordedDate
+#define GDataYouTubeRecordedDate __NS_SYMBOL(GDataYouTubeRecordedDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeRelationship
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeRelationship __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeRelationship)
+#ifndef GDataYouTubeRelationship
+#define GDataYouTubeRelationship __NS_SYMBOL(GDataYouTubeRelationship)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeSchool
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeSchool __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeSchool)
+#ifndef GDataYouTubeSchool
+#define GDataYouTubeSchool __NS_SYMBOL(GDataYouTubeSchool)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeSpam
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeSpam __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeSpam)
+#ifndef GDataYouTubeSpam
+#define GDataYouTubeSpam __NS_SYMBOL(GDataYouTubeSpam)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeStatistics
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeStatistics __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeStatistics)
+#ifndef GDataYouTubeStatistics
+#define GDataYouTubeStatistics __NS_SYMBOL(GDataYouTubeStatistics)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeStatus
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeStatus __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeStatus)
+#ifndef GDataYouTubeStatus
+#define GDataYouTubeStatus __NS_SYMBOL(GDataYouTubeStatus)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeToken
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeToken __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeToken)
+#ifndef GDataYouTubeToken
+#define GDataYouTubeToken __NS_SYMBOL(GDataYouTubeToken)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeTypeAttribute
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeTypeAttribute __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeTypeAttribute)
+#ifndef GDataYouTubeTypeAttribute
+#define GDataYouTubeTypeAttribute __NS_SYMBOL(GDataYouTubeTypeAttribute)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeUploadedDate
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeUploadedDate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeUploadedDate)
+#ifndef GDataYouTubeUploadedDate
+#define GDataYouTubeUploadedDate __NS_SYMBOL(GDataYouTubeUploadedDate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeUsername
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeUsername __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeUsername)
+#ifndef GDataYouTubeUsername
+#define GDataYouTubeUsername __NS_SYMBOL(GDataYouTubeUsername)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataYouTubeVideoID
-#define GDATA_OBJECTIVEC_CLIENT_GDataYouTubeVideoID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataYouTubeVideoID)
+#ifndef GDataYouTubeVideoID
+#define GDataYouTubeVideoID __NS_SYMBOL(GDataYouTubeVideoID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMCachedURLResponse
-#define GDATA_OBJECTIVEC_CLIENT_GTMCachedURLResponse __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMCachedURLResponse)
+#ifndef GTMCachedURLResponse
+#define GTMCachedURLResponse __NS_SYMBOL(GTMCachedURLResponse)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMCookieStorage
-#define GDATA_OBJECTIVEC_CLIENT_GTMCookieStorage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMCookieStorage)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMHTTPFetchHistory
-#define GDATA_OBJECTIVEC_CLIENT_GTMHTTPFetchHistory __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMHTTPFetchHistory)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMHTTPFetcher
-#define GDATA_OBJECTIVEC_CLIENT_GTMHTTPFetcher __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMHTTPFetcher)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMHTTPFetcherService
-#define GDATA_OBJECTIVEC_CLIENT_GTMHTTPFetcherService __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMHTTPFetcherService)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMHTTPUploadFetcher
-#define GDATA_OBJECTIVEC_CLIENT_GTMHTTPUploadFetcher __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMHTTPUploadFetcher)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMMIMEDocument
-#define GDATA_OBJECTIVEC_CLIENT_GTMMIMEDocument __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMMIMEDocument)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMOAuth2Authentication
-#define GDATA_OBJECTIVEC_CLIENT_GTMOAuth2Authentication __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMOAuth2Authentication)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMOAuth2AuthorizationArgs
-#define GDATA_OBJECTIVEC_CLIENT_GTMOAuth2AuthorizationArgs __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMOAuth2AuthorizationArgs)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMOAuth2Keychain
-#define GDATA_OBJECTIVEC_CLIENT_GTMOAuth2Keychain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMOAuth2Keychain)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMOAuth2SignIn
-#define GDATA_OBJECTIVEC_CLIENT_GTMOAuth2SignIn __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMOAuth2SignIn)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMOAuth2ViewControllerTouch
-#define GDATA_OBJECTIVEC_CLIENT_GTMOAuth2ViewControllerTouch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMOAuth2ViewControllerTouch)
-#endif
-
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMURLCache
-#define GDATA_OBJECTIVEC_CLIENT_GTMURLCache __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMURLCache)
+#ifndef GTMCookieStorage
+#define GTMCookieStorage __NS_SYMBOL(GTMCookieStorage)
 #endif
 
 #ifndef GTMGatherInputStream
 #define GTMGatherInputStream __NS_SYMBOL(GTMGatherInputStream)
+#endif
+
+#ifndef GTMHTTPFetchHistory
+#define GTMHTTPFetchHistory __NS_SYMBOL(GTMHTTPFetchHistory)
+#endif
+
+#ifndef GTMHTTPFetcher
+#define GTMHTTPFetcher __NS_SYMBOL(GTMHTTPFetcher)
+#endif
+
+#ifndef GTMHTTPFetcherService
+#define GTMHTTPFetcherService __NS_SYMBOL(GTMHTTPFetcherService)
+#endif
+
+#ifndef GTMHTTPUploadFetcher
+#define GTMHTTPUploadFetcher __NS_SYMBOL(GTMHTTPUploadFetcher)
 #endif
 
 #ifndef GTMMIMEDocument
@@ -2262,2637 +2234,2661 @@
 #define GTMMIMEPart __NS_SYMBOL(GTMMIMEPart)
 #endif
 
+#ifndef GTMOAuth2Authentication
+#define GTMOAuth2Authentication __NS_SYMBOL(GTMOAuth2Authentication)
+#endif
+
+#ifndef GTMOAuth2AuthorizationArgs
+#define GTMOAuth2AuthorizationArgs __NS_SYMBOL(GTMOAuth2AuthorizationArgs)
+#endif
+
+#ifndef GTMOAuth2Keychain
+#define GTMOAuth2Keychain __NS_SYMBOL(GTMOAuth2Keychain)
+#endif
+
+#ifndef GTMOAuth2SignIn
+#define GTMOAuth2SignIn __NS_SYMBOL(GTMOAuth2SignIn)
+#endif
+
+#ifndef GTMOAuth2ViewControllerTouch
+#define GTMOAuth2ViewControllerTouch __NS_SYMBOL(GTMOAuth2ViewControllerTouch)
+#endif
+
 #ifndef GTMReadMonitorInputStream
 #define GTMReadMonitorInputStream __NS_SYMBOL(GTMReadMonitorInputStream)
 #endif
 
+#ifndef GTMURLCache
+#define GTMURLCache __NS_SYMBOL(GTMURLCache)
+#endif
+
 // Functions
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFrameworkVersion
-#define GDATA_OBJECTIVEC_CLIENT_GDataFrameworkVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFrameworkVersion)
+#ifndef GDataFrameworkVersion
+#define GDataFrameworkVersion __NS_SYMBOL(GDataFrameworkVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GDataFrameworkVersionString
-#define GDATA_OBJECTIVEC_CLIENT_GDataFrameworkVersionString __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GDataFrameworkVersionString)
+#ifndef GDataFrameworkVersionString
+#define GDataFrameworkVersionString __NS_SYMBOL(GDataFrameworkVersionString)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMAssertSelectorNilOrImplementedWithArgs
-#define GDATA_OBJECTIVEC_CLIENT_GTMAssertSelectorNilOrImplementedWithArgs __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMAssertSelectorNilOrImplementedWithArgs)
+#ifndef GTMAssertSelectorNilOrImplementedWithArgs
+#define GTMAssertSelectorNilOrImplementedWithArgs __NS_SYMBOL(GTMAssertSelectorNilOrImplementedWithArgs)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_AreEqualOrBothNil
-#define GDATA_OBJECTIVEC_CLIENT_AreEqualOrBothNil __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_AreEqualOrBothNil)
+#ifndef AreEqualOrBothNil
+#define AreEqualOrBothNil __NS_SYMBOL(AreEqualOrBothNil)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_AreBoolsEqual
-#define GDATA_OBJECTIVEC_CLIENT_AreBoolsEqual __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_AreBoolsEqual)
+#ifndef AreBoolsEqual
+#define AreBoolsEqual __NS_SYMBOL(AreBoolsEqual)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMCleanedUserAgentString
-#define GDATA_OBJECTIVEC_CLIENT_GTMCleanedUserAgentString __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMCleanedUserAgentString)
+#ifndef GTMCleanedUserAgentString
+#define GTMCleanedUserAgentString __NS_SYMBOL(GTMCleanedUserAgentString)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMSystemVersionString
-#define GDATA_OBJECTIVEC_CLIENT_GTMSystemVersionString __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMSystemVersionString)
+#ifndef GTMSystemVersionString
+#define GTMSystemVersionString __NS_SYMBOL(GTMSystemVersionString)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_GTMApplicationIdentifier
-#define GDATA_OBJECTIVEC_CLIENT_GTMApplicationIdentifier __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_GTMApplicationIdentifier)
+#ifndef GTMApplicationIdentifier
+#define GTMApplicationIdentifier __NS_SYMBOL(GTMApplicationIdentifier)
 #endif
 
 // Externs
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactPriorityHigh
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactPriorityHigh __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactPriorityHigh)
+#ifndef kGDataContactPriorityHigh
+#define kGDataContactPriorityHigh __NS_SYMBOL(kGDataContactPriorityHigh)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactPriorityLow
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactPriorityLow __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactPriorityLow)
+#ifndef kGDataContactPriorityLow
+#define kGDataContactPriorityLow __NS_SYMBOL(kGDataContactPriorityLow)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactPriorityNormal
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactPriorityNormal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactPriorityNormal)
+#ifndef kGDataContactPriorityNormal
+#define kGDataContactPriorityNormal __NS_SYMBOL(kGDataContactPriorityNormal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityConfidential
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityConfidential __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityConfidential)
+#ifndef kGDataContactSensitivityConfidential
+#define kGDataContactSensitivityConfidential __NS_SYMBOL(kGDataContactSensitivityConfidential)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityNormal
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityNormal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityNormal)
+#ifndef kGDataContactSensitivityNormal
+#define kGDataContactSensitivityNormal __NS_SYMBOL(kGDataContactSensitivityNormal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityPersonal
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityPersonal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityPersonal)
+#ifndef kGDataContactSensitivityPersonal
+#define kGDataContactSensitivityPersonal __NS_SYMBOL(kGDataContactSensitivityPersonal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityPrivate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityPrivate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactSensitivityPrivate)
+#ifndef kGDataContactSensitivityPrivate
+#define kGDataContactSensitivityPrivate __NS_SYMBOL(kGDataContactSensitivityPrivate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactJotHome
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactJotHome __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactJotHome)
+#ifndef kGDataContactJotHome
+#define kGDataContactJotHome __NS_SYMBOL(kGDataContactJotHome)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactJotKeywords
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactJotKeywords __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactJotKeywords)
+#ifndef kGDataContactJotKeywords
+#define kGDataContactJotKeywords __NS_SYMBOL(kGDataContactJotKeywords)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactJotOther
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactJotOther __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactJotOther)
+#ifndef kGDataContactJotOther
+#define kGDataContactJotOther __NS_SYMBOL(kGDataContactJotOther)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactJotUser
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactJotUser __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactJotUser)
+#ifndef kGDataContactJotUser
+#define kGDataContactJotUser __NS_SYMBOL(kGDataContactJotUser)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactJotWork
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactJotWork __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactJotWork)
+#ifndef kGDataContactJotWork
+#define kGDataContactJotWork __NS_SYMBOL(kGDataContactJotWork)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDAccount
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDAccount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDAccount)
+#ifndef kGDataContactExternalIDAccount
+#define kGDataContactExternalIDAccount __NS_SYMBOL(kGDataContactExternalIDAccount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDCustomer
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDCustomer __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDCustomer)
+#ifndef kGDataContactExternalIDCustomer
+#define kGDataContactExternalIDCustomer __NS_SYMBOL(kGDataContactExternalIDCustomer)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDNetwork
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDNetwork __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDNetwork)
+#ifndef kGDataContactExternalIDNetwork
+#define kGDataContactExternalIDNetwork __NS_SYMBOL(kGDataContactExternalIDNetwork)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDOrganization
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDOrganization __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactExternalIDOrganization)
+#ifndef kGDataContactExternalIDOrganization
+#define kGDataContactExternalIDOrganization __NS_SYMBOL(kGDataContactExternalIDOrganization)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactEventAnniversary
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactEventAnniversary __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactEventAnniversary)
+#ifndef kGDataContactRelationAssistant
+#define kGDataContactRelationAssistant __NS_SYMBOL(kGDataContactRelationAssistant)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactEventOther
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactEventOther __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactEventOther)
+#ifndef kGDataContactRelationBrother
+#define kGDataContactRelationBrother __NS_SYMBOL(kGDataContactRelationBrother)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationAssistant
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationAssistant __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationAssistant)
+#ifndef kGDataContactRelationChild
+#define kGDataContactRelationChild __NS_SYMBOL(kGDataContactRelationChild)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationBrother
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationBrother __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationBrother)
+#ifndef kGDataContactRelationDomesticPartner
+#define kGDataContactRelationDomesticPartner __NS_SYMBOL(kGDataContactRelationDomesticPartner)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationChild
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationChild __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationChild)
+#ifndef kGDataContactRelationFather
+#define kGDataContactRelationFather __NS_SYMBOL(kGDataContactRelationFather)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationDomesticPartner
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationDomesticPartner __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationDomesticPartner)
+#ifndef kGDataContactRelationFriend
+#define kGDataContactRelationFriend __NS_SYMBOL(kGDataContactRelationFriend)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationFather
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationFather __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationFather)
+#ifndef kGDataContactRelationManager
+#define kGDataContactRelationManager __NS_SYMBOL(kGDataContactRelationManager)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationFriend
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationFriend __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationFriend)
+#ifndef kGDataContactRelationMother
+#define kGDataContactRelationMother __NS_SYMBOL(kGDataContactRelationMother)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationManager
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationManager __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationManager)
+#ifndef kGDataContactRelationParent
+#define kGDataContactRelationParent __NS_SYMBOL(kGDataContactRelationParent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationMother
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationMother __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationMother)
+#ifndef kGDataContactRelationPartner
+#define kGDataContactRelationPartner __NS_SYMBOL(kGDataContactRelationPartner)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationParent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationParent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationParent)
+#ifndef kGDataContactRelationReferredBy
+#define kGDataContactRelationReferredBy __NS_SYMBOL(kGDataContactRelationReferredBy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationPartner
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationPartner __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationPartner)
+#ifndef kGDataContactRelationRelative
+#define kGDataContactRelationRelative __NS_SYMBOL(kGDataContactRelationRelative)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationReferredBy
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationReferredBy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationReferredBy)
+#ifndef kGDataContactRelationSister
+#define kGDataContactRelationSister __NS_SYMBOL(kGDataContactRelationSister)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationRelative
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationRelative __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationRelative)
+#ifndef kGDataContactRelationSpouse
+#define kGDataContactRelationSpouse __NS_SYMBOL(kGDataContactRelationSpouse)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationSister
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationSister __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationSister)
+#ifndef kGDataContactEventAnniversary
+#define kGDataContactEventAnniversary __NS_SYMBOL(kGDataContactEventAnniversary)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationSpouse
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationSpouse __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactRelationSpouse)
+#ifndef kGDataContactEventOther
+#define kGDataContactEventOther __NS_SYMBOL(kGDataContactEventOther)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactGenderFemale
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactGenderFemale __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactGenderFemale)
+#ifndef kGDataContactGenderFemale
+#define kGDataContactGenderFemale __NS_SYMBOL(kGDataContactGenderFemale)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactGenderMale
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactGenderMale __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactGenderMale)
+#ifndef kGDataContactGenderMale
+#define kGDataContactGenderMale __NS_SYMBOL(kGDataContactGenderMale)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactCalendarLinkHome
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactCalendarLinkHome __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactCalendarLinkHome)
+#ifndef kGDataContactCalendarLinkHome
+#define kGDataContactCalendarLinkHome __NS_SYMBOL(kGDataContactCalendarLinkHome)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactCalendarLinkWork
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactCalendarLinkWork __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactCalendarLinkWork)
+#ifndef kGDataContactCalendarLinkWork
+#define kGDataContactCalendarLinkWork __NS_SYMBOL(kGDataContactCalendarLinkWork)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactCalendarLinkFreeBusy
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactCalendarLinkFreeBusy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactCalendarLinkFreeBusy)
+#ifndef kGDataContactCalendarLinkFreeBusy
+#define kGDataContactCalendarLinkFreeBusy __NS_SYMBOL(kGDataContactCalendarLinkFreeBusy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkBlog
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkBlog __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkBlog)
+#ifndef kGDataContactWebsiteLinkBlog
+#define kGDataContactWebsiteLinkBlog __NS_SYMBOL(kGDataContactWebsiteLinkBlog)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkFTP
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkFTP __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkFTP)
+#ifndef kGDataContactWebsiteLinkFTP
+#define kGDataContactWebsiteLinkFTP __NS_SYMBOL(kGDataContactWebsiteLinkFTP)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkHome
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkHome __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkHome)
+#ifndef kGDataContactWebsiteLinkHome
+#define kGDataContactWebsiteLinkHome __NS_SYMBOL(kGDataContactWebsiteLinkHome)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkHomePage
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkHomePage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkHomePage)
+#ifndef kGDataContactWebsiteLinkHomePage
+#define kGDataContactWebsiteLinkHomePage __NS_SYMBOL(kGDataContactWebsiteLinkHomePage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkOther
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkOther __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkOther)
+#ifndef kGDataContactWebsiteLinkOther
+#define kGDataContactWebsiteLinkOther __NS_SYMBOL(kGDataContactWebsiteLinkOther)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkProfile
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkProfile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkProfile)
+#ifndef kGDataContactWebsiteLinkProfile
+#define kGDataContactWebsiteLinkProfile __NS_SYMBOL(kGDataContactWebsiteLinkProfile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkWork
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkWork __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactWebsiteLinkWork)
+#ifndef kGDataContactWebsiteLinkWork
+#define kGDataContactWebsiteLinkWork __NS_SYMBOL(kGDataContactWebsiteLinkWork)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactDefaultThinFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactDefaultThinFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactDefaultThinFeed)
+#ifndef kGDataGoogleContactDefaultThinFeed
+#define kGDataGoogleContactDefaultThinFeed __NS_SYMBOL(kGDataGoogleContactDefaultThinFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactDefaultFullFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactDefaultFullFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactDefaultFullFeed)
+#ifndef kGDataGoogleContactDefaultFullFeed
+#define kGDataGoogleContactDefaultFullFeed __NS_SYMBOL(kGDataGoogleContactDefaultFullFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactGroupDefaultThinFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactGroupDefaultThinFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactGroupDefaultThinFeed)
+#ifndef kGDataGoogleContactGroupDefaultThinFeed
+#define kGDataGoogleContactGroupDefaultThinFeed __NS_SYMBOL(kGDataGoogleContactGroupDefaultThinFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactGroupDefaultFullFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactGroupDefaultFullFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactGroupDefaultFullFeed)
+#ifndef kGDataGoogleContactGroupDefaultFullFeed
+#define kGDataGoogleContactGroupDefaultFullFeed __NS_SYMBOL(kGDataGoogleContactGroupDefaultFullFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressHome
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressHome __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressHome)
+#ifndef kGDataPostalAddressHome
+#define kGDataPostalAddressHome __NS_SYMBOL(kGDataPostalAddressHome)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressWork
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressWork __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressWork)
+#ifndef kGDataPostalAddressWork
+#define kGDataPostalAddressWork __NS_SYMBOL(kGDataPostalAddressWork)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressOther
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressOther __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressOther)
+#ifndef kGDataPostalAddressOther
+#define kGDataPostalAddressOther __NS_SYMBOL(kGDataPostalAddressOther)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressLetters
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressLetters __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressLetters)
+#ifndef kGDataPostalAddressLetters
+#define kGDataPostalAddressLetters __NS_SYMBOL(kGDataPostalAddressLetters)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressParcels
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressParcels __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressParcels)
+#ifndef kGDataPostalAddressParcels
+#define kGDataPostalAddressParcels __NS_SYMBOL(kGDataPostalAddressParcels)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressNeither
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressNeither __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressNeither)
+#ifndef kGDataPostalAddressNeither
+#define kGDataPostalAddressNeither __NS_SYMBOL(kGDataPostalAddressNeither)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressBoth
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressBoth __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressBoth)
+#ifndef kGDataPostalAddressBoth
+#define kGDataPostalAddressBoth __NS_SYMBOL(kGDataPostalAddressBoth)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressGeneral
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressGeneral __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressGeneral)
+#ifndef kGDataPostalAddressGeneral
+#define kGDataPostalAddressGeneral __NS_SYMBOL(kGDataPostalAddressGeneral)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressLocal
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressLocal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPostalAddressLocal)
+#ifndef kGDataPostalAddressLocal
+#define kGDataPostalAddressLocal __NS_SYMBOL(kGDataPostalAddressLocal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataXMLXPathDefaultNamespacePrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataXMLXPathDefaultNamespacePrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataXMLXPathDefaultNamespacePrefix)
+#ifndef kGDataXMLXPathDefaultNamespacePrefix
+#define kGDataXMLXPathDefaultNamespacePrefix __NS_SYMBOL(kGDataXMLXPathDefaultNamespacePrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBloggerDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBloggerDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBloggerDefaultServiceVersion)
+#ifndef kGDataBloggerDefaultServiceVersion
+#define kGDataBloggerDefaultServiceVersion __NS_SYMBOL(kGDataBloggerDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBlogger
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBlogger __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBlogger)
+#ifndef kGDataNamespaceBlogger
+#define kGDataNamespaceBlogger __NS_SYMBOL(kGDataNamespaceBlogger)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBloggerPost
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBloggerPost __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBloggerPost)
+#ifndef kGDataCategoryBloggerPost
+#define kGDataCategoryBloggerPost __NS_SYMBOL(kGDataCategoryBloggerPost)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBloggerComment
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBloggerComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBloggerComment)
+#ifndef kGDataCategoryBloggerComment
+#define kGDataCategoryBloggerComment __NS_SYMBOL(kGDataCategoryBloggerComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerReplies
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerReplies __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerReplies)
+#ifndef kGDataLinkBloggerReplies
+#define kGDataLinkBloggerReplies __NS_SYMBOL(kGDataLinkBloggerReplies)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerEnclosure
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerEnclosure __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerEnclosure)
+#ifndef kGDataLinkBloggerEnclosure
+#define kGDataLinkBloggerEnclosure __NS_SYMBOL(kGDataLinkBloggerEnclosure)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerSettings
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerSettings __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerSettings)
+#ifndef kGDataLinkBloggerSettings
+#define kGDataLinkBloggerSettings __NS_SYMBOL(kGDataLinkBloggerSettings)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerTemplate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerTemplate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkBloggerTemplate)
+#ifndef kGDataLinkBloggerTemplate
+#define kGDataLinkBloggerTemplate __NS_SYMBOL(kGDataLinkBloggerTemplate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMapsDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMapsDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMapsDefaultServiceVersion)
+#ifndef kGDataAnalyticsDefaultServiceVersion
+#define kGDataAnalyticsDefaultServiceVersion __NS_SYMBOL(kGDataAnalyticsDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceKML
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceKML __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceKML)
+#ifndef kGDataNamespaceAnalyticsDXP
+#define kGDataNamespaceAnalyticsDXP __NS_SYMBOL(kGDataNamespaceAnalyticsDXP)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceKMLPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceKMLPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceKMLPrefix)
+#ifndef kGDataNamespaceAnalyticsDXPPrefix
+#define kGDataNamespaceAnalyticsDXPPrefix __NS_SYMBOL(kGDataNamespaceAnalyticsDXPPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryMap
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryMap __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryMap)
+#ifndef kGDataNamespaceAnalyticsGA
+#define kGDataNamespaceAnalyticsGA __NS_SYMBOL(kGDataNamespaceAnalyticsGA)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryMapFeature
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryMapFeature __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryMapFeature)
+#ifndef kGDataNamespaceAnalyticsGAPrefix
+#define kGDataNamespaceAnalyticsGAPrefix __NS_SYMBOL(kGDataNamespaceAnalyticsGAPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryMapVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryMapVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryMapVersion)
+#ifndef kGDataMetricTypeCurrency
+#define kGDataMetricTypeCurrency __NS_SYMBOL(kGDataMetricTypeCurrency)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkMapView
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkMapView __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkMapView)
+#ifndef kGDataMetricTypeFloat
+#define kGDataMetricTypeFloat __NS_SYMBOL(kGDataMetricTypeFloat)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMapPropertyAPIVisible
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMapPropertyAPIVisible __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMapPropertyAPIVisible)
+#ifndef kGDataMetricTypeInteger
+#define kGDataMetricTypeInteger __NS_SYMBOL(kGDataMetricTypeInteger)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataAnalyticsDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataAnalyticsDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataAnalyticsDefaultServiceVersion)
+#ifndef kGDataMapsDefaultServiceVersion
+#define kGDataMapsDefaultServiceVersion __NS_SYMBOL(kGDataMapsDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsDXP
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsDXP __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsDXP)
+#ifndef kGDataMetricTypePercent
+#define kGDataMetricTypePercent __NS_SYMBOL(kGDataMetricTypePercent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsDXPPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsDXPPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsDXPPrefix)
+#ifndef kGDataMetricTypeTime
+#define kGDataMetricTypeTime __NS_SYMBOL(kGDataMetricTypeTime)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsGA
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsGA __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsGA)
+#ifndef kGDataNamespaceKML
+#define kGDataNamespaceKML __NS_SYMBOL(kGDataNamespaceKML)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsGAPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsGAPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAnalyticsGAPrefix)
+#ifndef kGDataMetricTypeUSCurrency
+#define kGDataMetricTypeUSCurrency __NS_SYMBOL(kGDataMetricTypeUSCurrency)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeCurrency
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeCurrency __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeCurrency)
+#ifndef kGDataNamespaceKMLPrefix
+#define kGDataNamespaceKMLPrefix __NS_SYMBOL(kGDataNamespaceKMLPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeFloat
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeFloat __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeFloat)
+#ifndef kGDataCategoryMap
+#define kGDataCategoryMap __NS_SYMBOL(kGDataCategoryMap)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeInteger
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeInteger __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeInteger)
+#ifndef kGDataMatchTypeExact
+#define kGDataMatchTypeExact __NS_SYMBOL(kGDataMatchTypeExact)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypePercent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypePercent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypePercent)
+#ifndef kGDataCategoryMapFeature
+#define kGDataCategoryMapFeature __NS_SYMBOL(kGDataCategoryMapFeature)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeTime
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeTime __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeTime)
+#ifndef kGDataMatchTypeHead
+#define kGDataMatchTypeHead __NS_SYMBOL(kGDataMatchTypeHead)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeUSCurrency
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeUSCurrency __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMetricTypeUSCurrency)
+#ifndef kGDataCategoryMapVersion
+#define kGDataCategoryMapVersion __NS_SYMBOL(kGDataCategoryMapVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMatchTypeExact
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMatchTypeExact __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMatchTypeExact)
+#ifndef kGDataMatchTypeRegex
+#define kGDataMatchTypeRegex __NS_SYMBOL(kGDataMatchTypeRegex)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMatchTypeHead
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMatchTypeHead __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMatchTypeHead)
+#ifndef kGDataLinkMapView
+#define kGDataLinkMapView __NS_SYMBOL(kGDataLinkMapView)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMatchTypeRegex
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMatchTypeRegex __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMatchTypeRegex)
+#ifndef kGDataMapPropertyAPIVisible
+#define kGDataMapPropertyAPIVisible __NS_SYMBOL(kGDataMapPropertyAPIVisible)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksMinViewabilityFull
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksMinViewabilityFull __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksMinViewabilityFull)
+#ifndef kGDataGoogleBooksMinViewabilityFull
+#define kGDataGoogleBooksMinViewabilityFull __NS_SYMBOL(kGDataGoogleBooksMinViewabilityFull)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksMinViewabilityNone
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksMinViewabilityNone __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksMinViewabilityNone)
+#ifndef kGDataGoogleBooksMinViewabilityNone
+#define kGDataGoogleBooksMinViewabilityNone __NS_SYMBOL(kGDataGoogleBooksMinViewabilityNone)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksMinViewabilityPartial
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksMinViewabilityPartial __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksMinViewabilityPartial)
+#ifndef kGDataGoogleBooksMinViewabilityPartial
+#define kGDataGoogleBooksMinViewabilityPartial __NS_SYMBOL(kGDataGoogleBooksMinViewabilityPartial)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotosServiceV2
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotosServiceV2 __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotosServiceV2)
+#ifndef kGDataPhotosServiceV2
+#define kGDataPhotosServiceV2 __NS_SYMBOL(kGDataPhotosServiceV2)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotosDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotosDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotosDefaultServiceVersion)
+#ifndef kGDataPhotosDefaultServiceVersion
+#define kGDataPhotosDefaultServiceVersion __NS_SYMBOL(kGDataPhotosDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotos
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotos __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotos)
+#ifndef kGDataNamespacePhotos
+#define kGDataNamespacePhotos __NS_SYMBOL(kGDataNamespacePhotos)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotosPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotosPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotosPrefix)
+#ifndef kGDataNamespacePhotosPrefix
+#define kGDataNamespacePhotosPrefix __NS_SYMBOL(kGDataNamespacePhotosPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactServiceV2
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactServiceV2 __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactServiceV2)
+#ifndef kGDataNamespacePhotosEXIF
+#define kGDataNamespacePhotosEXIF __NS_SYMBOL(kGDataNamespacePhotosEXIF)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotosEXIF
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotosEXIF __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotosEXIF)
+#ifndef kGDataNamespacePhotosEXIFPrefix
+#define kGDataNamespacePhotosEXIFPrefix __NS_SYMBOL(kGDataNamespacePhotosEXIFPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactServiceV3
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactServiceV3 __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactServiceV3)
+#ifndef kGDataCategoryPhotosPhoto
+#define kGDataCategoryPhotosPhoto __NS_SYMBOL(kGDataCategoryPhotosPhoto)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotosEXIFPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotosEXIFPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespacePhotosEXIFPrefix)
+#ifndef kGDataCategoryPhotosAlbum
+#define kGDataCategoryPhotosAlbum __NS_SYMBOL(kGDataCategoryPhotosAlbum)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosPhoto
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosPhoto __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosPhoto)
+#ifndef kGDataCategoryPhotosUser
+#define kGDataCategoryPhotosUser __NS_SYMBOL(kGDataCategoryPhotosUser)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactDefaultServiceVersion)
+#ifndef kGDataCategoryPhotosTag
+#define kGDataCategoryPhotosTag __NS_SYMBOL(kGDataCategoryPhotosTag)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosAlbum
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosAlbum __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosAlbum)
+#ifndef kGDataCategoryPhotosComment
+#define kGDataCategoryPhotosComment __NS_SYMBOL(kGDataCategoryPhotosComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceContact
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceContact __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceContact)
+#ifndef kGDataCategoryPhotosPerson
+#define kGDataCategoryPhotosPerson __NS_SYMBOL(kGDataCategoryPhotosPerson)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosUser
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosUser __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosUser)
+#ifndef kGDataPhotoSnippetTypePhotoDescription
+#define kGDataPhotoSnippetTypePhotoDescription __NS_SYMBOL(kGDataPhotoSnippetTypePhotoDescription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceContactPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceContactPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceContactPrefix)
+#ifndef kGDataPhotoSnippetTypePhotoTags
+#define kGDataPhotoSnippetTypePhotoTags __NS_SYMBOL(kGDataPhotoSnippetTypePhotoTags)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryContact
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryContact __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryContact)
+#ifndef kGDataPhotoSnippetTypeAlbumTitle
+#define kGDataPhotoSnippetTypeAlbumTitle __NS_SYMBOL(kGDataPhotoSnippetTypeAlbumTitle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosTag
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosTag __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosTag)
+#ifndef kGDataPhotoSnippetTypeAlbumDescription
+#define kGDataPhotoSnippetTypeAlbumDescription __NS_SYMBOL(kGDataPhotoSnippetTypeAlbumDescription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryContactGroup
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryContactGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryContactGroup)
+#ifndef kGDataPhotoSnippetTypeAlbumLocation
+#define kGDataPhotoSnippetTypeAlbumLocation __NS_SYMBOL(kGDataPhotoSnippetTypeAlbumLocation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosComment
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosComment)
+#ifndef kGDataContactServiceV2
+#define kGDataContactServiceV2 __NS_SYMBOL(kGDataContactServiceV2)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryContactProfile
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryContactProfile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryContactProfile)
+#ifndef kGDataContactServiceV3
+#define kGDataContactServiceV3 __NS_SYMBOL(kGDataContactServiceV3)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosPerson
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosPerson __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPhotosPerson)
+#ifndef kGDataContactDefaultServiceVersion
+#define kGDataContactDefaultServiceVersion __NS_SYMBOL(kGDataContactDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactHome
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactHome __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactHome)
+#ifndef kGDataNamespaceContact
+#define kGDataNamespaceContact __NS_SYMBOL(kGDataNamespaceContact)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypePhotoDescription
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypePhotoDescription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypePhotoDescription)
+#ifndef kGDataNamespaceContactPrefix
+#define kGDataNamespaceContactPrefix __NS_SYMBOL(kGDataNamespaceContactPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactWork
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactWork __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactWork)
+#ifndef kGDataCategoryContact
+#define kGDataCategoryContact __NS_SYMBOL(kGDataCategoryContact)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypePhotoTags
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypePhotoTags __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypePhotoTags)
+#ifndef kGDataCategoryContactGroup
+#define kGDataCategoryContactGroup __NS_SYMBOL(kGDataCategoryContactGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactOther
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactOther __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactOther)
+#ifndef kGDataCategoryContactProfile
+#define kGDataCategoryContactProfile __NS_SYMBOL(kGDataCategoryContactProfile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypeAlbumTitle
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypeAlbumTitle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypeAlbumTitle)
+#ifndef kGDataContactHome
+#define kGDataContactHome __NS_SYMBOL(kGDataContactHome)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactPhotoRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactPhotoRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactPhotoRel)
+#ifndef kGDataContactWork
+#define kGDataContactWork __NS_SYMBOL(kGDataContactWork)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypeAlbumDescription
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypeAlbumDescription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypeAlbumDescription)
+#ifndef kGDataContactOther
+#define kGDataContactOther __NS_SYMBOL(kGDataContactOther)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContactEditPhotoRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContactEditPhotoRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContactEditPhotoRel)
+#ifndef kGDataContactPhotoRel
+#define kGDataContactPhotoRel __NS_SYMBOL(kGDataContactPhotoRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypeAlbumLocation
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypeAlbumLocation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoSnippetTypeAlbumLocation)
+#ifndef kGDataContactEditPhotoRel
+#define kGDataContactEditPhotoRel __NS_SYMBOL(kGDataContactEditPhotoRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationInsert
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationInsert __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationInsert)
+#ifndef kGDataBatchOperationInsert
+#define kGDataBatchOperationInsert __NS_SYMBOL(kGDataBatchOperationInsert)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationUpdate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationUpdate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationUpdate)
+#ifndef kGDataBatchOperationUpdate
+#define kGDataBatchOperationUpdate __NS_SYMBOL(kGDataBatchOperationUpdate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationDelete
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationDelete __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationDelete)
+#ifndef kGDataBatchOperationDelete
+#define kGDataBatchOperationDelete __NS_SYMBOL(kGDataBatchOperationDelete)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationQuery
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationQuery __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBatchOperationQuery)
+#ifndef kGDataBatchOperationQuery
+#define kGDataBatchOperationQuery __NS_SYMBOL(kGDataBatchOperationQuery)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleNone
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleNone __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleNone)
+#ifndef kGDataRoleNone
+#define kGDataRoleNone __NS_SYMBOL(kGDataRoleNone)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRolePeeker
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRolePeeker __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRolePeeker)
+#ifndef kGDataRolePeeker
+#define kGDataRolePeeker __NS_SYMBOL(kGDataRolePeeker)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleReader
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleReader __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleReader)
+#ifndef kGDataRoleReader
+#define kGDataRoleReader __NS_SYMBOL(kGDataRoleReader)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleWriter
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleWriter __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleWriter)
+#ifndef kGDataRoleWriter
+#define kGDataRoleWriter __NS_SYMBOL(kGDataRoleWriter)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleOwner
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleOwner __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleOwner)
+#ifndef kGDataRoleOwner
+#define kGDataRoleOwner __NS_SYMBOL(kGDataRoleOwner)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCommenter
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCommenter __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCommenter)
+#ifndef kGDataRoleCommenter
+#define kGDataRoleCommenter __NS_SYMBOL(kGDataRoleCommenter)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetServiceV2
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetServiceV2 __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetServiceV2)
+#ifndef kGDataSpreadsheetServiceV2
+#define kGDataSpreadsheetServiceV2 __NS_SYMBOL(kGDataSpreadsheetServiceV2)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetServiceV3
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetServiceV3 __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetServiceV3)
+#ifndef kGDataSpreadsheetServiceV3
+#define kGDataSpreadsheetServiceV3 __NS_SYMBOL(kGDataSpreadsheetServiceV3)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetDefaultServiceVersion)
+#ifndef kGDataSpreadsheetDefaultServiceVersion
+#define kGDataSpreadsheetDefaultServiceVersion __NS_SYMBOL(kGDataSpreadsheetDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpread
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpread __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpread)
+#ifndef kGDataNamespaceGSpread
+#define kGDataNamespaceGSpread __NS_SYMBOL(kGDataNamespaceGSpread)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpreadPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpreadPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpreadPrefix)
+#ifndef kGDataNamespaceGSpreadPrefix
+#define kGDataNamespaceGSpreadPrefix __NS_SYMBOL(kGDataNamespaceGSpreadPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpreadCustom
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpreadCustom __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpreadCustom)
+#ifndef kGDataNamespaceGSpreadCustom
+#define kGDataNamespaceGSpreadCustom __NS_SYMBOL(kGDataNamespaceGSpreadCustom)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpreadCustomPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpreadCustomPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGSpreadCustomPrefix)
+#ifndef kGDataNamespaceGSpreadCustomPrefix
+#define kGDataNamespaceGSpreadCustomPrefix __NS_SYMBOL(kGDataNamespaceGSpreadCustomPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGViz
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGViz __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGViz)
+#ifndef kGDataNamespaceGViz
+#define kGDataNamespaceGViz __NS_SYMBOL(kGDataNamespaceGViz)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGVizPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGVizPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGVizPrefix)
+#ifndef kGDataNamespaceGVizPrefix
+#define kGDataNamespaceGVizPrefix __NS_SYMBOL(kGDataNamespaceGVizPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkWorksheetsFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkWorksheetsFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkWorksheetsFeed)
+#ifndef kGDataLinkWorksheetsFeed
+#define kGDataLinkWorksheetsFeed __NS_SYMBOL(kGDataLinkWorksheetsFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkTablesFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkTablesFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkTablesFeed)
+#ifndef kGDataLinkTablesFeed
+#define kGDataLinkTablesFeed __NS_SYMBOL(kGDataLinkTablesFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkListFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkListFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkListFeed)
+#ifndef kGDataLinkListFeed
+#define kGDataLinkListFeed __NS_SYMBOL(kGDataLinkListFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkCellsFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkCellsFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkCellsFeed)
+#ifndef kGDataLinkCellsFeed
+#define kGDataLinkCellsFeed __NS_SYMBOL(kGDataLinkCellsFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkSource
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkSource __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkSource)
+#ifndef kGDataLinkSource
+#define kGDataLinkSource __NS_SYMBOL(kGDataLinkSource)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkRecordsFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkRecordsFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkRecordsFeed)
+#ifndef kGDataLinkRecordsFeed
+#define kGDataLinkRecordsFeed __NS_SYMBOL(kGDataLinkRecordsFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkGviz
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkGviz __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkGviz)
+#ifndef kGDataLinkGviz
+#define kGDataLinkGviz __NS_SYMBOL(kGDataLinkGviz)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySchemeSpreadsheet
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySchemeSpreadsheet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySchemeSpreadsheet)
+#ifndef kGDataCategorySchemeSpreadsheet
+#define kGDataCategorySchemeSpreadsheet __NS_SYMBOL(kGDataCategorySchemeSpreadsheet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheet
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheet)
+#ifndef kGDataCategorySpreadsheet
+#define kGDataCategorySpreadsheet __NS_SYMBOL(kGDataCategorySpreadsheet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetCell
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetCell __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetCell)
+#ifndef kGDataCategorySpreadsheetCell
+#define kGDataCategorySpreadsheetCell __NS_SYMBOL(kGDataCategorySpreadsheetCell)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetList
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetList __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetList)
+#ifndef kGDataCategorySpreadsheetList
+#define kGDataCategorySpreadsheetList __NS_SYMBOL(kGDataCategorySpreadsheetList)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetRecord
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetRecord __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetRecord)
+#ifndef kGDataCategorySpreadsheetRecord
+#define kGDataCategorySpreadsheetRecord __NS_SYMBOL(kGDataCategorySpreadsheetRecord)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetTable
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetTable __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetTable)
+#ifndef kGDataCategorySpreadsheetTable
+#define kGDataCategorySpreadsheetTable __NS_SYMBOL(kGDataCategorySpreadsheetTable)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeUser
-#define GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeUser __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeUser)
+#ifndef kGDataBooksDefaultServiceVersion
+#define kGDataBooksDefaultServiceVersion __NS_SYMBOL(kGDataBooksDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeDomain
-#define GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeDomain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeDomain)
+#ifndef kGDataNamespaceBooks
+#define kGDataNamespaceBooks __NS_SYMBOL(kGDataNamespaceBooks)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeDefault
-#define GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeDefault __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeDefault)
+#ifndef kGDataNamespaceBooksPrefix
+#define kGDataNamespaceBooksPrefix __NS_SYMBOL(kGDataNamespaceBooksPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeGroup
-#define GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeGroup __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataScopeTypeGroup)
+#ifndef kGDataCategoryBooksVolume
+#define kGDataCategoryBooksVolume __NS_SYMBOL(kGDataCategoryBooksVolume)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksDefaultServiceVersion)
+#ifndef kGDataCategoryBooksCollection
+#define kGDataCategoryBooksCollection __NS_SYMBOL(kGDataCategoryBooksCollection)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBooks
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBooks __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBooks)
+#ifndef kGDataBooksViewAllPages
+#define kGDataBooksViewAllPages __NS_SYMBOL(kGDataBooksViewAllPages)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBooksPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBooksPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBooksPrefix)
+#ifndef kGDataBooksViewNoPages
+#define kGDataBooksViewNoPages __NS_SYMBOL(kGDataBooksViewNoPages)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBooksVolume
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBooksVolume __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBooksVolume)
+#ifndef kGDataBooksViewPartial
+#define kGDataBooksViewPartial __NS_SYMBOL(kGDataBooksViewPartial)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBooksCollection
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBooksCollection __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryBooksCollection)
+#ifndef kGDataBooksViewUnknown
+#define kGDataBooksViewUnknown __NS_SYMBOL(kGDataBooksViewUnknown)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewAllPages
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewAllPages __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewAllPages)
+#ifndef kGDataBooksEmbeddable
+#define kGDataBooksEmbeddable __NS_SYMBOL(kGDataBooksEmbeddable)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewNoPages
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewNoPages __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewNoPages)
+#ifndef kGDataBooksNotEmbeddable
+#define kGDataBooksNotEmbeddable __NS_SYMBOL(kGDataBooksNotEmbeddable)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewPartial
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewPartial __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewPartial)
+#ifndef kGDataBooksEnabled
+#define kGDataBooksEnabled __NS_SYMBOL(kGDataBooksEnabled)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewUnknown
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewUnknown __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksViewUnknown)
+#ifndef kGDataBooksDisabled
+#define kGDataBooksDisabled __NS_SYMBOL(kGDataBooksDisabled)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksEmbeddable
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksEmbeddable __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksEmbeddable)
+#ifndef kGDataBooksActionChooseBookmark
+#define kGDataBooksActionChooseBookmark __NS_SYMBOL(kGDataBooksActionChooseBookmark)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksNotEmbeddable
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksNotEmbeddable __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksNotEmbeddable)
+#ifndef kGDataBooksActionSearchInBook
+#define kGDataBooksActionSearchInBook __NS_SYMBOL(kGDataBooksActionSearchInBook)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksEnabled
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksEnabled __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksEnabled)
+#ifndef kGDataBooksActionNextPage
+#define kGDataBooksActionNextPage __NS_SYMBOL(kGDataBooksActionNextPage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksDisabled
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksDisabled __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksDisabled)
+#ifndef kGDataBooksActionPrevPage
+#define kGDataBooksActionPrevPage __NS_SYMBOL(kGDataBooksActionPrevPage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionChooseBookmark
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionChooseBookmark __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionChooseBookmark)
+#ifndef kGDataBooksActionScrollToPage
+#define kGDataBooksActionScrollToPage __NS_SYMBOL(kGDataBooksActionScrollToPage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionSearchInBook
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionSearchInBook __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionSearchInBook)
+#ifndef kGDataBooksActionSelectChapter
+#define kGDataBooksActionSelectChapter __NS_SYMBOL(kGDataBooksActionSelectChapter)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionNextPage
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionNextPage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionNextPage)
+#ifndef kGDataBooksInfoRel
+#define kGDataBooksInfoRel __NS_SYMBOL(kGDataBooksInfoRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionPrevPage
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionPrevPage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionPrevPage)
+#ifndef kGDataBooksPreviewRel
+#define kGDataBooksPreviewRel __NS_SYMBOL(kGDataBooksPreviewRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionScrollToPage
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionScrollToPage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionScrollToPage)
+#ifndef kGDataBooksThumbnailRel
+#define kGDataBooksThumbnailRel __NS_SYMBOL(kGDataBooksThumbnailRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionSelectChapter
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionSelectChapter __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksActionSelectChapter)
+#ifndef kGDataBooksAnnotationRel
+#define kGDataBooksAnnotationRel __NS_SYMBOL(kGDataBooksAnnotationRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksInfoRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksInfoRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksInfoRel)
+#ifndef kGDataBooksBuyLinkRel
+#define kGDataBooksBuyLinkRel __NS_SYMBOL(kGDataBooksBuyLinkRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksPreviewRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksPreviewRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksPreviewRel)
+#ifndef kGDataBooksEPubDownloadRel
+#define kGDataBooksEPubDownloadRel __NS_SYMBOL(kGDataBooksEPubDownloadRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksThumbnailRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksThumbnailRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksThumbnailRel)
+#ifndef kGDataBooksEPubToken
+#define kGDataBooksEPubToken __NS_SYMBOL(kGDataBooksEPubToken)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksAnnotationRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksAnnotationRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksAnnotationRel)
+#ifndef kGDataBooksLabelsScheme
+#define kGDataBooksLabelsScheme __NS_SYMBOL(kGDataBooksLabelsScheme)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksBuyLinkRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksBuyLinkRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksBuyLinkRel)
+#ifndef kGDataBooksTypeIDScheme
+#define kGDataBooksTypeIDScheme __NS_SYMBOL(kGDataBooksTypeIDScheme)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksEPubDownloadRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksEPubDownloadRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksEPubDownloadRel)
+#ifndef kGDataScopeTypeUser
+#define kGDataScopeTypeUser __NS_SYMBOL(kGDataScopeTypeUser)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksEPubToken
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksEPubToken __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksEPubToken)
+#ifndef kGDataScopeTypeDomain
+#define kGDataScopeTypeDomain __NS_SYMBOL(kGDataScopeTypeDomain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksLabelsScheme
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksLabelsScheme __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksLabelsScheme)
+#ifndef kGDataScopeTypeDefault
+#define kGDataScopeTypeDefault __NS_SYMBOL(kGDataScopeTypeDefault)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataBooksTypeIDScheme
-#define GDATA_OBJECTIVEC_CLIENT_kGDataBooksTypeIDScheme __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataBooksTypeIDScheme)
+#ifndef kGDataScopeTypeGroup
+#define kGDataScopeTypeGroup __NS_SYMBOL(kGDataScopeTypeGroup)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosImageSizeDownloadable
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosImageSizeDownloadable __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosImageSizeDownloadable)
+#ifndef kGDataDocsServiceV2
+#define kGDataDocsServiceV2 __NS_SYMBOL(kGDataDocsServiceV2)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsServiceV2
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsServiceV2 __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsServiceV2)
+#ifndef kGDataDocsServiceV3
+#define kGDataDocsServiceV3 __NS_SYMBOL(kGDataDocsServiceV3)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsServiceV3
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsServiceV3 __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsServiceV3)
+#ifndef kGDataDocsDefaultServiceVersion
+#define kGDataDocsDefaultServiceVersion __NS_SYMBOL(kGDataDocsDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsDefaultServiceVersion)
+#ifndef kGDataNamespaceDocuments
+#define kGDataNamespaceDocuments __NS_SYMBOL(kGDataNamespaceDocuments)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDocuments
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDocuments __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDocuments)
+#ifndef kGDataNamespaceDocumentsPrefix
+#define kGDataNamespaceDocumentsPrefix __NS_SYMBOL(kGDataNamespaceDocumentsPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDocumentsPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDocumentsPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDocumentsPrefix)
+#ifndef kGDataCategoryDocFolders
+#define kGDataCategoryDocFolders __NS_SYMBOL(kGDataCategoryDocFolders)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocFolders
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocFolders __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocFolders)
+#ifndef kGDataCategoryDocParent
+#define kGDataCategoryDocParent __NS_SYMBOL(kGDataCategoryDocParent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocParent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocParent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocParent)
+#ifndef kGDataCategoryDrawingDoc
+#define kGDataCategoryDrawingDoc __NS_SYMBOL(kGDataCategoryDrawingDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDrawingDoc
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDrawingDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDrawingDoc)
+#ifndef kGDataCategoryFolderDoc
+#define kGDataCategoryFolderDoc __NS_SYMBOL(kGDataCategoryFolderDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFolderDoc
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFolderDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFolderDoc)
+#ifndef kGDataCategoryFileDoc
+#define kGDataCategoryFileDoc __NS_SYMBOL(kGDataCategoryFileDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFileDoc
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFileDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFileDoc)
+#ifndef kGDataCategoryPDFDoc
+#define kGDataCategoryPDFDoc __NS_SYMBOL(kGDataCategoryPDFDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPDFDoc
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPDFDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPDFDoc)
+#ifndef kGDataCategoryPresentationDoc
+#define kGDataCategoryPresentationDoc __NS_SYMBOL(kGDataCategoryPresentationDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPresentationDoc
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPresentationDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryPresentationDoc)
+#ifndef kGDataCategorySiteDoc
+#define kGDataCategorySiteDoc __NS_SYMBOL(kGDataCategorySiteDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteDoc
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteDoc)
+#ifndef kGDataCategorySpreadsheetDoc
+#define kGDataCategorySpreadsheetDoc __NS_SYMBOL(kGDataCategorySpreadsheetDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetDoc
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySpreadsheetDoc)
+#ifndef kGDataCategoryStandardDoc
+#define kGDataCategoryStandardDoc __NS_SYMBOL(kGDataCategoryStandardDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryStandardDoc
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryStandardDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryStandardDoc)
+#ifndef kGDataCategoryTableDoc
+#define kGDataCategoryTableDoc __NS_SYMBOL(kGDataCategoryTableDoc)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryTableDoc
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryTableDoc __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryTableDoc)
+#ifndef kGDataCategoryDocChange
+#define kGDataCategoryDocChange __NS_SYMBOL(kGDataCategoryDocChange)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocChange
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocChange __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocChange)
+#ifndef kGDataCategoryDocListMetadata
+#define kGDataCategoryDocListMetadata __NS_SYMBOL(kGDataCategoryDocListMetadata)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocListMetadata
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocListMetadata __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocListMetadata)
+#ifndef kGDataCategoryDocItem
+#define kGDataCategoryDocItem __NS_SYMBOL(kGDataCategoryDocItem)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocItem
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocItem __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocItem)
+#ifndef kGDataCategoryDocRevision
+#define kGDataCategoryDocRevision __NS_SYMBOL(kGDataCategoryDocRevision)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocRevision
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocRevision __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryDocRevision)
+#ifndef kGDataCategoryLabelHasPathToRoot
+#define kGDataCategoryLabelHasPathToRoot __NS_SYMBOL(kGDataCategoryLabelHasPathToRoot)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelHasPathToRoot
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelHasPathToRoot __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelHasPathToRoot)
+#ifndef kGDataDocsPublishedRel
+#define kGDataDocsPublishedRel __NS_SYMBOL(kGDataDocsPublishedRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsPublishedRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsPublishedRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsPublishedRel)
+#ifndef kGDataDocsRevisionsRel
+#define kGDataDocsRevisionsRel __NS_SYMBOL(kGDataDocsRevisionsRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsRevisionsRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsRevisionsRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsRevisionsRel)
+#ifndef kGDataDocsThumbnailRel
+#define kGDataDocsThumbnailRel __NS_SYMBOL(kGDataDocsThumbnailRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsThumbnailRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsThumbnailRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsThumbnailRel)
+#ifndef kGDataDocsAlternateSelfRel
+#define kGDataDocsAlternateSelfRel __NS_SYMBOL(kGDataDocsAlternateSelfRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsAlternateSelfRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsAlternateSelfRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsAlternateSelfRel)
+#ifndef kGDataDocsRootFolderHref
+#define kGDataDocsRootFolderHref __NS_SYMBOL(kGDataDocsRootFolderHref)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsRootFolderHref
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsRootFolderHref __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsRootFolderHref)
+#ifndef kGDataDocsFeatureNameOCR
+#define kGDataDocsFeatureNameOCR __NS_SYMBOL(kGDataDocsFeatureNameOCR)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsFeatureNameOCR
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsFeatureNameOCR __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsFeatureNameOCR)
+#ifndef kGDataDocsFeatureNameTranslation
+#define kGDataDocsFeatureNameTranslation __NS_SYMBOL(kGDataDocsFeatureNameTranslation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsFeatureNameTranslation
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsFeatureNameTranslation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsFeatureNameTranslation)
+#ifndef kGDataDocsFeatureNameUploadAny
+#define kGDataDocsFeatureNameUploadAny __NS_SYMBOL(kGDataDocsFeatureNameUploadAny)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataDocsFeatureNameUploadAny
-#define GDATA_OBJECTIVEC_CLIENT_kGDataDocsFeatureNameUploadAny __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataDocsFeatureNameUploadAny)
+#ifndef kGDataWebmasterToolsServiceV2
+#define kGDataWebmasterToolsServiceV2 __NS_SYMBOL(kGDataWebmasterToolsServiceV2)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateIncomplete
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateIncomplete __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateIncomplete)
+#ifndef kGDataWebmasterToolsDefaultServiceVersion
+#define kGDataWebmasterToolsDefaultServiceVersion __NS_SYMBOL(kGDataWebmasterToolsDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateProcessing
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateProcessing __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateProcessing)
+#ifndef kGDataNamespaceWebmasterTools
+#define kGDataNamespaceWebmasterTools __NS_SYMBOL(kGDataNamespaceWebmasterTools)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateRejected
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateRejected __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateRejected)
+#ifndef kGDataNamespaceWebmasterToolsPrefix
+#define kGDataNamespaceWebmasterToolsPrefix __NS_SYMBOL(kGDataNamespaceWebmasterToolsPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateFailed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateFailed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateFailed)
+#ifndef kGDataCategorySiteInfo
+#define kGDataCategorySiteInfo __NS_SYMBOL(kGDataCategorySiteInfo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateDeleted
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateDeleted __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateDeleted)
+#ifndef kGDataCategorySitesFeed
+#define kGDataCategorySitesFeed __NS_SYMBOL(kGDataCategorySitesFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateRestricted
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateRestricted __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePubStateRestricted)
+#ifndef kGDataCategorySitemapsFeed
+#define kGDataCategorySitemapsFeed __NS_SYMBOL(kGDataCategorySitemapsFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteVerificationMethodMetatag
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteVerificationMethodMetatag __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteVerificationMethodMetatag)
+#ifndef kGDataCategorySitemapRegular
+#define kGDataCategorySitemapRegular __NS_SYMBOL(kGDataCategorySitemapRegular)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteVerificationMethodHTMLPage
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteVerificationMethodHTMLPage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteVerificationMethodHTMLPage)
+#ifndef kGDataCategorySitemapMobile
+#define kGDataCategorySitemapMobile __NS_SYMBOL(kGDataCategorySitemapMobile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsServiceV2
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsServiceV2 __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsServiceV2)
+#ifndef kGDataCategorySitemapNews
+#define kGDataCategorySitemapNews __NS_SYMBOL(kGDataCategorySitemapNews)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsDefaultServiceVersion)
+#ifndef kGDataCategorySiteMessage
+#define kGDataCategorySiteMessage __NS_SYMBOL(kGDataCategorySiteMessage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceWebmasterTools
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceWebmasterTools __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceWebmasterTools)
+#ifndef kGDataCategorySiteMessagesFeed
+#define kGDataCategorySiteMessagesFeed __NS_SYMBOL(kGDataCategorySiteMessagesFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceWebmasterToolsPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceWebmasterToolsPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceWebmasterToolsPrefix)
+#ifndef kGDataCategorySiteKeyword
+#define kGDataCategorySiteKeyword __NS_SYMBOL(kGDataCategorySiteKeyword)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteInfo
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteInfo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteInfo)
+#ifndef kGDataCategorySiteCrawlIssue
+#define kGDataCategorySiteCrawlIssue __NS_SYMBOL(kGDataCategorySiteCrawlIssue)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitesFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitesFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitesFeed)
+#ifndef kGDataSiteVerificationRel
+#define kGDataSiteVerificationRel __NS_SYMBOL(kGDataSiteVerificationRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapsFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapsFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapsFeed)
+#ifndef kGDataSiteSitemapsRel
+#define kGDataSiteSitemapsRel __NS_SYMBOL(kGDataSiteSitemapsRel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapRegular
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapRegular __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapRegular)
+#ifndef kGDataSiteCrawlRateSlowest
+#define kGDataSiteCrawlRateSlowest __NS_SYMBOL(kGDataSiteCrawlRateSlowest)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapMobile
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapMobile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapMobile)
+#ifndef kGDataSiteCrawlRateSlower
+#define kGDataSiteCrawlRateSlower __NS_SYMBOL(kGDataSiteCrawlRateSlower)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapNews
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapNews __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySitemapNews)
+#ifndef kGDataSiteCrawlRateNormal
+#define kGDataSiteCrawlRateNormal __NS_SYMBOL(kGDataSiteCrawlRateNormal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteMessage
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteMessage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteMessage)
+#ifndef kGDataSiteCrawlRateFaster
+#define kGDataSiteCrawlRateFaster __NS_SYMBOL(kGDataSiteCrawlRateFaster)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteMessagesFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteMessagesFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteMessagesFeed)
+#ifndef kGDataSiteCrawlRateFastest
+#define kGDataSiteCrawlRateFastest __NS_SYMBOL(kGDataSiteCrawlRateFastest)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteKeyword
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteKeyword __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteKeyword)
+#ifndef kGDataSiteCrawlPreferredDomainNone
+#define kGDataSiteCrawlPreferredDomainNone __NS_SYMBOL(kGDataSiteCrawlPreferredDomainNone)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteCrawlIssue
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteCrawlIssue __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategorySiteCrawlIssue)
+#ifndef kGDataSiteCrawlPreferredDomainWWW
+#define kGDataSiteCrawlPreferredDomainWWW __NS_SYMBOL(kGDataSiteCrawlPreferredDomainWWW)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteVerificationRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteVerificationRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteVerificationRel)
+#ifndef kGDataSiteCrawlPreferredDomainNoWWW
+#define kGDataSiteCrawlPreferredDomainNoWWW __NS_SYMBOL(kGDataSiteCrawlPreferredDomainNoWWW)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteSitemapsRel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteSitemapsRel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteSitemapsRel)
+#ifndef kGDataSiteKeywordInternal
+#define kGDataSiteKeywordInternal __NS_SYMBOL(kGDataSiteKeywordInternal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateSlowest
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateSlowest __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateSlowest)
+#ifndef kGDataSiteKeywordExternal
+#define kGDataSiteKeywordExternal __NS_SYMBOL(kGDataSiteKeywordExternal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateSlower
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateSlower __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateSlower)
+#ifndef kGDataSiteCrawlTypeMobileCHTML
+#define kGDataSiteCrawlTypeMobileCHTML __NS_SYMBOL(kGDataSiteCrawlTypeMobileCHTML)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateNormal
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateNormal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateNormal)
+#ifndef kGDataSiteCrawlTypeMobileXHTMLWML
+#define kGDataSiteCrawlTypeMobileXHTMLWML __NS_SYMBOL(kGDataSiteCrawlTypeMobileXHTMLWML)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateFaster
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateFaster __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateFaster)
+#ifndef kGDataSiteCrawlTypeNews
+#define kGDataSiteCrawlTypeNews __NS_SYMBOL(kGDataSiteCrawlTypeNews)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateFastest
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateFastest __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlRateFastest)
+#ifndef kGDataSiteCrawlTypeWeb
+#define kGDataSiteCrawlTypeWeb __NS_SYMBOL(kGDataSiteCrawlTypeWeb)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlPreferredDomainNone
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlPreferredDomainNone __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlPreferredDomainNone)
+#ifndef kGDataSiteCrawlIssueTypeHTTPError
+#define kGDataSiteCrawlIssueTypeHTTPError __NS_SYMBOL(kGDataSiteCrawlIssueTypeHTTPError)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlPreferredDomainWWW
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlPreferredDomainWWW __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlPreferredDomainWWW)
+#ifndef kGDataSiteCrawlIssueTypeInSitemap
+#define kGDataSiteCrawlIssueTypeInSitemap __NS_SYMBOL(kGDataSiteCrawlIssueTypeInSitemap)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlPreferredDomainNoWWW
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlPreferredDomainNoWWW __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlPreferredDomainNoWWW)
+#ifndef kGDataSiteCrawlIssueTypeNewsError
+#define kGDataSiteCrawlIssueTypeNewsError __NS_SYMBOL(kGDataSiteCrawlIssueTypeNewsError)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteKeywordInternal
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteKeywordInternal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteKeywordInternal)
+#ifndef kGDataSiteCrawlIssueTypeNotFollowed
+#define kGDataSiteCrawlIssueTypeNotFollowed __NS_SYMBOL(kGDataSiteCrawlIssueTypeNotFollowed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteKeywordExternal
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteKeywordExternal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteKeywordExternal)
+#ifndef kGDataSiteCrawlIssueTypeNotFound
+#define kGDataSiteCrawlIssueTypeNotFound __NS_SYMBOL(kGDataSiteCrawlIssueTypeNotFound)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeMobileCHTML
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeMobileCHTML __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeMobileCHTML)
+#ifndef kGDataGooglePhotosImageSizeDownloadable
+#define kGDataGooglePhotosImageSizeDownloadable __NS_SYMBOL(kGDataGooglePhotosImageSizeDownloadable)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeMobileXHTMLWML
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeMobileXHTMLWML __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeMobileXHTMLWML)
+#ifndef kGDataSiteCrawlIssueTypeRestrictedRobotsTxt
+#define kGDataSiteCrawlIssueTypeRestrictedRobotsTxt __NS_SYMBOL(kGDataSiteCrawlIssueTypeRestrictedRobotsTxt)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeNews
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeNews __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeNews)
+#ifndef kGDataSiteCrawlIssueTypeTimedOut
+#define kGDataSiteCrawlIssueTypeTimedOut __NS_SYMBOL(kGDataSiteCrawlIssueTypeTimedOut)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventWhereEventLocation
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventWhereEventLocation __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventWhereEventLocation)
+#ifndef kGDataSiteCrawlIssueTypeUnreachable
+#define kGDataSiteCrawlIssueTypeUnreachable __NS_SYMBOL(kGDataSiteCrawlIssueTypeUnreachable)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeWeb
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeWeb __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlTypeWeb)
+#ifndef kGDataYouTubePubStateIncomplete
+#define kGDataYouTubePubStateIncomplete __NS_SYMBOL(kGDataYouTubePubStateIncomplete)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeHTTPError
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeHTTPError __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeHTTPError)
+#ifndef kGDataYouTubePubStateProcessing
+#define kGDataYouTubePubStateProcessing __NS_SYMBOL(kGDataYouTubePubStateProcessing)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeInSitemap
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeInSitemap __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeInSitemap)
+#ifndef kGDataYouTubePubStateRejected
+#define kGDataYouTubePubStateRejected __NS_SYMBOL(kGDataYouTubePubStateRejected)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeNewsError
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeNewsError __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeNewsError)
+#ifndef kGDataYouTubePubStateFailed
+#define kGDataYouTubePubStateFailed __NS_SYMBOL(kGDataYouTubePubStateFailed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeNotFollowed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeNotFollowed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeNotFollowed)
+#ifndef kGDataYouTubePubStateDeleted
+#define kGDataYouTubePubStateDeleted __NS_SYMBOL(kGDataYouTubePubStateDeleted)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeNotFound
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeNotFound __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeNotFound)
+#ifndef kGDataYouTubePubStateRestricted
+#define kGDataYouTubePubStateRestricted __NS_SYMBOL(kGDataYouTubePubStateRestricted)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeRestrictedRobotsTxt
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeRestrictedRobotsTxt __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeRestrictedRobotsTxt)
+#ifndef kGDataSiteVerificationMethodMetatag
+#define kGDataSiteVerificationMethodMetatag __NS_SYMBOL(kGDataSiteVerificationMethodMetatag)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeTimedOut
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeTimedOut __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeTimedOut)
+#ifndef kGDataSiteVerificationMethodHTMLPage
+#define kGDataSiteVerificationMethodHTMLPage __NS_SYMBOL(kGDataSiteVerificationMethodHTMLPage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeUnreachable
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeUnreachable __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSiteCrawlIssueTypeUnreachable)
+#ifndef kGDataEventWhereEventLocation
+#define kGDataEventWhereEventLocation __NS_SYMBOL(kGDataEventWhereEventLocation)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventWhereAlternate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventWhereAlternate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventWhereAlternate)
+#ifndef kGDataEventWhereAlternate
+#define kGDataEventWhereAlternate __NS_SYMBOL(kGDataEventWhereAlternate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventWhereParking
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventWhereParking __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventWhereParking)
+#ifndef kGDataEventWhereParking
+#define kGDataEventWhereParking __NS_SYMBOL(kGDataEventWhereParking)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodSMS
-#define GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodSMS __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodSMS)
+#ifndef kGDataYouTubeAccessControlRate
+#define kGDataYouTubeAccessControlRate __NS_SYMBOL(kGDataYouTubeAccessControlRate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodEmail
-#define GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodEmail __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodEmail)
+#ifndef kGDataYouTubeAccessControlComment
+#define kGDataYouTubeAccessControlComment __NS_SYMBOL(kGDataYouTubeAccessControlComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodAlert
-#define GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodAlert __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodAlert)
+#ifndef kGDataReminderMethodSMS
+#define kGDataReminderMethodSMS __NS_SYMBOL(kGDataReminderMethodSMS)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodNone
-#define GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodNone __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodNone)
+#ifndef kGDataYouTubeAccessControlCommentVote
+#define kGDataYouTubeAccessControlCommentVote __NS_SYMBOL(kGDataYouTubeAccessControlCommentVote)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodAll
-#define GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodAll __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataReminderMethodAll)
+#ifndef kGDataReminderMethodEmail
+#define kGDataReminderMethodEmail __NS_SYMBOL(kGDataReminderMethodEmail)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlRate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlRate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlRate)
+#ifndef kGDataYouTubeAccessControlVideoRespond
+#define kGDataYouTubeAccessControlVideoRespond __NS_SYMBOL(kGDataYouTubeAccessControlVideoRespond)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlComment
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlComment)
+#ifndef kGDataReminderMethodAlert
+#define kGDataReminderMethodAlert __NS_SYMBOL(kGDataReminderMethodAlert)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlCommentVote
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlCommentVote __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlCommentVote)
+#ifndef kGDataYouTubeAccessControlEmbed
+#define kGDataYouTubeAccessControlEmbed __NS_SYMBOL(kGDataYouTubeAccessControlEmbed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlVideoRespond
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlVideoRespond __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlVideoRespond)
+#ifndef kGDataReminderMethodNone
+#define kGDataReminderMethodNone __NS_SYMBOL(kGDataReminderMethodNone)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlEmbed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlEmbed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlEmbed)
+#ifndef kGDataYouTubeAccessControlList
+#define kGDataYouTubeAccessControlList __NS_SYMBOL(kGDataYouTubeAccessControlList)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlList
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlList __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlList)
+#ifndef kGDataReminderMethodAll
+#define kGDataReminderMethodAll __NS_SYMBOL(kGDataReminderMethodAll)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlSyndicate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlSyndicate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlSyndicate)
+#ifndef kGDataYouTubeAccessControlSyndicate
+#define kGDataYouTubeAccessControlSyndicate __NS_SYMBOL(kGDataYouTubeAccessControlSyndicate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlPermissionAllowed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlPermissionAllowed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlPermissionAllowed)
+#ifndef kGDataYouTubeAccessControlPermissionAllowed
+#define kGDataYouTubeAccessControlPermissionAllowed __NS_SYMBOL(kGDataYouTubeAccessControlPermissionAllowed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlPermissionDenied
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlPermissionDenied __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlPermissionDenied)
+#ifndef kGDataYouTubeAccessControlPermissionDenied
+#define kGDataYouTubeAccessControlPermissionDenied __NS_SYMBOL(kGDataYouTubeAccessControlPermissionDenied)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlPermissionModerated
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlPermissionModerated __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeAccessControlPermissionModerated)
+#ifndef kGDataYouTubeAccessControlPermissionModerated
+#define kGDataYouTubeAccessControlPermissionModerated __NS_SYMBOL(kGDataYouTubeAccessControlPermissionModerated)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRatingPrice
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRatingPrice __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRatingPrice)
+#ifndef kGDataRatingPrice
+#define kGDataRatingPrice __NS_SYMBOL(kGDataRatingPrice)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRatingQuality
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRatingQuality __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRatingQuality)
+#ifndef kGDataRatingQuality
+#define kGDataRatingQuality __NS_SYMBOL(kGDataRatingQuality)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolAIM
-#define GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolAIM __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolAIM)
+#ifndef kGDataIMProtocolAIM
+#define kGDataIMProtocolAIM __NS_SYMBOL(kGDataIMProtocolAIM)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolGoogleTalk
-#define GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolGoogleTalk __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolGoogleTalk)
+#ifndef kGDataIMProtocolGoogleTalk
+#define kGDataIMProtocolGoogleTalk __NS_SYMBOL(kGDataIMProtocolGoogleTalk)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolICQ
-#define GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolICQ __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolICQ)
+#ifndef kGDataIMProtocolICQ
+#define kGDataIMProtocolICQ __NS_SYMBOL(kGDataIMProtocolICQ)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolJabber
-#define GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolJabber __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolJabber)
+#ifndef kGDataIMProtocolJabber
+#define kGDataIMProtocolJabber __NS_SYMBOL(kGDataIMProtocolJabber)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolMSN
-#define GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolMSN __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolMSN)
+#ifndef kGDataIMProtocolMSN
+#define kGDataIMProtocolMSN __NS_SYMBOL(kGDataIMProtocolMSN)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolNetMeeting
-#define GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolNetMeeting __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolNetMeeting)
+#ifndef kGDataIMProtocolNetMeeting
+#define kGDataIMProtocolNetMeeting __NS_SYMBOL(kGDataIMProtocolNetMeeting)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolQQ
-#define GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolQQ __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolQQ)
+#ifndef kGDataIMProtocolQQ
+#define kGDataIMProtocolQQ __NS_SYMBOL(kGDataIMProtocolQQ)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolSkype
-#define GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolSkype __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolSkype)
+#ifndef kGDataIMProtocolSkype
+#define kGDataIMProtocolSkype __NS_SYMBOL(kGDataIMProtocolSkype)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolYahoo
-#define GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolYahoo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataIMProtocolYahoo)
+#ifndef kGDataIMProtocolYahoo
+#define kGDataIMProtocolYahoo __NS_SYMBOL(kGDataIMProtocolYahoo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataFinanceDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataFinanceDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataFinanceDefaultServiceVersion)
+#ifndef kGDataFinanceDefaultServiceVersion
+#define kGDataFinanceDefaultServiceVersion __NS_SYMBOL(kGDataFinanceDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceFinance
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceFinance __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceFinance)
+#ifndef kGDataNamespaceFinance
+#define kGDataNamespaceFinance __NS_SYMBOL(kGDataNamespaceFinance)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceFinancePrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceFinancePrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceFinancePrefix)
+#ifndef kGDataNamespaceFinancePrefix
+#define kGDataNamespaceFinancePrefix __NS_SYMBOL(kGDataNamespaceFinancePrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFinancePortfolio
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFinancePortfolio __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFinancePortfolio)
+#ifndef kGDataCategoryFinancePortfolio
+#define kGDataCategoryFinancePortfolio __NS_SYMBOL(kGDataCategoryFinancePortfolio)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFinancePosition
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFinancePosition __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFinancePosition)
+#ifndef kGDataCategoryFinancePosition
+#define kGDataCategoryFinancePosition __NS_SYMBOL(kGDataCategoryFinancePosition)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFinanceTransaction
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFinanceTransaction __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryFinanceTransaction)
+#ifndef kGDataCategoryFinanceTransaction
+#define kGDataCategoryFinanceTransaction __NS_SYMBOL(kGDataCategoryFinanceTransaction)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetModeInsert
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetModeInsert __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetModeInsert)
+#ifndef kGDataNamespaceDublinCore
+#define kGDataNamespaceDublinCore __NS_SYMBOL(kGDataNamespaceDublinCore)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetModeOverwrite
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetModeOverwrite __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSpreadsheetModeOverwrite)
+#ifndef kGDataNamespaceDublinCorePrefix
+#define kGDataNamespaceDublinCorePrefix __NS_SYMBOL(kGDataNamespaceDublinCorePrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDublinCore
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDublinCore __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDublinCore)
+#ifndef kGDataSpreadsheetModeInsert
+#define kGDataSpreadsheetModeInsert __NS_SYMBOL(kGDataSpreadsheetModeInsert)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDublinCorePrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDublinCorePrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceDublinCorePrefix)
+#ifndef kGDataSpreadsheetModeOverwrite
+#define kGDataSpreadsheetModeOverwrite __NS_SYMBOL(kGDataSpreadsheetModeOverwrite)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryWorksheet
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryWorksheet __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryWorksheet)
+#ifndef kGDataPhoneNumberAssistant
+#define kGDataPhoneNumberAssistant __NS_SYMBOL(kGDataPhoneNumberAssistant)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCodeSearchDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCodeSearchDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCodeSearchDefaultServiceVersion)
+#ifndef kGDataPhoneNumberCallback
+#define kGDataPhoneNumberCallback __NS_SYMBOL(kGDataPhoneNumberCallback)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryCodeSearch
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryCodeSearch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryCodeSearch)
+#ifndef kGDataPhoneNumberCar
+#define kGDataPhoneNumberCar __NS_SYMBOL(kGDataPhoneNumberCar)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceCodeSearch
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceCodeSearch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceCodeSearch)
+#ifndef kGDataPhoneNumberCompanyMain
+#define kGDataPhoneNumberCompanyMain __NS_SYMBOL(kGDataPhoneNumberCompanyMain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceCodeSearchPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceCodeSearchPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceCodeSearchPrefix)
+#ifndef kGDataPhoneNumberFax
+#define kGDataPhoneNumberFax __NS_SYMBOL(kGDataPhoneNumberFax)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCodeSearchFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCodeSearchFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCodeSearchFeed)
+#ifndef kGDataPhoneNumberHome
+#define kGDataPhoneNumberHome __NS_SYMBOL(kGDataPhoneNumberHome)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberAssistant
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberAssistant __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberAssistant)
+#ifndef kGDataPhoneNumberHomeFax
+#define kGDataPhoneNumberHomeFax __NS_SYMBOL(kGDataPhoneNumberHomeFax)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberCallback
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberCallback __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberCallback)
+#ifndef kGDataPhoneNumberISDN
+#define kGDataPhoneNumberISDN __NS_SYMBOL(kGDataPhoneNumberISDN)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberCar
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberCar __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberCar)
+#ifndef kGDataPhoneNumberMobile
+#define kGDataPhoneNumberMobile __NS_SYMBOL(kGDataPhoneNumberMobile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberCompanyMain
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberCompanyMain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberCompanyMain)
+#ifndef kGDataPhoneNumberOther
+#define kGDataPhoneNumberOther __NS_SYMBOL(kGDataPhoneNumberOther)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberFax
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberFax __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberFax)
+#ifndef kGDataPhoneNumberOtherFax
+#define kGDataPhoneNumberOtherFax __NS_SYMBOL(kGDataPhoneNumberOtherFax)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberHome
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberHome __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberHome)
+#ifndef kGDataPhoneNumberPager
+#define kGDataPhoneNumberPager __NS_SYMBOL(kGDataPhoneNumberPager)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberHomeFax
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberHomeFax __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberHomeFax)
+#ifndef kGDataPhoneNumberRadio
+#define kGDataPhoneNumberRadio __NS_SYMBOL(kGDataPhoneNumberRadio)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberISDN
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberISDN __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberISDN)
+#ifndef kGDataPhoneNumberTelex
+#define kGDataPhoneNumberTelex __NS_SYMBOL(kGDataPhoneNumberTelex)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberMobile
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberMobile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberMobile)
+#ifndef kGDataPhoneNumberTTYTDD
+#define kGDataPhoneNumberTTYTDD __NS_SYMBOL(kGDataPhoneNumberTTYTDD)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberOther
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberOther __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberOther)
+#ifndef kGDataPhoneNumberWork
+#define kGDataPhoneNumberWork __NS_SYMBOL(kGDataPhoneNumberWork)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberOtherFax
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberOtherFax __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberOtherFax)
+#ifndef kGDataPhoneNumberWorkFax
+#define kGDataPhoneNumberWorkFax __NS_SYMBOL(kGDataPhoneNumberWorkFax)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberPager
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberPager __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberPager)
+#ifndef kGDataPhoneNumberWorkMobile
+#define kGDataPhoneNumberWorkMobile __NS_SYMBOL(kGDataPhoneNumberWorkMobile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberRadio
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberRadio __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberRadio)
+#ifndef kGDataPhoneNumberWorkPager
+#define kGDataPhoneNumberWorkPager __NS_SYMBOL(kGDataPhoneNumberWorkPager)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberTelex
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberTelex __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberTelex)
+#ifndef kGDataCategoryWorksheet
+#define kGDataCategoryWorksheet __NS_SYMBOL(kGDataCategoryWorksheet)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberTTYTDD
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberTTYTDD __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberTTYTDD)
+#ifndef kGDataCodeSearchDefaultServiceVersion
+#define kGDataCodeSearchDefaultServiceVersion __NS_SYMBOL(kGDataCodeSearchDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWork
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWork __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWork)
+#ifndef kGDataCategoryCodeSearch
+#define kGDataCategoryCodeSearch __NS_SYMBOL(kGDataCategoryCodeSearch)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWorkFax
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWorkFax __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWorkFax)
+#ifndef kGDataNamespaceCodeSearch
+#define kGDataNamespaceCodeSearch __NS_SYMBOL(kGDataNamespaceCodeSearch)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWorkMobile
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWorkMobile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWorkMobile)
+#ifndef kGDataNamespaceCodeSearchPrefix
+#define kGDataNamespaceCodeSearchPrefix __NS_SYMBOL(kGDataNamespaceCodeSearchPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWorkPager
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWorkPager __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhoneNumberWorkPager)
+#ifndef kGDataCodeSearchFeed
+#define kGDataCodeSearchFeed __NS_SYMBOL(kGDataCodeSearchFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDMyContacts
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDMyContacts __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDMyContacts)
+#ifndef kGDataSystemGroupIDMyContacts
+#define kGDataSystemGroupIDMyContacts __NS_SYMBOL(kGDataSystemGroupIDMyContacts)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDFriends
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDFriends __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDFriends)
+#ifndef kGDataSystemGroupIDFriends
+#define kGDataSystemGroupIDFriends __NS_SYMBOL(kGDataSystemGroupIDFriends)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDFamily
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDFamily __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDFamily)
+#ifndef kGDataSystemGroupIDFamily
+#define kGDataSystemGroupIDFamily __NS_SYMBOL(kGDataSystemGroupIDFamily)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDCoworkers
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDCoworkers __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSystemGroupIDCoworkers)
+#ifndef kGDataSystemGroupIDCoworkers
+#define kGDataSystemGroupIDCoworkers __NS_SYMBOL(kGDataSystemGroupIDCoworkers)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMessage
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMessage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMessage)
+#ifndef kGDataMessage
+#define kGDataMessage __NS_SYMBOL(kGDataMessage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMessageStarred
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMessageStarred __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMessageStarred)
+#ifndef kGDataMessageStarred
+#define kGDataMessageStarred __NS_SYMBOL(kGDataMessageStarred)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMessageUnread
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMessageUnread __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMessageUnread)
+#ifndef kGDataMessageUnread
+#define kGDataMessageUnread __NS_SYMBOL(kGDataMessageUnread)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMessageChat
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMessageChat __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMessageChat)
+#ifndef kGDataMessageChat
+#define kGDataMessageChat __NS_SYMBOL(kGDataMessageChat)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMessageSpam
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMessageSpam __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMessageSpam)
+#ifndef kGDataMessageSpam
+#define kGDataMessageSpam __NS_SYMBOL(kGDataMessageSpam)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMessageSent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMessageSent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMessageSent)
+#ifndef kGDataMessageSent
+#define kGDataMessageSent __NS_SYMBOL(kGDataMessageSent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMessageInbox
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMessageInbox __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMessageInbox)
+#ifndef kGDataMessageInbox
+#define kGDataMessageInbox __NS_SYMBOL(kGDataMessageInbox)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryACL
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryACL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryACL)
+#ifndef kGDataYouTubeDefaultServiceVersion
+#define kGDataYouTubeDefaultServiceVersion __NS_SYMBOL(kGDataYouTubeDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceACL
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceACL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceACL)
+#ifndef kGDataNamespaceYouTube
+#define kGDataNamespaceYouTube __NS_SYMBOL(kGDataNamespaceYouTube)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceACLPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceACLPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceACLPrefix)
+#ifndef kGDataNamespaceYouTubePrefix
+#define kGDataNamespaceYouTubePrefix __NS_SYMBOL(kGDataNamespaceYouTubePrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelACL
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelACL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelACL)
+#ifndef kGDataCategoryYouTubeVideo
+#define kGDataCategoryYouTubeVideo __NS_SYMBOL(kGDataCategoryYouTubeVideo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelControlledObject
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelControlledObject __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelControlledObject)
+#ifndef kGDataCategoryYouTubeCaptionTrack
+#define kGDataCategoryYouTubeCaptionTrack __NS_SYMBOL(kGDataCategoryYouTubeCaptionTrack)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelWebContent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelWebContent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelWebContent)
+#ifndef kGDataCategoryYouTubeComplaint
+#define kGDataCategoryYouTubeComplaint __NS_SYMBOL(kGDataCategoryYouTubeComplaint)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleSpreadsheetsPrivateFullFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleSpreadsheetsPrivateFullFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleSpreadsheetsPrivateFullFeed)
+#ifndef kGDataCategoryYouTubeComment
+#define kGDataCategoryYouTubeComment __NS_SYMBOL(kGDataCategoryYouTubeComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByUpdated
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByUpdated __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByUpdated)
+#ifndef kGDataCategoryYouTubePlaylistLink
+#define kGDataCategoryYouTubePlaylistLink __NS_SYMBOL(kGDataCategoryYouTubePlaylistLink)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByViewCount
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByViewCount __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByViewCount)
+#ifndef kGDataCategoryYouTubeSubscription
+#define kGDataCategoryYouTubeSubscription __NS_SYMBOL(kGDataCategoryYouTubeSubscription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByRating
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByRating __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByRating)
+#ifndef kGDataCategoryYouTubeFavorite
+#define kGDataCategoryYouTubeFavorite __NS_SYMBOL(kGDataCategoryYouTubeFavorite)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByRelevance
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByRelevance __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeOrderByRelevance)
+#ifndef kGDataCategoryYouTubeFriend
+#define kGDataCategoryYouTubeFriend __NS_SYMBOL(kGDataCategoryYouTubeFriend)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeDefaultServiceVersion)
+#ifndef kGDataCategoryYouTubeRating
+#define kGDataCategoryYouTubeRating __NS_SYMBOL(kGDataCategoryYouTubeRating)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodToday
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodToday __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodToday)
+#ifndef kGDataCategoryYouTubeUserProfile
+#define kGDataCategoryYouTubeUserProfile __NS_SYMBOL(kGDataCategoryYouTubeUserProfile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceYouTube
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceYouTube __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceYouTube)
+#ifndef kGDataCategoryYouTubeUserEvent
+#define kGDataCategoryYouTubeUserEvent __NS_SYMBOL(kGDataCategoryYouTubeUserEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodThisWeek
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodThisWeek __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodThisWeek)
+#ifndef kGDataCategoryYouTubeChannel
+#define kGDataCategoryYouTubeChannel __NS_SYMBOL(kGDataCategoryYouTubeChannel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceYouTubePrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceYouTubePrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceYouTubePrefix)
+#ifndef kGDataCategoryYouTubePlaylist
+#define kGDataCategoryYouTubePlaylist __NS_SYMBOL(kGDataCategoryYouTubePlaylist)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodThisMonth
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodThisMonth __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodThisMonth)
+#ifndef kGDataCategoryYouTubeVideoMessage
+#define kGDataCategoryYouTubeVideoMessage __NS_SYMBOL(kGDataCategoryYouTubeVideoMessage)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeVideo
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeVideo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeVideo)
+#ifndef kGDataSchemeYouTubeSubscription
+#define kGDataSchemeYouTubeSubscription __NS_SYMBOL(kGDataSchemeYouTubeSubscription)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodAllTime
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodAllTime __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubePeriodAllTime)
+#ifndef kGDataSchemeYouTubeChannel
+#define kGDataSchemeYouTubeChannel __NS_SYMBOL(kGDataSchemeYouTubeChannel)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeCaptionTrack
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeCaptionTrack __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeCaptionTrack)
+#ifndef kGDataSchemeYouTubeContact
+#define kGDataSchemeYouTubeContact __NS_SYMBOL(kGDataSchemeYouTubeContact)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeSafeSearchNone
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeSafeSearchNone __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeSafeSearchNone)
+#ifndef kGDataSchemeYouTubeChannelType
+#define kGDataSchemeYouTubeChannelType __NS_SYMBOL(kGDataSchemeYouTubeChannelType)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeComplaint
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeComplaint __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeComplaint)
+#ifndef kGDataSchemeYouTubeTag
+#define kGDataSchemeYouTubeTag __NS_SYMBOL(kGDataSchemeYouTubeTag)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeSafeSearchStrict
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeSafeSearchStrict __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeSafeSearchStrict)
+#ifndef kGDataSchemeYouTubeKeyword
+#define kGDataSchemeYouTubeKeyword __NS_SYMBOL(kGDataSchemeYouTubeKeyword)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeComment
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeComment)
+#ifndef kGDataSchemeYouTubeCategory
+#define kGDataSchemeYouTubeCategory __NS_SYMBOL(kGDataSchemeYouTubeCategory)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeSafeSearchModerate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeSafeSearchModerate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeSafeSearchModerate)
+#ifndef kGDataSchemeYouTubeDeveloper
+#define kGDataSchemeYouTubeDeveloper __NS_SYMBOL(kGDataSchemeYouTubeDeveloper)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubePlaylistLink
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubePlaylistLink __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubePlaylistLink)
+#ifndef kGDataSchemeYouTubeUserEvents
+#define kGDataSchemeYouTubeUserEvents __NS_SYMBOL(kGDataSchemeYouTubeUserEvents)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeCaptionTrackFormatSubviewer
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeCaptionTrackFormatSubviewer __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeCaptionTrackFormatSubviewer)
+#ifndef kGDataSchemeYouTubeComplaintReasons
+#define kGDataSchemeYouTubeComplaintReasons __NS_SYMBOL(kGDataSchemeYouTubeComplaintReasons)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeSubscription
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeSubscription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeSubscription)
+#ifndef kGDataLinkYouTubePlaylist
+#define kGDataLinkYouTubePlaylist __NS_SYMBOL(kGDataLinkYouTubePlaylist)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeCaptionTrackFormatSubrip
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeCaptionTrackFormatSubrip __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeCaptionTrackFormatSubrip)
+#ifndef kGDataLinkYouTubeUploads
+#define kGDataLinkYouTubeUploads __NS_SYMBOL(kGDataLinkYouTubeUploads)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeFavorite
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeFavorite __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeFavorite)
+#ifndef kGDataLinkYouTubeFeatured
+#define kGDataLinkYouTubeFeatured __NS_SYMBOL(kGDataLinkYouTubeFeatured)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeFriend
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeFriend __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeFriend)
+#ifndef kGDataLinkYouTubeSubscriptions
+#define kGDataLinkYouTubeSubscriptions __NS_SYMBOL(kGDataLinkYouTubeSubscriptions)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeRating
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeRating __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeRating)
+#ifndef kGDataLinkYouTubePlaylists
+#define kGDataLinkYouTubePlaylists __NS_SYMBOL(kGDataLinkYouTubePlaylists)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeUserProfile
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeUserProfile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeUserProfile)
+#ifndef kGDataLinkYouTubeFriendsActivity
+#define kGDataLinkYouTubeFriendsActivity __NS_SYMBOL(kGDataLinkYouTubeFriendsActivity)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeUserEvent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeUserEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeUserEvent)
+#ifndef kGDataLinkYouTubeRecentActivity
+#define kGDataLinkYouTubeRecentActivity __NS_SYMBOL(kGDataLinkYouTubeRecentActivity)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeChannel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeChannel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeChannel)
+#ifndef kGDataLinkYouTubeFavorites
+#define kGDataLinkYouTubeFavorites __NS_SYMBOL(kGDataLinkYouTubeFavorites)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubePlaylist
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubePlaylist __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubePlaylist)
+#ifndef kGDataLinkYouTubeContacts
+#define kGDataLinkYouTubeContacts __NS_SYMBOL(kGDataLinkYouTubeContacts)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeVideoMessage
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeVideoMessage __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryYouTubeVideoMessage)
+#ifndef kGDataLinkYouTubeInbox
+#define kGDataLinkYouTubeInbox __NS_SYMBOL(kGDataLinkYouTubeInbox)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeSubscription
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeSubscription __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeSubscription)
+#ifndef kGDataLinkYouTubeMobile
+#define kGDataLinkYouTubeMobile __NS_SYMBOL(kGDataLinkYouTubeMobile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeChannel
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeChannel __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeChannel)
+#ifndef kGDataLinkYouTubeResponses
+#define kGDataLinkYouTubeResponses __NS_SYMBOL(kGDataLinkYouTubeResponses)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeContact
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeContact __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeContact)
+#ifndef kGDataLinkYouTubeRatings
+#define kGDataLinkYouTubeRatings __NS_SYMBOL(kGDataLinkYouTubeRatings)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeChannelType
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeChannelType __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeChannelType)
+#ifndef kGDataCategoryACL
+#define kGDataCategoryACL __NS_SYMBOL(kGDataCategoryACL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeTag
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeTag __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeTag)
+#ifndef kGDataLinkYouTubeCaptionTracks
+#define kGDataLinkYouTubeCaptionTracks __NS_SYMBOL(kGDataLinkYouTubeCaptionTracks)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeKeyword
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeKeyword __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeKeyword)
+#ifndef kGDataLinkYouTubeComments
+#define kGDataLinkYouTubeComments __NS_SYMBOL(kGDataLinkYouTubeComments)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeCategory
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeCategory __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeCategory)
+#ifndef kGDataNamespaceACL
+#define kGDataNamespaceACL __NS_SYMBOL(kGDataNamespaceACL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeDeveloper
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeDeveloper __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeDeveloper)
+#ifndef kGDataLinkYouTubeComplaints
+#define kGDataLinkYouTubeComplaints __NS_SYMBOL(kGDataLinkYouTubeComplaints)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeUserEvents
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeUserEvents __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeUserEvents)
+#ifndef kGDataNamespaceACLPrefix
+#define kGDataNamespaceACLPrefix __NS_SYMBOL(kGDataNamespaceACLPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeComplaintReasons
-#define GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeComplaintReasons __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataSchemeYouTubeComplaintReasons)
+#ifndef kGDataLinkRelACL
+#define kGDataLinkRelACL __NS_SYMBOL(kGDataLinkRelACL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubePlaylist
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubePlaylist __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubePlaylist)
+#ifndef kGDataLinkYouTubeRelated
+#define kGDataLinkYouTubeRelated __NS_SYMBOL(kGDataLinkYouTubeRelated)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeUploads
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeUploads __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeUploads)
+#ifndef kGDataLinkRelControlledObject
+#define kGDataLinkRelControlledObject __NS_SYMBOL(kGDataLinkRelControlledObject)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeFeatured
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeFeatured __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeFeatured)
+#ifndef kGDataLinkYouTubeChannelContent
+#define kGDataLinkYouTubeChannelContent __NS_SYMBOL(kGDataLinkYouTubeChannelContent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeSubscriptions
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeSubscriptions __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeSubscriptions)
+#ifndef kGDataLinkYouTubeInReplyTo
+#define kGDataLinkYouTubeInReplyTo __NS_SYMBOL(kGDataLinkYouTubeInReplyTo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubePlaylists
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubePlaylists __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubePlaylists)
+#ifndef kGDataLinkYouTubeVideoQuery
+#define kGDataLinkYouTubeVideoQuery __NS_SYMBOL(kGDataLinkYouTubeVideoQuery)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeFriendsActivity
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeFriendsActivity __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeFriendsActivity)
+#ifndef kGDataLinkYouTubeNewSubscriptionVideos
+#define kGDataLinkYouTubeNewSubscriptionVideos __NS_SYMBOL(kGDataLinkYouTubeNewSubscriptionVideos)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeRecentActivity
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeRecentActivity __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeRecentActivity)
+#ifndef kGDataLinkYouTubeVlog
+#define kGDataLinkYouTubeVlog __NS_SYMBOL(kGDataLinkYouTubeVlog)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeFavorites
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeFavorites __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeFavorites)
+#ifndef kGDataLinkYouTubeGetUploadToken
+#define kGDataLinkYouTubeGetUploadToken __NS_SYMBOL(kGDataLinkYouTubeGetUploadToken)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeContacts
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeContacts __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeContacts)
+#ifndef kGDataLinkYouTubeVideo
+#define kGDataLinkYouTubeVideo __NS_SYMBOL(kGDataLinkYouTubeVideo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeInbox
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeInbox __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeInbox)
+#ifndef kGDataLinkYouTubeInsightViews
+#define kGDataLinkYouTubeInsightViews __NS_SYMBOL(kGDataLinkYouTubeInsightViews)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeMobile
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeMobile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeMobile)
+#ifndef kGDataYouTubeUserEventVideoUploaded
+#define kGDataYouTubeUserEventVideoUploaded __NS_SYMBOL(kGDataYouTubeUserEventVideoUploaded)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeResponses
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeResponses __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeResponses)
+#ifndef kGDataYouTubeUserEventVideoRated
+#define kGDataYouTubeUserEventVideoRated __NS_SYMBOL(kGDataYouTubeUserEventVideoRated)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeRatings
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeRatings __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeRatings)
+#ifndef kGDataYouTubeUserEventVideoFavorited
+#define kGDataYouTubeUserEventVideoFavorited __NS_SYMBOL(kGDataYouTubeUserEventVideoFavorited)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeCaptionTracks
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeCaptionTracks __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeCaptionTracks)
+#ifndef kGDataYouTubeUserEventVideoShared
+#define kGDataYouTubeUserEventVideoShared __NS_SYMBOL(kGDataYouTubeUserEventVideoShared)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeComments
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeComments __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeComments)
+#ifndef kGDataYouTubeUserEventVideoCommented
+#define kGDataYouTubeUserEventVideoCommented __NS_SYMBOL(kGDataYouTubeUserEventVideoCommented)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeComplaints
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeComplaints __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeComplaints)
+#ifndef kGDataYouTubeUserEventUserSubscriptionAdded
+#define kGDataYouTubeUserEventUserSubscriptionAdded __NS_SYMBOL(kGDataYouTubeUserEventUserSubscriptionAdded)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeRelated
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeRelated __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeRelated)
+#ifndef kGDataYouTubeUserEventFriendAdded
+#define kGDataYouTubeUserEventFriendAdded __NS_SYMBOL(kGDataYouTubeUserEventFriendAdded)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeChannelContent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeChannelContent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeChannelContent)
+#ifndef kGDataYouTubeRatingValueLike
+#define kGDataYouTubeRatingValueLike __NS_SYMBOL(kGDataYouTubeRatingValueLike)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeInReplyTo
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeInReplyTo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeInReplyTo)
+#ifndef kGDataYouTubeRatingValueDislike
+#define kGDataYouTubeRatingValueDislike __NS_SYMBOL(kGDataYouTubeRatingValueDislike)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeVideoQuery
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeVideoQuery __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeVideoQuery)
+#ifndef kGDataYouTubeDerivedSpeechRecogniion
+#define kGDataYouTubeDerivedSpeechRecogniion __NS_SYMBOL(kGDataYouTubeDerivedSpeechRecogniion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeNewSubscriptionVideos
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeNewSubscriptionVideos __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeNewSubscriptionVideos)
+#ifndef kGDataYouTubeOrderByUpdated
+#define kGDataYouTubeOrderByUpdated __NS_SYMBOL(kGDataYouTubeOrderByUpdated)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeVlog
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeVlog __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeVlog)
+#ifndef kGDataYouTubeOrderByViewCount
+#define kGDataYouTubeOrderByViewCount __NS_SYMBOL(kGDataYouTubeOrderByViewCount)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeGetUploadToken
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeGetUploadToken __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeGetUploadToken)
+#ifndef kGDataYouTubeOrderByRating
+#define kGDataYouTubeOrderByRating __NS_SYMBOL(kGDataYouTubeOrderByRating)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeVideo
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeVideo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeVideo)
+#ifndef kGDataYouTubeOrderByRelevance
+#define kGDataYouTubeOrderByRelevance __NS_SYMBOL(kGDataYouTubeOrderByRelevance)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeInsightViews
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeInsightViews __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkYouTubeInsightViews)
+#ifndef kGDataYouTubePeriodToday
+#define kGDataYouTubePeriodToday __NS_SYMBOL(kGDataYouTubePeriodToday)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoUploaded
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoUploaded __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoUploaded)
+#ifndef kGDataYouTubePeriodThisWeek
+#define kGDataYouTubePeriodThisWeek __NS_SYMBOL(kGDataYouTubePeriodThisWeek)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoRated
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoRated __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoRated)
+#ifndef kGDataYouTubePeriodThisMonth
+#define kGDataYouTubePeriodThisMonth __NS_SYMBOL(kGDataYouTubePeriodThisMonth)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoFavorited
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoFavorited __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoFavorited)
+#ifndef kGDataYouTubePeriodAllTime
+#define kGDataYouTubePeriodAllTime __NS_SYMBOL(kGDataYouTubePeriodAllTime)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoShared
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoShared __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoShared)
+#ifndef kGDataYouTubeSafeSearchNone
+#define kGDataYouTubeSafeSearchNone __NS_SYMBOL(kGDataYouTubeSafeSearchNone)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoCommented
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoCommented __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventVideoCommented)
+#ifndef kGDataYouTubeSafeSearchStrict
+#define kGDataYouTubeSafeSearchStrict __NS_SYMBOL(kGDataYouTubeSafeSearchStrict)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventUserSubscriptionAdded
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventUserSubscriptionAdded __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventUserSubscriptionAdded)
+#ifndef kGDataYouTubeSafeSearchModerate
+#define kGDataYouTubeSafeSearchModerate __NS_SYMBOL(kGDataYouTubeSafeSearchModerate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventFriendAdded
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventFriendAdded __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserEventFriendAdded)
+#ifndef kGDataYouTubeCaptionTrackFormatSubviewer
+#define kGDataYouTubeCaptionTrackFormatSubviewer __NS_SYMBOL(kGDataYouTubeCaptionTrackFormatSubviewer)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeRatingValueLike
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeRatingValueLike __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeRatingValueLike)
+#ifndef kGDataYouTubeCaptionTrackFormatSubrip
+#define kGDataYouTubeCaptionTrackFormatSubrip __NS_SYMBOL(kGDataYouTubeCaptionTrackFormatSubrip)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeRatingValueDislike
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeRatingValueDislike __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeRatingValueDislike)
+#ifndef kGDataLinkRelWebContent
+#define kGDataLinkRelWebContent __NS_SYMBOL(kGDataLinkRelWebContent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeDerivedSpeechRecogniion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeDerivedSpeechRecogniion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeDerivedSpeechRecogniion)
+#ifndef kGDataGoogleSpreadsheetsPrivateFullFeed
+#define kGDataGoogleSpreadsheetsPrivateFullFeed __NS_SYMBOL(kGDataGoogleSpreadsheetsPrivateFullFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleFinanceDefaultPortfoliosFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleFinanceDefaultPortfoliosFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleFinanceDefaultPortfoliosFeed)
+#ifndef kGDataNamespaceAtomThreading
+#define kGDataNamespaceAtomThreading __NS_SYMBOL(kGDataNamespaceAtomThreading)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomThreading
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomThreading __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomThreading)
+#ifndef kGDataNamespaceAtomThreadingPrefix
+#define kGDataNamespaceAtomThreadingPrefix __NS_SYMBOL(kGDataNamespaceAtomThreadingPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomThreadingPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomThreadingPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomThreadingPrefix)
+#ifndef kGDataWhoEventAttendee
+#define kGDataWhoEventAttendee __NS_SYMBOL(kGDataWhoEventAttendee)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelScheme
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelScheme __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelScheme)
+#ifndef kGDataWhoEventOrganizer
+#define kGDataWhoEventOrganizer __NS_SYMBOL(kGDataWhoEventOrganizer)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsFeedTypeSitemaps
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsFeedTypeSitemaps __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsFeedTypeSitemaps)
+#ifndef kGDataWhoEventSpeaker
+#define kGDataWhoEventSpeaker __NS_SYMBOL(kGDataWhoEventSpeaker)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventAttendee
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventAttendee __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventAttendee)
+#ifndef kGDataWhoEventPerformer
+#define kGDataWhoEventPerformer __NS_SYMBOL(kGDataWhoEventPerformer)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelStarred
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelStarred __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelStarred)
+#ifndef kGDataWhoAttendeeTypeRequired
+#define kGDataWhoAttendeeTypeRequired __NS_SYMBOL(kGDataWhoAttendeeTypeRequired)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsFeedTypeKeywords
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsFeedTypeKeywords __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsFeedTypeKeywords)
+#ifndef kGDataWhoAttendeeTypeOptional
+#define kGDataWhoAttendeeTypeOptional __NS_SYMBOL(kGDataWhoAttendeeTypeOptional)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventOrganizer
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventOrganizer __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventOrganizer)
+#ifndef kGDataWhoAttendeeStatusInvited
+#define kGDataWhoAttendeeStatusInvited __NS_SYMBOL(kGDataWhoAttendeeStatusInvited)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelTrashed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelTrashed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelTrashed)
+#ifndef kGDataWhoAttendeeStatusAccepted
+#define kGDataWhoAttendeeStatusAccepted __NS_SYMBOL(kGDataWhoAttendeeStatusAccepted)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsFeedTypeCrawlIssues
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsFeedTypeCrawlIssues __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWebmasterToolsFeedTypeCrawlIssues)
+#ifndef kGDataWhoAttendeeStatusTentative
+#define kGDataWhoAttendeeStatusTentative __NS_SYMBOL(kGDataWhoAttendeeStatusTentative)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventSpeaker
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventSpeaker __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventSpeaker)
+#ifndef kGDataWhoAttendeeStatusDeclined
+#define kGDataWhoAttendeeStatusDeclined __NS_SYMBOL(kGDataWhoAttendeeStatusDeclined)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelPublished
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelPublished __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelPublished)
+#ifndef kGDataWhoTaskAssignedTo
+#define kGDataWhoTaskAssignedTo __NS_SYMBOL(kGDataWhoTaskAssignedTo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleWebmasterToolsSitesFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleWebmasterToolsSitesFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleWebmasterToolsSitesFeed)
+#ifndef kGDataWhoMessageFrom
+#define kGDataWhoMessageFrom __NS_SYMBOL(kGDataWhoMessageFrom)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventPerformer
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventPerformer __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoEventPerformer)
+#ifndef kGDataWhoMessageTo
+#define kGDataWhoMessageTo __NS_SYMBOL(kGDataWhoMessageTo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelPrivate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelPrivate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelPrivate)
+#ifndef kGDataWhoMessageCC
+#define kGDataWhoMessageCC __NS_SYMBOL(kGDataWhoMessageCC)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleWebmasterToolsMessagesFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleWebmasterToolsMessagesFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleWebmasterToolsMessagesFeed)
+#ifndef kGDataWhoMessageBCC
+#define kGDataWhoMessageBCC __NS_SYMBOL(kGDataWhoMessageBCC)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeTypeRequired
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeTypeRequired __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeTypeRequired)
+#ifndef kGDataGoogleFinanceDefaultPortfoliosFeed
+#define kGDataGoogleFinanceDefaultPortfoliosFeed __NS_SYMBOL(kGDataGoogleFinanceDefaultPortfoliosFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelMine
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelMine __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelMine)
+#ifndef kGDataCategoryLabelScheme
+#define kGDataCategoryLabelScheme __NS_SYMBOL(kGDataCategoryLabelScheme)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeTypeOptional
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeTypeOptional __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeTypeOptional)
+#ifndef kGDataCategoryLabelStarred
+#define kGDataCategoryLabelStarred __NS_SYMBOL(kGDataCategoryLabelStarred)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelSharedWithDomain
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelSharedWithDomain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelSharedWithDomain)
+#ifndef kGDataCategoryLabelTrashed
+#define kGDataCategoryLabelTrashed __NS_SYMBOL(kGDataCategoryLabelTrashed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusInvited
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusInvited __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusInvited)
+#ifndef kGDataCategoryLabelPublished
+#define kGDataCategoryLabelPublished __NS_SYMBOL(kGDataCategoryLabelPublished)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelHidden
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelHidden __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelHidden)
+#ifndef kGDataCategoryLabelPrivate
+#define kGDataCategoryLabelPrivate __NS_SYMBOL(kGDataCategoryLabelPrivate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusAccepted
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusAccepted __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusAccepted)
+#ifndef kGDataCategoryLabelMine
+#define kGDataCategoryLabelMine __NS_SYMBOL(kGDataCategoryLabelMine)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelViewed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelViewed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelViewed)
+#ifndef kGDataCategoryLabelSharedWithDomain
+#define kGDataCategoryLabelSharedWithDomain __NS_SYMBOL(kGDataCategoryLabelSharedWithDomain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusTentative
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusTentative __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusTentative)
+#ifndef kGDataCategoryLabelHidden
+#define kGDataCategoryLabelHidden __NS_SYMBOL(kGDataCategoryLabelHidden)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelShared
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelShared __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryLabelShared)
+#ifndef kGDataCategoryLabelViewed
+#define kGDataCategoryLabelViewed __NS_SYMBOL(kGDataCategoryLabelViewed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusDeclined
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusDeclined __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoAttendeeStatusDeclined)
+#ifndef kGDataCategoryLabelShared
+#define kGDataCategoryLabelShared __NS_SYMBOL(kGDataCategoryLabelShared)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoTaskAssignedTo
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoTaskAssignedTo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoTaskAssignedTo)
+#ifndef kGDataWebmasterToolsFeedTypeSitemaps
+#define kGDataWebmasterToolsFeedTypeSitemaps __NS_SYMBOL(kGDataWebmasterToolsFeedTypeSitemaps)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageFrom
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageFrom __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageFrom)
+#ifndef kGDataWebmasterToolsFeedTypeKeywords
+#define kGDataWebmasterToolsFeedTypeKeywords __NS_SYMBOL(kGDataWebmasterToolsFeedTypeKeywords)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageTo
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageTo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageTo)
+#ifndef kGDataWebmasterToolsFeedTypeCrawlIssues
+#define kGDataWebmasterToolsFeedTypeCrawlIssues __NS_SYMBOL(kGDataWebmasterToolsFeedTypeCrawlIssues)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageCC
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageCC __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageCC)
+#ifndef kGDataGoogleWebmasterToolsSitesFeed
+#define kGDataGoogleWebmasterToolsSitesFeed __NS_SYMBOL(kGDataGoogleWebmasterToolsSitesFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageBCC
-#define GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageBCC __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataWhoMessageBCC)
+#ifndef kGDataGoogleWebmasterToolsMessagesFeed
+#define kGDataGoogleWebmasterToolsMessagesFeed __NS_SYMBOL(kGDataGoogleWebmasterToolsMessagesFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksVolumeFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksVolumeFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksVolumeFeed)
+#ifndef kGDataGoogleBooksVolumeFeed
+#define kGDataGoogleBooksVolumeFeed __NS_SYMBOL(kGDataGoogleBooksVolumeFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksLibraryCollection
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksLibraryCollection __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleBooksLibraryCollection)
+#ifndef kGDataGoogleBooksLibraryCollection
+#define kGDataGoogleBooksLibraryCollection __NS_SYMBOL(kGDataGoogleBooksLibraryCollection)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsLastModified
-#define GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsLastModified __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsLastModified)
+#ifndef kGDataQueryDocsLastModified
+#define kGDataQueryDocsLastModified __NS_SYMBOL(kGDataQueryDocsLastModified)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsLastViewed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsLastViewed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsLastViewed)
+#ifndef kGDataQueryDocsLastViewed
+#define kGDataQueryDocsLastViewed __NS_SYMBOL(kGDataQueryDocsLastViewed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsTitle
-#define GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsTitle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsTitle)
+#ifndef kGDataQueryDocsTitle
+#define kGDataQueryDocsTitle __NS_SYMBOL(kGDataQueryDocsTitle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsStarred
-#define GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsStarred __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataQueryDocsStarred)
+#ifndef kGDataQueryDocsStarred
+#define kGDataQueryDocsStarred __NS_SYMBOL(kGDataQueryDocsStarred)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataExtendedPropertyRealmShared
-#define GDATA_OBJECTIVEC_CLIENT_kGDataExtendedPropertyRealmShared __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataExtendedPropertyRealmShared)
+#ifndef kGDataExtendedPropertyRealmShared
+#define kGDataExtendedPropertyRealmShared __NS_SYMBOL(kGDataExtendedPropertyRealmShared)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleAnalyticsDefaultAccountFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleAnalyticsDefaultAccountFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleAnalyticsDefaultAccountFeed)
+#ifndef kGDataGoogleAnalyticsDefaultAccountFeed
+#define kGDataGoogleAnalyticsDefaultAccountFeed __NS_SYMBOL(kGDataGoogleAnalyticsDefaultAccountFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionFull
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionFull __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionFull)
+#ifndef kGDataMapsProjectionFull
+#define kGDataMapsProjectionFull __NS_SYMBOL(kGDataMapsProjectionFull)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionBookmarked
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionBookmarked __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionBookmarked)
+#ifndef kGDataMapsProjectionBookmarked
+#define kGDataMapsProjectionBookmarked __NS_SYMBOL(kGDataMapsProjectionBookmarked)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionOwned
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionOwned __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionOwned)
+#ifndef kGDataMapsProjectionOwned
+#define kGDataMapsProjectionOwned __NS_SYMBOL(kGDataMapsProjectionOwned)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionPublic
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionPublic __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionPublic)
+#ifndef kGDataMapsProjectionPublic
+#define kGDataMapsProjectionPublic __NS_SYMBOL(kGDataMapsProjectionPublic)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionUnlisted
-#define GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionUnlisted __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataMapsProjectionUnlisted)
+#ifndef kGDataMapsProjectionUnlisted
+#define kGDataMapsProjectionUnlisted __NS_SYMBOL(kGDataMapsProjectionUnlisted)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAllFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAllFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAllFeed)
+#ifndef kGDataLinkRelFeed
+#define kGDataLinkRelFeed __NS_SYMBOL(kGDataLinkRelFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessAll
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessAll __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessAll)
+#ifndef kGDataLinkRelPost
+#define kGDataLinkRelPost __NS_SYMBOL(kGDataLinkRelPost)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessPublic
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessPublic __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessPublic)
+#ifndef kGDataLinkRelBatch
+#define kGDataLinkRelBatch __NS_SYMBOL(kGDataLinkRelBatch)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessProtected
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessProtected __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessProtected)
+#ifndef kGDataLinkRelResumableCreate
+#define kGDataLinkRelResumableCreate __NS_SYMBOL(kGDataLinkRelResumableCreate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessPrivate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessPrivate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessPrivate)
+#ifndef kGDataGooglePhotosAllFeed
+#define kGDataGooglePhotosAllFeed __NS_SYMBOL(kGDataGooglePhotosAllFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessVisible
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessVisible __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosAccessVisible)
+#ifndef kGDataLinkRelResumableEdit
+#define kGDataLinkRelResumableEdit __NS_SYMBOL(kGDataLinkRelResumableEdit)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindAlbum
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindAlbum __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindAlbum)
+#ifndef kGDataGooglePhotosAccessAll
+#define kGDataGooglePhotosAccessAll __NS_SYMBOL(kGDataGooglePhotosAccessAll)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindPhoto
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindPhoto __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindPhoto)
+#ifndef kGDataLinkTypeAtom
+#define kGDataLinkTypeAtom __NS_SYMBOL(kGDataLinkTypeAtom)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindComment
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindComment __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindComment)
+#ifndef kGDataGooglePhotosAccessPublic
+#define kGDataGooglePhotosAccessPublic __NS_SYMBOL(kGDataGooglePhotosAccessPublic)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindTag
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindTag __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindTag)
+#ifndef kGDataLinkTypeHTML
+#define kGDataLinkTypeHTML __NS_SYMBOL(kGDataLinkTypeHTML)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindUser
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindUser __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosKindUser)
+#ifndef kGDataGooglePhotosAccessProtected
+#define kGDataGooglePhotosAccessProtected __NS_SYMBOL(kGDataGooglePhotosAccessProtected)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosDropBoxUploadURL
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosDropBoxUploadURL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosDropBoxUploadURL)
+#ifndef kGDataGooglePhotosAccessPrivate
+#define kGDataGooglePhotosAccessPrivate __NS_SYMBOL(kGDataGooglePhotosAccessPrivate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosDropBoxAlbumID
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosDropBoxAlbumID __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGooglePhotosDropBoxAlbumID)
+#ifndef kGDataGooglePhotosAccessVisible
+#define kGDataGooglePhotosAccessVisible __NS_SYMBOL(kGDataGooglePhotosAccessVisible)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelFeed)
+#ifndef kGDataGooglePhotosKindAlbum
+#define kGDataGooglePhotosKindAlbum __NS_SYMBOL(kGDataGooglePhotosKindAlbum)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelPost
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelPost __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelPost)
+#ifndef kGDataGooglePhotosKindPhoto
+#define kGDataGooglePhotosKindPhoto __NS_SYMBOL(kGDataGooglePhotosKindPhoto)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelBatch
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelBatch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelBatch)
+#ifndef kGDataGooglePhotosKindComment
+#define kGDataGooglePhotosKindComment __NS_SYMBOL(kGDataGooglePhotosKindComment)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelResumableCreate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelResumableCreate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelResumableCreate)
+#ifndef kGDataGooglePhotosKindTag
+#define kGDataGooglePhotosKindTag __NS_SYMBOL(kGDataGooglePhotosKindTag)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelResumableEdit
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelResumableEdit __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkRelResumableEdit)
+#ifndef kGDataGooglePhotosKindUser
+#define kGDataGooglePhotosKindUser __NS_SYMBOL(kGDataGooglePhotosKindUser)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkTypeAtom
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkTypeAtom __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkTypeAtom)
+#ifndef kGDataGooglePhotosDropBoxUploadURL
+#define kGDataGooglePhotosDropBoxUploadURL __NS_SYMBOL(kGDataGooglePhotosDropBoxUploadURL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataLinkTypeHTML
-#define GDATA_OBJECTIVEC_CLIENT_kGDataLinkTypeHTML __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataLinkTypeHTML)
+#ifndef kGDataGooglePhotosDropBoxAlbumID
+#define kGDataGooglePhotosDropBoxAlbumID __NS_SYMBOL(kGDataGooglePhotosDropBoxAlbumID)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultFeed)
+#ifndef kGDataNamespaceMedia
+#define kGDataNamespaceMedia __NS_SYMBOL(kGDataNamespaceMedia)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultOwnCalendarsFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultOwnCalendarsFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultOwnCalendarsFeed)
+#ifndef kGDataNamespaceMediaPrefix
+#define kGDataNamespaceMediaPrefix __NS_SYMBOL(kGDataNamespaceMediaPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultAllCalendarsFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultAllCalendarsFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultAllCalendarsFeed)
+#ifndef kGDataYouTubeMediaContentFormatRTSPStream
+#define kGDataYouTubeMediaContentFormatRTSPStream __NS_SYMBOL(kGDataYouTubeMediaContentFormatRTSPStream)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultPrivateFullFeed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultPrivateFullFeed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleCalendarDefaultPrivateFullFeed)
+#ifndef kGDataYouTubeMediaContentFormatHTTPURL
+#define kGDataYouTubeMediaContentFormatHTTPURL __NS_SYMBOL(kGDataYouTubeMediaContentFormatHTTPURL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceMedia
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceMedia __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceMedia)
+#ifndef kGDataYouTubeMediaContentFormatMobileRTSPStream
+#define kGDataYouTubeMediaContentFormatMobileRTSPStream __NS_SYMBOL(kGDataYouTubeMediaContentFormatMobileRTSPStream)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceMediaPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceMediaPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceMediaPrefix)
+#ifndef kGDataGoogleCalendarDefaultFeed
+#define kGDataGoogleCalendarDefaultFeed __NS_SYMBOL(kGDataGoogleCalendarDefaultFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataContentTypeKML
-#define GDATA_OBJECTIVEC_CLIENT_kGDataContentTypeKML __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataContentTypeKML)
+#ifndef kGDataGoogleCalendarDefaultOwnCalendarsFeed
+#define kGDataGoogleCalendarDefaultOwnCalendarsFeed __NS_SYMBOL(kGDataGoogleCalendarDefaultOwnCalendarsFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeMediaContentFormatRTSPStream
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeMediaContentFormatRTSPStream __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeMediaContentFormatRTSPStream)
+#ifndef kGDataGoogleCalendarDefaultAllCalendarsFeed
+#define kGDataGoogleCalendarDefaultAllCalendarsFeed __NS_SYMBOL(kGDataGoogleCalendarDefaultAllCalendarsFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeMediaContentFormatHTTPURL
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeMediaContentFormatHTTPURL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeMediaContentFormatHTTPURL)
+#ifndef kGDataGoogleCalendarDefaultPrivateFullFeed
+#define kGDataGoogleCalendarDefaultPrivateFullFeed __NS_SYMBOL(kGDataGoogleCalendarDefaultPrivateFullFeed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeMediaContentFormatMobileRTSPStream
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeMediaContentFormatMobileRTSPStream __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeMediaContentFormatMobileRTSPStream)
+#ifndef kGDataContentTypeKML
+#define kGDataContentTypeKML __NS_SYMBOL(kGDataContentTypeKML)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactAllContactsFeedName
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactAllContactsFeedName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactAllContactsFeedName)
+#ifndef kGDataGoogleContactAllContactsFeedName
+#define kGDataGoogleContactAllContactsFeedName __NS_SYMBOL(kGDataGoogleContactAllContactsFeedName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactGroupsFeedName
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactGroupsFeedName __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactGroupsFeedName)
+#ifndef kGDataGoogleContactGroupsFeedName
+#define kGDataGoogleContactGroupsFeedName __NS_SYMBOL(kGDataGoogleContactGroupsFeedName)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactFullProjection
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactFullProjection __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactFullProjection)
+#ifndef kGDataGoogleContactFullProjection
+#define kGDataGoogleContactFullProjection __NS_SYMBOL(kGDataGoogleContactFullProjection)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactThinProjection
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactThinProjection __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleContactThinProjection)
+#ifndef kGDataGoogleContactThinProjection
+#define kGDataGoogleContactThinProjection __NS_SYMBOL(kGDataGoogleContactThinProjection)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsVisibilityPrivate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsVisibilityPrivate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsVisibilityPrivate)
+#ifndef kGDataGoogleDocsVisibilityPrivate
+#define kGDataGoogleDocsVisibilityPrivate __NS_SYMBOL(kGDataGoogleDocsVisibilityPrivate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsProjectionFull
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsProjectionFull __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsProjectionFull)
+#ifndef kGDataGoogleDocsProjectionFull
+#define kGDataGoogleDocsProjectionFull __NS_SYMBOL(kGDataGoogleDocsProjectionFull)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsProjectionExpandACL
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsProjectionExpandACL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsProjectionExpandACL)
+#ifndef kGDataGoogleDocsProjectionExpandACL
+#define kGDataGoogleDocsProjectionExpandACL __NS_SYMBOL(kGDataGoogleDocsProjectionExpandACL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsFeedTypeFolderContents
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsFeedTypeFolderContents __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsFeedTypeFolderContents)
+#ifndef kGDataGoogleDocsFeedTypeFolderContents
+#define kGDataGoogleDocsFeedTypeFolderContents __NS_SYMBOL(kGDataGoogleDocsFeedTypeFolderContents)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsFeedTypeACL
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsFeedTypeACL __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsFeedTypeACL)
+#ifndef kGDataGoogleDocsFeedTypeACL
+#define kGDataGoogleDocsFeedTypeACL __NS_SYMBOL(kGDataGoogleDocsFeedTypeACL)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsFeedTypeRevisions
-#define GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsFeedTypeRevisions __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataGoogleDocsFeedTypeRevisions)
+#ifndef kGDataGoogleDocsFeedTypeRevisions
+#define kGDataGoogleDocsFeedTypeRevisions __NS_SYMBOL(kGDataGoogleDocsFeedTypeRevisions)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataErrorDomainCore
-#define GDATA_OBJECTIVEC_CLIENT_kGDataErrorDomainCore __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataErrorDomainCore)
+#ifndef kGDataCalendarDefaultServiceVersion
+#define kGDataCalendarDefaultServiceVersion __NS_SYMBOL(kGDataCalendarDefaultServiceVersion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCalendarDefaultServiceVersion
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCalendarDefaultServiceVersion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCalendarDefaultServiceVersion)
+#ifndef kGDataExtendedPropertyRealmCalendar
+#define kGDataExtendedPropertyRealmCalendar __NS_SYMBOL(kGDataExtendedPropertyRealmCalendar)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataExtendedPropertyRealmCalendar
-#define GDATA_OBJECTIVEC_CLIENT_kGDataExtendedPropertyRealmCalendar __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataExtendedPropertyRealmCalendar)
+#ifndef kGDataCalendarAccessNone
+#define kGDataCalendarAccessNone __NS_SYMBOL(kGDataCalendarAccessNone)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessNone
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessNone __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessNone)
+#ifndef kGDataCalendarAccessRead
+#define kGDataCalendarAccessRead __NS_SYMBOL(kGDataCalendarAccessRead)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessRead
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessRead __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessRead)
+#ifndef kGDataCalendarAccessFreeBusy
+#define kGDataCalendarAccessFreeBusy __NS_SYMBOL(kGDataCalendarAccessFreeBusy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessFreeBusy
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessFreeBusy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessFreeBusy)
+#ifndef kGDataCalendarAccessRespond
+#define kGDataCalendarAccessRespond __NS_SYMBOL(kGDataCalendarAccessRespond)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessRespond
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessRespond __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessRespond)
+#ifndef kGDataCalendarAccessOverride
+#define kGDataCalendarAccessOverride __NS_SYMBOL(kGDataCalendarAccessOverride)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessOverride
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessOverride __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessOverride)
+#ifndef kGDataCalendarAccessEditor
+#define kGDataCalendarAccessEditor __NS_SYMBOL(kGDataCalendarAccessEditor)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessEditor
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessEditor __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessEditor)
+#ifndef kGDataCalendarAccessOwner
+#define kGDataCalendarAccessOwner __NS_SYMBOL(kGDataCalendarAccessOwner)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessOwner
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessOwner __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessOwner)
+#ifndef kGDataCalendarAccessRoot
+#define kGDataCalendarAccessRoot __NS_SYMBOL(kGDataCalendarAccessRoot)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessRoot
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessRoot __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCalendarAccessRoot)
+#ifndef kGDataRoleCalendarNone
+#define kGDataRoleCalendarNone __NS_SYMBOL(kGDataRoleCalendarNone)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarNone
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarNone __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarNone)
+#ifndef kGDataRoleCalendarRead
+#define kGDataRoleCalendarRead __NS_SYMBOL(kGDataRoleCalendarRead)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarRead
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarRead __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarRead)
+#ifndef kGDataRoleCalendarFreeBusy
+#define kGDataRoleCalendarFreeBusy __NS_SYMBOL(kGDataRoleCalendarFreeBusy)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarFreeBusy
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarFreeBusy __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarFreeBusy)
+#ifndef kGDataRoleCalendarRespond
+#define kGDataRoleCalendarRespond __NS_SYMBOL(kGDataRoleCalendarRespond)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarRespond
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarRespond __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarRespond)
+#ifndef kGDataRoleCalendarOverride
+#define kGDataRoleCalendarOverride __NS_SYMBOL(kGDataRoleCalendarOverride)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarOverride
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarOverride __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarOverride)
+#ifndef kGDataRoleCalendarContributor
+#define kGDataRoleCalendarContributor __NS_SYMBOL(kGDataRoleCalendarContributor)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarContributor
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarContributor __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarContributor)
+#ifndef kGDataRoleCalendarEditor
+#define kGDataRoleCalendarEditor __NS_SYMBOL(kGDataRoleCalendarEditor)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarEditor
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarEditor __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarEditor)
+#ifndef kGDataRoleCalendarOwner
+#define kGDataRoleCalendarOwner __NS_SYMBOL(kGDataRoleCalendarOwner)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarOwner
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarOwner __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarOwner)
+#ifndef kGDataRoleCalendarRoot
+#define kGDataRoleCalendarRoot __NS_SYMBOL(kGDataRoleCalendarRoot)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarRoot
-#define GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarRoot __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataRoleCalendarRoot)
+#ifndef kGDataErrorDomainCore
+#define kGDataErrorDomainCore __NS_SYMBOL(kGDataErrorDomainCore)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDFull
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDFull __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDFull)
+#ifndef kGDataYouTubeFeedIDFull
+#define kGDataYouTubeFeedIDFull __NS_SYMBOL(kGDataYouTubeFeedIDFull)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDProfile
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDProfile __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDProfile)
+#ifndef kGDataYouTubeUserFeedIDProfile
+#define kGDataYouTubeUserFeedIDProfile __NS_SYMBOL(kGDataYouTubeUserFeedIDProfile)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDTopRated
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDTopRated __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDTopRated)
+#ifndef kGDataYouTubeFeedIDTopRated
+#define kGDataYouTubeFeedIDTopRated __NS_SYMBOL(kGDataYouTubeFeedIDTopRated)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDTopFavorites
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDTopFavorites __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDTopFavorites)
+#ifndef kGDataYouTubeFeedIDTopFavorites
+#define kGDataYouTubeFeedIDTopFavorites __NS_SYMBOL(kGDataYouTubeFeedIDTopFavorites)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostViewed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostViewed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostViewed)
+#ifndef kGDataYouTubeFeedIDMostViewed
+#define kGDataYouTubeFeedIDMostViewed __NS_SYMBOL(kGDataYouTubeFeedIDMostViewed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostPopular
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostPopular __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostPopular)
+#ifndef kGDataYouTubeFeedIDMostPopular
+#define kGDataYouTubeFeedIDMostPopular __NS_SYMBOL(kGDataYouTubeFeedIDMostPopular)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostRecent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostRecent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostRecent)
+#ifndef kGDataYouTubeFeedIDMostRecent
+#define kGDataYouTubeFeedIDMostRecent __NS_SYMBOL(kGDataYouTubeFeedIDMostRecent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostDiscussed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostDiscussed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostDiscussed)
+#ifndef kGDataYouTubeFeedIDMostDiscussed
+#define kGDataYouTubeFeedIDMostDiscussed __NS_SYMBOL(kGDataYouTubeFeedIDMostDiscussed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostShared
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostShared __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostShared)
+#ifndef kGDataYouTubeFeedIDMostShared
+#define kGDataYouTubeFeedIDMostShared __NS_SYMBOL(kGDataYouTubeFeedIDMostShared)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDOnTheWeb
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDOnTheWeb __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDOnTheWeb)
+#ifndef kGDataYouTubeFeedIDOnTheWeb
+#define kGDataYouTubeFeedIDOnTheWeb __NS_SYMBOL(kGDataYouTubeFeedIDOnTheWeb)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostResponded
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostResponded __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDMostResponded)
+#ifndef kGDataYouTubeFeedIDMostResponded
+#define kGDataYouTubeFeedIDMostResponded __NS_SYMBOL(kGDataYouTubeFeedIDMostResponded)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDRecentlyFeatured
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDRecentlyFeatured __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeFeedIDRecentlyFeatured)
+#ifndef kGDataYouTubeFeedIDRecentlyFeatured
+#define kGDataYouTubeFeedIDRecentlyFeatured __NS_SYMBOL(kGDataYouTubeFeedIDRecentlyFeatured)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDContacts
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDContacts __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDContacts)
+#ifndef kGDataYouTubeUserFeedIDContacts
+#define kGDataYouTubeUserFeedIDContacts __NS_SYMBOL(kGDataYouTubeUserFeedIDContacts)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDFavorites
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDFavorites __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDFavorites)
+#ifndef kGDataYouTubeUserFeedIDFavorites
+#define kGDataYouTubeUserFeedIDFavorites __NS_SYMBOL(kGDataYouTubeUserFeedIDFavorites)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDInbox
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDInbox __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDInbox)
+#ifndef kGDataYouTubeUserFeedIDInbox
+#define kGDataYouTubeUserFeedIDInbox __NS_SYMBOL(kGDataYouTubeUserFeedIDInbox)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDPlaylists
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDPlaylists __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDPlaylists)
+#ifndef kGDataYouTubeUserFeedIDPlaylists
+#define kGDataYouTubeUserFeedIDPlaylists __NS_SYMBOL(kGDataYouTubeUserFeedIDPlaylists)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDSubscriptions
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDSubscriptions __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDSubscriptions)
+#ifndef kGDataYouTubeUserFeedIDSubscriptions
+#define kGDataYouTubeUserFeedIDSubscriptions __NS_SYMBOL(kGDataYouTubeUserFeedIDSubscriptions)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDUploads
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDUploads __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDUploads)
+#ifndef kGDataYouTubeUserFeedIDUploads
+#define kGDataYouTubeUserFeedIDUploads __NS_SYMBOL(kGDataYouTubeUserFeedIDUploads)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDNewSubscriptionVideos
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDNewSubscriptionVideos __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDNewSubscriptionVideos)
+#ifndef kGDataYouTubeUserFeedIDNewSubscriptionVideos
+#define kGDataYouTubeUserFeedIDNewSubscriptionVideos __NS_SYMBOL(kGDataYouTubeUserFeedIDNewSubscriptionVideos)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDFriendsActivity
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDFriendsActivity __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDFriendsActivity)
+#ifndef kGDataYouTubeUserFeedIDFriendsActivity
+#define kGDataYouTubeUserFeedIDFriendsActivity __NS_SYMBOL(kGDataYouTubeUserFeedIDFriendsActivity)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDRecommendations
-#define GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDRecommendations __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataYouTubeUserFeedIDRecommendations)
+#ifndef kGDataYouTubeUserFeedIDRecommendations
+#define kGDataYouTubeUserFeedIDRecommendations __NS_SYMBOL(kGDataYouTubeUserFeedIDRecommendations)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoW3C
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoW3C __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoW3C)
+#ifndef kGDataPhotoAccessPrivate
+#define kGDataPhotoAccessPrivate __NS_SYMBOL(kGDataPhotoAccessPrivate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoW3CPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoW3CPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoW3CPrefix)
+#ifndef kGDataPhotoAccessProtected
+#define kGDataPhotoAccessProtected __NS_SYMBOL(kGDataPhotoAccessProtected)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoRSS
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoRSS __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoRSS)
+#ifndef kGDataPhotoAccessPublic
+#define kGDataPhotoAccessPublic __NS_SYMBOL(kGDataPhotoAccessPublic)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoRSSPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoRSSPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoRSSPrefix)
+#ifndef kGDataPhotoAccessAll
+#define kGDataPhotoAccessAll __NS_SYMBOL(kGDataPhotoAccessAll)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoGML
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoGML __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoGML)
+#ifndef kGDataPhotoStatusPending
+#define kGDataPhotoStatusPending __NS_SYMBOL(kGDataPhotoStatusPending)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoGMLPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoGMLPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGeoGMLPrefix)
+#ifndef kGDataPhotoStatusReady
+#define kGDataPhotoStatusReady __NS_SYMBOL(kGDataPhotoStatusReady)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryEvent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryEvent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryEvent)
+#ifndef kGDataPhotoStatusFinal
+#define kGDataPhotoStatusFinal __NS_SYMBOL(kGDataPhotoStatusFinal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventStatusConfirmed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventStatusConfirmed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventStatusConfirmed)
+#ifndef kGDataPhotoStatusFailed
+#define kGDataPhotoStatusFailed __NS_SYMBOL(kGDataPhotoStatusFailed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventStatusTentative
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventStatusTentative __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventStatusTentative)
+#ifndef kGDataCategoryEvent
+#define kGDataCategoryEvent __NS_SYMBOL(kGDataCategoryEvent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventStatusCanceled
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventStatusCanceled __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventStatusCanceled)
+#ifndef kGDataEventStatusConfirmed
+#define kGDataEventStatusConfirmed __NS_SYMBOL(kGDataEventStatusConfirmed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventTransparencyTransparent
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventTransparencyTransparent __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventTransparencyTransparent)
+#ifndef kGDataEventStatusTentative
+#define kGDataEventStatusTentative __NS_SYMBOL(kGDataEventStatusTentative)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventTransparencyOpaque
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventTransparencyOpaque __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventTransparencyOpaque)
+#ifndef kGDataEventStatusCanceled
+#define kGDataEventStatusCanceled __NS_SYMBOL(kGDataEventStatusCanceled)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityDefault
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityDefault __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityDefault)
+#ifndef kGDataEventTransparencyTransparent
+#define kGDataEventTransparencyTransparent __NS_SYMBOL(kGDataEventTransparencyTransparent)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityPublic
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityPublic __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityPublic)
+#ifndef kGDataEventTransparencyOpaque
+#define kGDataEventTransparencyOpaque __NS_SYMBOL(kGDataEventTransparencyOpaque)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityPrivate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityPrivate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityPrivate)
+#ifndef kGDataEventVisibilityDefault
+#define kGDataEventVisibilityDefault __NS_SYMBOL(kGDataEventVisibilityDefault)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityConfidential
-#define GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityConfidential __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataEventVisibilityConfidential)
+#ifndef kGDataEventVisibilityPublic
+#define kGDataEventVisibilityPublic __NS_SYMBOL(kGDataEventVisibilityPublic)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessPrivate
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessPrivate __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessPrivate)
+#ifndef kGDataEventVisibilityPrivate
+#define kGDataEventVisibilityPrivate __NS_SYMBOL(kGDataEventVisibilityPrivate)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessProtected
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessProtected __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessProtected)
+#ifndef kGDataEventVisibilityConfidential
+#define kGDataEventVisibilityConfidential __NS_SYMBOL(kGDataEventVisibilityConfidential)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessPublic
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessPublic __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessPublic)
+#ifndef kGDataNamespaceGeoW3C
+#define kGDataNamespaceGeoW3C __NS_SYMBOL(kGDataNamespaceGeoW3C)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessAll
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessAll __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoAccessAll)
+#ifndef kGDataNamespaceGeoW3CPrefix
+#define kGDataNamespaceGeoW3CPrefix __NS_SYMBOL(kGDataNamespaceGeoW3CPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusPending
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusPending __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusPending)
+#ifndef kGDataNamespaceGeoRSS
+#define kGDataNamespaceGeoRSS __NS_SYMBOL(kGDataNamespaceGeoRSS)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusReady
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusReady __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusReady)
+#ifndef kGDataNamespaceGeoRSSPrefix
+#define kGDataNamespaceGeoRSSPrefix __NS_SYMBOL(kGDataNamespaceGeoRSSPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusFinal
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusFinal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusFinal)
+#ifndef kGDataNamespaceGeoGML
+#define kGDataNamespaceGeoGML __NS_SYMBOL(kGDataNamespaceGeoGML)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusFailed
-#define GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusFailed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataPhotoStatusFailed)
+#ifndef kGDataNamespaceGeoGMLPrefix
+#define kGDataNamespaceGeoGMLPrefix __NS_SYMBOL(kGDataNamespaceGeoGMLPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMDefaultETaggedDataCacheMemoryCapacity
-#define GDATA_OBJECTIVEC_CLIENT_kGTMDefaultETaggedDataCacheMemoryCapacity __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMDefaultETaggedDataCacheMemoryCapacity)
+#ifndef kGDataNamespaceGCal
+#define kGDataNamespaceGCal __NS_SYMBOL(kGDataNamespaceGCal)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGCal
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGCal __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGCal)
+#ifndef kGDataNamespaceGCalPrefix
+#define kGDataNamespaceGCalPrefix __NS_SYMBOL(kGDataNamespaceGCalPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGCalPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGCalPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGCalPrefix)
+#ifndef kGDataCategoryCalendar
+#define kGDataCategoryCalendar __NS_SYMBOL(kGDataCategoryCalendar)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryCalendar
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryCalendar __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryCalendar)
+#ifndef kGDataCategoryCalendarSettings
+#define kGDataCategoryCalendarSettings __NS_SYMBOL(kGDataCategoryCalendarSettings)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryCalendarSettings
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryCalendarSettings __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryCalendarSettings)
+#ifndef kGTMDefaultETaggedDataCacheMemoryCapacity
+#define kGTMDefaultETaggedDataCacheMemoryCapacity __NS_SYMBOL(kGTMDefaultETaggedDataCacheMemoryCapacity)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataQueryResultServiceDocument
-#define GDATA_OBJECTIVEC_CLIENT_kGDataQueryResultServiceDocument __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataQueryResultServiceDocument)
+#ifndef kGDataQueryResultServiceDocument
+#define kGDataQueryResultServiceDocument __NS_SYMBOL(kGDataQueryResultServiceDocument)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kUseRegisteredEntryClass
-#define GDATA_OBJECTIVEC_CLIENT_kUseRegisteredEntryClass __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kUseRegisteredEntryClass)
+#ifndef kUseRegisteredEntryClass
+#define kUseRegisteredEntryClass __NS_SYMBOL(kUseRegisteredEntryClass)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataCategoryScheme
-#define GDATA_OBJECTIVEC_CLIENT_kGDataCategoryScheme __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataCategoryScheme)
+#ifndef kGDataCategoryScheme
+#define kGDataCategoryScheme __NS_SYMBOL(kGDataCategoryScheme)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kOOBString
-#define GDATA_OBJECTIVEC_CLIENT_kOOBString __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kOOBString)
+#ifndef kOOBString
+#define kOOBString __NS_SYMBOL(kOOBString)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataServiceErrorCaptchaRequired
-#define GDATA_OBJECTIVEC_CLIENT_kGDataServiceErrorCaptchaRequired __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataServiceErrorCaptchaRequired)
+#ifndef kGDataServiceErrorCaptchaRequired
+#define kGDataServiceErrorCaptchaRequired __NS_SYMBOL(kGDataServiceErrorCaptchaRequired)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataServiceDefaultUser
-#define GDATA_OBJECTIVEC_CLIENT_kGDataServiceDefaultUser __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataServiceDefaultUser)
+#ifndef kGDataServiceDefaultUser
+#define kGDataServiceDefaultUser __NS_SYMBOL(kGDataServiceDefaultUser)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataServiceAuthTokenKey
-#define GDATA_OBJECTIVEC_CLIENT_kGDataServiceAuthTokenKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataServiceAuthTokenKey)
+#ifndef kGDataServiceAuthTokenKey
+#define kGDataServiceAuthTokenKey __NS_SYMBOL(kGDataServiceAuthTokenKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataServerInfoStringKey
-#define GDATA_OBJECTIVEC_CLIENT_kGDataServerInfoStringKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataServerInfoStringKey)
+#ifndef kGDataServerInfoStringKey
+#define kGDataServerInfoStringKey __NS_SYMBOL(kGDataServerInfoStringKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataServerInfoInvalidSecondFactor
-#define GDATA_OBJECTIVEC_CLIENT_kGDataServerInfoInvalidSecondFactor __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataServerInfoInvalidSecondFactor)
+#ifndef kGDataServerInfoInvalidSecondFactor
+#define kGDataServerInfoInvalidSecondFactor __NS_SYMBOL(kGDataServerInfoInvalidSecondFactor)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ServiceProviderGoogle
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ServiceProviderGoogle __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ServiceProviderGoogle)
+#ifndef kGTMOAuth2ServiceProviderGoogle
+#define kGTMOAuth2ServiceProviderGoogle __NS_SYMBOL(kGTMOAuth2ServiceProviderGoogle)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorDomain
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorDomain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorDomain)
+#ifndef kGTMOAuth2ErrorDomain
+#define kGTMOAuth2ErrorDomain __NS_SYMBOL(kGTMOAuth2ErrorDomain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorMessageKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorMessageKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorMessageKey)
+#ifndef kGTMOAuth2ErrorMessageKey
+#define kGTMOAuth2ErrorMessageKey __NS_SYMBOL(kGTMOAuth2ErrorMessageKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorRequestKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorRequestKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorRequestKey)
+#ifndef kGTMOAuth2ErrorRequestKey
+#define kGTMOAuth2ErrorRequestKey __NS_SYMBOL(kGTMOAuth2ErrorRequestKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorJSONKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorJSONKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorJSONKey)
+#ifndef kGTMOAuth2ErrorJSONKey
+#define kGTMOAuth2ErrorJSONKey __NS_SYMBOL(kGTMOAuth2ErrorJSONKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchStarted
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchStarted __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchStarted)
+#ifndef kGTMOAuth2FetchStarted
+#define kGTMOAuth2FetchStarted __NS_SYMBOL(kGTMOAuth2FetchStarted)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchStopped
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchStopped __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchStopped)
+#ifndef kGTMOAuth2FetchStopped
+#define kGTMOAuth2FetchStopped __NS_SYMBOL(kGTMOAuth2FetchStopped)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetcherKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetcherKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetcherKey)
+#ifndef kGTMOAuth2FetcherKey
+#define kGTMOAuth2FetcherKey __NS_SYMBOL(kGTMOAuth2FetcherKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeKey)
+#ifndef kGTMOAuth2FetchTypeKey
+#define kGTMOAuth2FetchTypeKey __NS_SYMBOL(kGTMOAuth2FetchTypeKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeToken
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeToken __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeToken)
+#ifndef kGTMOAuth2FetchTypeToken
+#define kGTMOAuth2FetchTypeToken __NS_SYMBOL(kGTMOAuth2FetchTypeToken)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeRefresh
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeRefresh __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeRefresh)
+#ifndef kGTMOAuth2FetchTypeRefresh
+#define kGTMOAuth2FetchTypeRefresh __NS_SYMBOL(kGTMOAuth2FetchTypeRefresh)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeAssertion
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeAssertion __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeAssertion)
+#ifndef kGTMOAuth2FetchTypeAssertion
+#define kGTMOAuth2FetchTypeAssertion __NS_SYMBOL(kGTMOAuth2FetchTypeAssertion)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeUserInfo
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeUserInfo __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2FetchTypeUserInfo)
+#ifndef kGTMOAuth2FetchTypeUserInfo
+#define kGTMOAuth2FetchTypeUserInfo __NS_SYMBOL(kGTMOAuth2FetchTypeUserInfo)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorKey)
+#ifndef kGTMOAuth2ErrorKey
+#define kGTMOAuth2ErrorKey __NS_SYMBOL(kGTMOAuth2ErrorKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorObjectKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorObjectKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorObjectKey)
+#ifndef kGTMOAuth2ErrorObjectKey
+#define kGTMOAuth2ErrorObjectKey __NS_SYMBOL(kGTMOAuth2ErrorObjectKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidRequest
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidRequest __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidRequest)
+#ifndef kGTMOAuth2ErrorInvalidRequest
+#define kGTMOAuth2ErrorInvalidRequest __NS_SYMBOL(kGTMOAuth2ErrorInvalidRequest)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidClient
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidClient __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidClient)
+#ifndef kGTMOAuth2ErrorInvalidClient
+#define kGTMOAuth2ErrorInvalidClient __NS_SYMBOL(kGTMOAuth2ErrorInvalidClient)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidGrant
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidGrant __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidGrant)
+#ifndef kGTMOAuth2ErrorInvalidGrant
+#define kGTMOAuth2ErrorInvalidGrant __NS_SYMBOL(kGTMOAuth2ErrorInvalidGrant)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorUnauthorizedClient
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorUnauthorizedClient __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorUnauthorizedClient)
+#ifndef kGTMOAuth2ErrorUnauthorizedClient
+#define kGTMOAuth2ErrorUnauthorizedClient __NS_SYMBOL(kGTMOAuth2ErrorUnauthorizedClient)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorUnsupportedGrantType
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorUnsupportedGrantType __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorUnsupportedGrantType)
+#ifndef kGTMOAuth2ErrorUnsupportedGrantType
+#define kGTMOAuth2ErrorUnsupportedGrantType __NS_SYMBOL(kGTMOAuth2ErrorUnsupportedGrantType)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidScope
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidScope __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2ErrorInvalidScope)
+#ifndef kGTMOAuth2ErrorInvalidScope
+#define kGTMOAuth2ErrorInvalidScope __NS_SYMBOL(kGTMOAuth2ErrorInvalidScope)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2UserSignedIn
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2UserSignedIn __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2UserSignedIn)
+#ifndef kGTMOAuth2UserSignedIn
+#define kGTMOAuth2UserSignedIn __NS_SYMBOL(kGTMOAuth2UserSignedIn)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2AccessTokenRefreshed
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2AccessTokenRefreshed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2AccessTokenRefreshed)
+#ifndef kGTMOAuth2AccessTokenRefreshed
+#define kGTMOAuth2AccessTokenRefreshed __NS_SYMBOL(kGTMOAuth2AccessTokenRefreshed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2RefreshTokenChanged
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2RefreshTokenChanged __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2RefreshTokenChanged)
+#ifndef kGTMOAuth2RefreshTokenChanged
+#define kGTMOAuth2RefreshTokenChanged __NS_SYMBOL(kGTMOAuth2RefreshTokenChanged)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2AccessTokenRefreshFailed
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2AccessTokenRefreshFailed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2AccessTokenRefreshFailed)
+#ifndef kGTMOAuth2AccessTokenRefreshFailed
+#define kGTMOAuth2AccessTokenRefreshFailed __NS_SYMBOL(kGTMOAuth2AccessTokenRefreshFailed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewStartedLoading
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewStartedLoading __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewStartedLoading)
+#ifndef kGTMOAuth2WebViewStartedLoading
+#define kGTMOAuth2WebViewStartedLoading __NS_SYMBOL(kGTMOAuth2WebViewStartedLoading)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewStoppedLoading
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewStoppedLoading __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewStoppedLoading)
+#ifndef kGTMOAuth2WebViewStoppedLoading
+#define kGTMOAuth2WebViewStoppedLoading __NS_SYMBOL(kGTMOAuth2WebViewStoppedLoading)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewKey)
+#ifndef kGTMOAuth2WebViewKey
+#define kGTMOAuth2WebViewKey __NS_SYMBOL(kGTMOAuth2WebViewKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewStopKindKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewStopKindKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewStopKindKey)
+#ifndef kGTMOAuth2WebViewStopKindKey
+#define kGTMOAuth2WebViewStopKindKey __NS_SYMBOL(kGTMOAuth2WebViewStopKindKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewFinished
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewFinished __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewFinished)
+#ifndef kGTMOAuth2WebViewFinished
+#define kGTMOAuth2WebViewFinished __NS_SYMBOL(kGTMOAuth2WebViewFinished)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewFailed
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewFailed __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewFailed)
+#ifndef kGTMOAuth2WebViewFailed
+#define kGTMOAuth2WebViewFailed __NS_SYMBOL(kGTMOAuth2WebViewFailed)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewCancelled
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewCancelled __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2WebViewCancelled)
+#ifndef kGTMOAuth2WebViewCancelled
+#define kGTMOAuth2WebViewCancelled __NS_SYMBOL(kGTMOAuth2WebViewCancelled)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2NetworkLost
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2NetworkLost __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2NetworkLost)
+#ifndef kGTMOAuth2NetworkLost
+#define kGTMOAuth2NetworkLost __NS_SYMBOL(kGTMOAuth2NetworkLost)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2NetworkFound
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2NetworkFound __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2NetworkFound)
+#ifndef kGTMOAuth2NetworkFound
+#define kGTMOAuth2NetworkFound __NS_SYMBOL(kGTMOAuth2NetworkFound)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataUseRegisteredClass
-#define GDATA_OBJECTIVEC_CLIENT_kGDataUseRegisteredClass __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataUseRegisteredClass)
+#ifndef kGDataUseRegisteredClass
+#define kGDataUseRegisteredClass __NS_SYMBOL(kGDataUseRegisteredClass)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataStandardUploadChunkSize
-#define GDATA_OBJECTIVEC_CLIENT_kGDataStandardUploadChunkSize __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataStandardUploadChunkSize)
+#ifndef kGDataStandardUploadChunkSize
+#define kGDataStandardUploadChunkSize __NS_SYMBOL(kGDataStandardUploadChunkSize)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataServiceErrorDomain
-#define GDATA_OBJECTIVEC_CLIENT_kGDataServiceErrorDomain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataServiceErrorDomain)
+#ifndef kGDataServiceErrorDomain
+#define kGDataServiceErrorDomain __NS_SYMBOL(kGDataServiceErrorDomain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataServerErrorStringKey
-#define GDATA_OBJECTIVEC_CLIENT_kGDataServerErrorStringKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataServerErrorStringKey)
+#ifndef kGDataServerErrorStringKey
+#define kGDataServerErrorStringKey __NS_SYMBOL(kGDataServerErrorStringKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataStructuredErrorsKey
-#define GDATA_OBJECTIVEC_CLIENT_kGDataStructuredErrorsKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataStructuredErrorsKey)
+#ifndef kGDataStructuredErrorsKey
+#define kGDataStructuredErrorsKey __NS_SYMBOL(kGDataStructuredErrorsKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataETagWildcard
-#define GDATA_OBJECTIVEC_CLIENT_kGDataETagWildcard __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataETagWildcard)
+#ifndef kGDataETagWildcard
+#define kGDataETagWildcard __NS_SYMBOL(kGDataETagWildcard)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataServiceTicketParsingStartedNotification
-#define GDATA_OBJECTIVEC_CLIENT_kGDataServiceTicketParsingStartedNotification __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataServiceTicketParsingStartedNotification)
+#ifndef kGDataServiceTicketParsingStartedNotification
+#define kGDataServiceTicketParsingStartedNotification __NS_SYMBOL(kGDataServiceTicketParsingStartedNotification)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataServiceTicketParsingStoppedNotification
-#define GDATA_OBJECTIVEC_CLIENT_kGDataServiceTicketParsingStoppedNotification __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataServiceTicketParsingStoppedNotification)
+#ifndef kGDataServiceTicketParsingStoppedNotification
+#define kGDataServiceTicketParsingStoppedNotification __NS_SYMBOL(kGDataServiceTicketParsingStoppedNotification)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kFetcherRetryInvocationKey
-#define GDATA_OBJECTIVEC_CLIENT_kFetcherRetryInvocationKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kFetcherRetryInvocationKey)
+#ifndef kFetcherRetryInvocationKey
+#define kFetcherRetryInvocationKey __NS_SYMBOL(kFetcherRetryInvocationKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2KeychainErrorDomain
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2KeychainErrorDomain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2KeychainErrorDomain)
+#ifndef kGTMOAuth2KeychainErrorDomain
+#define kGTMOAuth2KeychainErrorDomain __NS_SYMBOL(kGTMOAuth2KeychainErrorDomain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2CookiesWillSwapOut
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2CookiesWillSwapOut __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2CookiesWillSwapOut)
+#ifndef kGTMOAuth2CookiesWillSwapOut
+#define kGTMOAuth2CookiesWillSwapOut __NS_SYMBOL(kGTMOAuth2CookiesWillSwapOut)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2CookiesDidSwapIn
-#define GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2CookiesDidSwapIn __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMOAuth2CookiesDidSwapIn)
+#ifndef kGTMOAuth2CookiesDidSwapIn
+#define kGTMOAuth2CookiesDidSwapIn __NS_SYMBOL(kGTMOAuth2CookiesDidSwapIn)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtom
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtom __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtom)
+#ifndef kGDataNamespaceAtom
+#define kGDataNamespaceAtom __NS_SYMBOL(kGDataNamespaceAtom)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomPrefix)
+#ifndef kGDataNamespaceAtomPrefix
+#define kGDataNamespaceAtomPrefix __NS_SYMBOL(kGDataNamespaceAtomPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomPub
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomPub __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomPub)
+#ifndef kGDataNamespaceAtomPub
+#define kGDataNamespaceAtomPub __NS_SYMBOL(kGDataNamespaceAtomPub)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomPubPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomPubPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceAtomPubPrefix)
+#ifndef kGDataNamespaceAtomPubPrefix
+#define kGDataNamespaceAtomPubPrefix __NS_SYMBOL(kGDataNamespaceAtomPubPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceOpenSearch
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceOpenSearch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceOpenSearch)
+#ifndef kGDataNamespaceOpenSearch
+#define kGDataNamespaceOpenSearch __NS_SYMBOL(kGDataNamespaceOpenSearch)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceOpenSearchPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceOpenSearchPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceOpenSearchPrefix)
+#ifndef kGDataNamespaceOpenSearchPrefix
+#define kGDataNamespaceOpenSearchPrefix __NS_SYMBOL(kGDataNamespaceOpenSearchPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceXHTML
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceXHTML __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceXHTML)
+#ifndef kGDataNamespaceXHTML
+#define kGDataNamespaceXHTML __NS_SYMBOL(kGDataNamespaceXHTML)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceXHTMLPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceXHTMLPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceXHTMLPrefix)
+#ifndef kGDataNamespaceXHTMLPrefix
+#define kGDataNamespaceXHTMLPrefix __NS_SYMBOL(kGDataNamespaceXHTMLPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGData
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGData __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGData)
+#ifndef kGDataNamespaceGData
+#define kGDataNamespaceGData __NS_SYMBOL(kGDataNamespaceGData)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGDataPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGDataPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceGDataPrefix)
+#ifndef kGDataNamespaceGDataPrefix
+#define kGDataNamespaceGDataPrefix __NS_SYMBOL(kGDataNamespaceGDataPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBatch
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBatch __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBatch)
+#ifndef kGDataNamespaceBatch
+#define kGDataNamespaceBatch __NS_SYMBOL(kGDataNamespaceBatch)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBatchPrefix
-#define GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBatchPrefix __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGDataNamespaceBatchPrefix)
+#ifndef kGDataNamespaceBatchPrefix
+#define kGDataNamespaceBatchPrefix __NS_SYMBOL(kGDataNamespaceBatchPrefix)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStartedNotification
-#define GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStartedNotification __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStartedNotification)
+#ifndef kGTMHTTPFetcherStartedNotification
+#define kGTMHTTPFetcherStartedNotification __NS_SYMBOL(kGTMHTTPFetcherStartedNotification)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStoppedNotification
-#define GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStoppedNotification __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStoppedNotification)
+#ifndef kGTMHTTPFetcherStoppedNotification
+#define kGTMHTTPFetcherStoppedNotification __NS_SYMBOL(kGTMHTTPFetcherStoppedNotification)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherRetryDelayStartedNotification
-#define GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherRetryDelayStartedNotification __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherRetryDelayStartedNotification)
+#ifndef kGTMHTTPFetcherRetryDelayStartedNotification
+#define kGTMHTTPFetcherRetryDelayStartedNotification __NS_SYMBOL(kGTMHTTPFetcherRetryDelayStartedNotification)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherRetryDelayStoppedNotification
-#define GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherRetryDelayStoppedNotification __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherRetryDelayStoppedNotification)
+#ifndef kGTMHTTPFetcherRetryDelayStoppedNotification
+#define kGTMHTTPFetcherRetryDelayStoppedNotification __NS_SYMBOL(kGTMHTTPFetcherRetryDelayStoppedNotification)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherErrorDomain
-#define GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherErrorDomain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherErrorDomain)
+#ifndef kGTMHTTPFetcherErrorDomain
+#define kGTMHTTPFetcherErrorDomain __NS_SYMBOL(kGTMHTTPFetcherErrorDomain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStatusDomain
-#define GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStatusDomain __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStatusDomain)
+#ifndef kGTMHTTPFetcherStatusDomain
+#define kGTMHTTPFetcherStatusDomain __NS_SYMBOL(kGTMHTTPFetcherStatusDomain)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherErrorChallengeKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherErrorChallengeKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherErrorChallengeKey)
+#ifndef kGTMHTTPFetcherErrorChallengeKey
+#define kGTMHTTPFetcherErrorChallengeKey __NS_SYMBOL(kGTMHTTPFetcherErrorChallengeKey)
 #endif
 
-#ifndef GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStatusDataKey
-#define GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStatusDataKey __NS_SYMBOL(GDATA_OBJECTIVEC_CLIENT_kGTMHTTPFetcherStatusDataKey)
+#ifndef kGTMHTTPFetcherStatusDataKey
+#define kGTMHTTPFetcherStatusDataKey __NS_SYMBOL(kGTMHTTPFetcherStatusDataKey)
 #endif
 
