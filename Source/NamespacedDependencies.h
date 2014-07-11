@@ -5,7 +5,7 @@
 // properly replaced by the time we concatenate the namespace prefix.
 #define __NS_REWRITE(ns, symbol) ns ## _ ## symbol
 #define __NS_BRIDGE(ns, symbol) __NS_REWRITE(ns, symbol)
-#define __NS_SYMBOL(symbol) __NS_BRIDGE(SIGMAPOINT, symbol)
+#define __NS_SYMBOL(symbol) __NS_BRIDGE(GDATA_OBJECTIVEC_CLIENT, symbol)
 #endif
 
 
