@@ -18,6 +18,7 @@
 #define _GDATAFRAMEWORK_H_
 
 #import <Foundation/Foundation.h>
+#import "NamespacedDependencies.h"
 
 #import "GDataDefines.h"
 

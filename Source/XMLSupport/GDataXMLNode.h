@@ -1,3 +1,4 @@
+
 /* Copyright (c) 2008 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,6 +27,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import "NamespacedDependencies.h"
 
 // libxml includes require that the target Header Search Paths contain
 //

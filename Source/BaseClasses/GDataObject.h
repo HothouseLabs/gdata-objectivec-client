@@ -98,6 +98,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import "NamespacedDependencies.h"
 
 #import "GDataDefines.h"
 #import "GDataUtilities.h"
