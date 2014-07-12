@@ -2153,6 +2153,9 @@
 		4FFF313D0D6BA16100CD9B59 /* GDataDocs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFF313C0D6BA16100CD9B59 /* GDataDocs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FFF31500D6BA22300CD9B59 /* GDataEntrySpreadsheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFF314F0D6BA22300CD9B59 /* GDataEntrySpreadsheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FFF31630D6BA2AB00CD9B59 /* GDataSpreadsheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFF31620D6BA2AB00CD9B59 /* GDataSpreadsheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A1C0501970A83800BDD60C /* NamespacedDependencies.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A1C04F1970A83800BDD60C /* NamespacedDependencies.h */; };
+		81A1C0511970A83D00BDD60C /* NamespacedDependencies.h in Copy Static Library Headers */ = {isa = PBXBuildFile; fileRef = 81A1C04F1970A83800BDD60C /* NamespacedDependencies.h */; };
+		81A1C05C1970B05500BDD60C /* GDataContactsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A1C05B1970B05500BDD60C /* GDataContactsBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2172,6 +2175,7 @@
 			dstPath = Headers;
 			dstSubfolderSpec = 16;
 			files = (
+				81A1C0511970A83D00BDD60C /* NamespacedDependencies.h in Copy Static Library Headers */,
 				4F0108A714EDAFD5001E7FFA /* GDataEntryTableDoc.h in Copy Static Library Headers */,
 				4F2FFE3A14490CB9005DF95B /* GTMGatherInputStream.h in Copy Static Library Headers */,
 				4F2FFE0314490B9D005DF95B /* GTMMIMEDocument.h in Copy Static Library Headers */,
@@ -3179,6 +3183,9 @@
 		4FFF313C0D6BA16100CD9B59 /* GDataDocs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GDataDocs.h; path = Clients/Docs/GDataDocs.h; sourceTree = "<group>"; };
 		4FFF314F0D6BA22300CD9B59 /* GDataEntrySpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheet.h; sourceTree = "<group>"; };
 		4FFF31620D6BA2AB00CD9B59 /* GDataSpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheet.h; sourceTree = "<group>"; };
+		81A1C04F1970A83800BDD60C /* NamespacedDependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamespacedDependencies.h; sourceTree = "<group>"; };
+		81A1C05A1970B05500BDD60C /* GDataContactsBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataContactsBridge.h; sourceTree = "<group>"; };
+		81A1C05B1970B05500BDD60C /* GDataContactsBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataContactsBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -3234,6 +3241,8 @@
 		089C166AFE841209C02AAC07 /* GoogleBundle */ = {
 			isa = PBXGroup;
 			children = (
+				81A1C0591970B03000BDD60C /* Bridges */,
+				81A1C04F1970A83800BDD60C /* NamespacedDependencies.h */,
 				32C88E010371C26100C91783 /* GData Sources */,
 				4FA9C7410B72AB1600DA5920 /* Test Tool */,
 				4F14A9E30B1277010072EBB8 /* Unit Tests */,
@@ -4294,6 +4303,15 @@
 			name = Finance;
 			sourceTree = "<group>";
 		};
+		81A1C0591970B03000BDD60C /* Bridges */ = {
+			isa = PBXGroup;
+			children = (
+				81A1C05A1970B05500BDD60C /* GDataContactsBridge.h */,
+				81A1C05B1970B05500BDD60C /* GDataContactsBridge.m */,
+			);
+			path = Bridges;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -4553,6 +4571,7 @@
 				4F82A3F90FCDE52A00C477D4 /* GDataEntrySpreadsheetRecord.h in Headers */,
 				4F82A3FF0FCDE53500C477D4 /* GDataEntrySpreadsheetTable.h in Headers */,
 				4FA551790FD5BDDB006FDC8B /* GDataEntryBlogComment.h in Headers */,
+				81A1C0501970A83800BDD60C /* NamespacedDependencies.h in Headers */,
 				4FA5517A0FD5BDDB006FDC8B /* GDataServiceGoogleBlogger.h in Headers */,
 				4FA5517C0FD5BDDB006FDC8B /* GDataEntryBlog.h in Headers */,
 				4FA5517D0FD5BDDB006FDC8B /* GDataFeedBlog.h in Headers */,
@@ -5436,6 +5455,7 @@
 				4F1C6F5F1027B4B600B46459 /* GDataAnalyticsConstants.m in Sources */,
 				4F1C6F601027B4B600B46459 /* GDataAnalyticsDataSource.m in Sources */,
 				4F1C6F611027B4B600B46459 /* GDataAnalyticsElements.m in Sources */,
+				81A1C05C1970B05500BDD60C /* GDataContactsBridge.m in Sources */,
 				4F1C6F621027B4B600B46459 /* GDataAnalyticsMetric.m in Sources */,
 				4F1C6F631027B4B600B46459 /* GDataAtomCategoryGroup.m in Sources */,
 				4F1C6F641027B4B600B46459 /* GDataAtomCollection.m in Sources */,
