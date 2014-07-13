@@ -55,7 +55,7 @@
     [query setMaxResults:ARBITRARY_BATCH_SIZE];
     
     //  All requests *have* to be initiated from the main thread.
-    dispatch_sync(dispatch_get_main_queue(), ^{
+    dispatch_async(dispatch_get_main_queue(), ^{
         _ticket = [self.service fetchFeedWithQuery:query
                                           delegate:self
                                  didFinishSelector:@selector(contactsFetchTicket:finishedWithFeed:error:)];
