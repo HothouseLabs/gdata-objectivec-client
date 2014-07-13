@@ -17,9 +17,9 @@
 
 @interface GDataContactsRequest ()
 
-@property GDataServiceGoogleContact* service;
-@property GDataServiceTicket* ticket;
-@property GDataContactsBridgeRetrieveUserContactsCallback callback;
+@property (nonatomic, strong) GDataServiceGoogleContact* service;
+@property (nonatomic, strong) GDataContactsBridgeRetrieveUserContactsCallback callback;
+@property (nonatomic, strong) GDataServiceTicket* ticket;
 
 @end
 
@@ -34,9 +34,16 @@
     return self;
 }
 
+-(void)dealloc
+{
+    [_ticket release];
+    [_service release];
+    [super dealloc];
+}
+
 -(void)makeRequest:(GDataContactsBridgeRetrieveUserContactsCallback)callback
 {
-    _callback = callback;
+    self.callback = callback;
     
     //  Our feed corresponds to the default user (the user that is logged in the service)
     NSURL *feedURL = [GDataServiceGoogleContact contactFeedURLForUserID:kGDataServiceDefaultUser];
@@ -47,9 +54,12 @@
     const int ARBITRARY_BATCH_SIZE = 2000;
     [query setMaxResults:ARBITRARY_BATCH_SIZE];
     
-    _ticket = [self.service fetchFeedWithQuery:query
-                                      delegate:self
-                             didFinishSelector:@selector(contactsFetchTicket:finishedWithFeed:error:)];
+    //  All requests *have* to be initiated from the main thread.
+    dispatch_sync(dispatch_get_main_queue(), ^{
+        _ticket = [self.service fetchFeedWithQuery:query
+                                          delegate:self
+                                 didFinishSelector:@selector(contactsFetchTicket:finishedWithFeed:error:)];
+    });
 }
 
 -(void)contactsFetchTicket:(GDataServiceTicket *)ticket
@@ -149,6 +159,8 @@
         if(callback) {
             callback(error, contacts);
         }
+        
+        [request release];
     }];
 }
 
