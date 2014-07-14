@@ -3,13 +3,19 @@
 //  GData
 //
 //  Created by Ivan Erceg on 7/11/14.
-//
+//  Copyright (c) 2014 Hothouse Labs, Inc. All rights reserved.
 //
 
 #import "GDataContactsBridge.h"
 
 #import "GDataFeedContact.h"
 #import "GDataContacts.h"
+
+NSString* kGDataContactsBridgeEmailAddressesProperty = @"kGDataContactsBridgeEmailAddressesProperty";
+NSString* kGDataContactsBridgeProfileImageUrlProperty = @"kGDataContactsBridgeProfileImageUrlProperty";
+NSString* kGDataContactsBridgeFirstNameProperty = @"kGDataContactsBridgeFirstNameProperty";
+NSString* kGDataContactsBridgeLastNameProperty = @"kGDataContactsBridgeLastNameProperty";
+NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameProperty";
 
 @interface GDataContactsRequest : NSObject
 
@@ -47,8 +53,9 @@
     
     //  Our feed corresponds to the default user (the user that is logged in the service)
     NSURL *feedURL = [GDataServiceGoogleContact contactFeedURLForUserID:kGDataServiceDefaultUser];
-    GDataQueryContact *query = [GDataQueryContact contactQueryWithFeedURL:feedURL];
     
+    //  Setup the contact query object.
+    GDataQueryContact *query = [GDataQueryContact contactQueryWithFeedURL:feedURL];
     //  We want to retrieve the deleted contacts as well.
     [query setShouldShowDeleted:TRUE];
     const int ARBITRARY_BATCH_SIZE = 2000;
@@ -71,8 +78,18 @@
         }
     } else {
         if(self.callback) {
-            self.callback(nil, [feed entries]);
+            //  TODO: Convert entries into contact properties. For now fake it as we still aren't getting data from Google Contacts API.
+            NSDictionary* contactProperties = @{
+                                                kGDataContactsBridgeEmailAddressesProperty: @[@"ivan@softwaremarbles.com"],
+                                                kGDataContactsBridgeProfileImageUrlProperty: @"http://www.gravatar.com/avatar/926ddb506c8e20b6f672bbbbe13e0fa1.png",
+                                                kGDataContactsBridgeFullNameProperty: @"Ivan Erceg",
+                                                kGDataContactsBridgeFirstNameProperty: @"Ivan",
+                                                kGDataContactsBridgeLastNameProperty: @"Erceg"
+                                                };
+            
+            self.callback(nil, @[contactProperties]);
         }
+        
 //        for(GDataEntryContact* contact in [feed entries]) {
 //            
 //            // Name
