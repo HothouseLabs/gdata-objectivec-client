@@ -136,9 +136,9 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
             NSString* profileImageUrl = [GDataContactsRequest emptyIfStringIsNull:[GDataContactsRequest extractProfileImageUrlFromContact:contact]];
             
             //  Get contact's different names.
-            NSString* fullName;
-            NSString* firstName;
-            NSString* lastName;
+            NSString* fullName = nil;
+            NSString* firstName = nil;
+            NSString* lastName = nil;
             [GDataContactsRequest extractFullName:&fullName
                                         firstName:&firstName
                                          lastName:&lastName
