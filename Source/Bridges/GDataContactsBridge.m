@@ -10,6 +10,7 @@
 
 #import "GDataFeedContact.h"
 #import "GDataContacts.h"
+#import "GTMOAuth2Authentication.h"
 
 NSString* kGDataContactsBridgeEmailAddressesProperty = @"kGDataContactsBridgeEmailAddressesProperty";
 NSString* kGDataContactsBridgeProfileImageUrlProperty = @"kGDataContactsBridgeProfileImageUrlProperty";
@@ -69,6 +70,55 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
     });
 }
 
++(NSArray*)extractEmailAddressesFromContact:(GDataEntryContact*)contact
+{
+    NSMutableArray* emailAddresses = [NSMutableArray new];
+    if(!contact.emailAddresses) {
+        return emailAddresses;
+    }
+    
+    for(GDataEmail* email in contact.emailAddresses) {
+        [emailAddresses addObject:email.address];
+    }
+    
+    return emailAddresses;
+}
+
++(NSString*)extractProfileImageUrlFromContact:(GDataEntryContact*)contact
+{
+    //  Extract profile image URL from Google craziness.
+    //  https://developers.google.com/google-apps/contacts/v3/#contact_photo_management
+    NSString* profileImageUrl = nil;
+    GDataLink* photoLink = contact.photoLink;
+    BOOL photoLinkPointsToAnActualPhoto = photoLink != nil
+        && photoLink.href != nil
+        && photoLink.ETag != nil;
+    if(photoLinkPointsToAnActualPhoto) {
+        profileImageUrl = photoLink.href;
+    }
+    
+    return profileImageUrl;
+}
+
++(void)extractFullName:(NSString**)fullName
+             firstName:(NSString**)firstName
+              lastName:(NSString**)lastName
+           fromContact:(GDataEntryContact*)contact
+{
+    if(contact.name) {
+        *fullName = [contact.name.fullName contentStringValue];
+        *firstName = [contact.name.givenName contentStringValue];
+        *lastName = [contact.name.familyName contentStringValue];
+    }
+}
+
++(NSString*)emptyIfStringIsNull:(NSString*)string
+{
+    return string ?
+        string :
+        @"";
+}
+
 -(void)contactsFetchTicket:(GDataServiceTicket *)ticket
           finishedWithFeed:(GDataFeedContact *)feed
                      error:(NSError *)error {
@@ -77,69 +127,41 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
             self.callback(error, nil);
         }
     } else {
-        if(self.callback) {
-            //  TODO: Convert entries into contact properties. For now fake it as we still aren't getting data from Google Contacts API.
-            NSDictionary* contactProperties = @{
-                                                kGDataContactsBridgeEmailAddressesProperty: @[@"ivan@softwaremarbles.com"],
-                                                kGDataContactsBridgeProfileImageUrlProperty: @"http://www.gravatar.com/avatar/926ddb506c8e20b6f672bbbbe13e0fa1.png",
-                                                kGDataContactsBridgeFullNameProperty: @"Ivan Erceg",
-                                                kGDataContactsBridgeFirstNameProperty: @"Ivan",
-                                                kGDataContactsBridgeLastNameProperty: @"Erceg"
-                                                };
+        //  Extract all the information that interests us.
+        NSMutableArray* contacts = [NSMutableArray new];
+        for(GDataEntryContact* contact in [feed entries]) {
             
-            self.callback(nil, @[contactProperties]);
+            NSArray* emailAddresses = [GDataContactsRequest extractEmailAddressesFromContact:contact];
+            
+            NSString* profileImageUrl = [GDataContactsRequest emptyIfStringIsNull:[GDataContactsRequest extractProfileImageUrlFromContact:contact]];
+            
+            //  Get contact's different names.
+            NSString* fullName;
+            NSString* firstName;
+            NSString* lastName;
+            [GDataContactsRequest extractFullName:&fullName
+                                        firstName:&firstName
+                                         lastName:&lastName
+                                      fromContact:contact];
+            fullName = [GDataContactsRequest emptyIfStringIsNull:fullName];
+            firstName = [GDataContactsRequest emptyIfStringIsNull:firstName];
+            lastName = [GDataContactsRequest emptyIfStringIsNull:lastName];
+            
+            //  We can't pass nils as object or keys so we ensured that all our data is at least
+            //  empty (e.g. empty array, empty string and so on)
+            NSDictionary* contactProperties = @{
+                                                kGDataContactsBridgeEmailAddressesProperty: emailAddresses,
+                                                kGDataContactsBridgeProfileImageUrlProperty: profileImageUrl,
+                                                kGDataContactsBridgeFullNameProperty: fullName,
+                                                kGDataContactsBridgeFirstNameProperty: firstName,
+                                                kGDataContactsBridgeLastNameProperty: lastName};
+            
+            [contacts addObject:contactProperties];
         }
         
-//        for(GDataEntryContact* contact in [feed entries]) {
-//            
-//            // Name
-//            NSString *ContactName = [[[contact name] fullName] contentStringValue];
-//            
-//            // Email
-//            GDataEmail *email = [[contact emailAddresses] objectAtIndex:0];
-//            NSString *ContactEmail =  @"";
-//            if (email && [email address]) {
-//                ContactEmail = [email address];
-//            }
-//            
-//            // Phone
-//            GDataPhoneNumber *phone = [[contact phoneNumbers] objectAtIndex:0];
-//            NSString *ContactPhone = @"";
-//            if (phone && [phone contentStringValue]) {
-//                ContactPhone = [phone contentStringValue];
-//            }
-//            
-//            // Address
-//            GDataStructuredPostalAddress *postalAddress = [[contact structuredPostalAddresses] objectAtIndex:0];
-//            NSString *address = @"";
-//            if (postalAddress && [postalAddress formattedAddress]) {
-//                address = [postalAddress formattedAddress];
-//            }
-//            
-//            // Birthday
-//            NSString *dob = @"";
-//            if ([contact birthday]) {
-//                dob = [contact birthday];
-//            }
-//            
-//            // Notes
-//            GDataEntryContent *content = [contact content];
-//            NSString *notes = @"";
-//            if (content && [content contentStringValue]) {
-//                notes = [content contentStringValue];
-//            }
-//            
-//            if (!ContactName || !(ContactEmail || ContactPhone) ) {
-//                NSLog(@"Empty Contact Fields. Not Adding.");
-//            }
-//            else
-//            {
-//                NSArray *keys = [[NSArray alloc] initWithObjects:@"name", @"emailId", @"phoneNumber", @"address", @"dob", @"notes", nil];
-//                NSArray *objs = [[NSArray alloc] initWithObjects:ContactName, ContactEmail, ContactPhone, address, dob, notes, nil];
-//                NSDictionary *dict = [[NSDictionary alloc] initWithObjects:objs forKeys:keys];
-//                NSLog(@"%@", dict);
-//            }
-//        }
+        if(self.callback) {
+            self.callback(nil, contacts);
+        }
     }
 }
 
@@ -148,7 +170,7 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
 @implementation GDataContactsBridge
 
 +(void)retrieveUserContacts:(GDataContactsBridgeRetrieveUserContactsCallback)callback
-              withAuthToken:(NSString*)token
+             withAuthorizer:(GTMOAuth2Authentication*)authorizer
 {
     //  Initialize the singleton array of pending requests.
     static NSMutableArray* s_pendingRequests;
@@ -157,7 +179,7 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
         s_pendingRequests = [NSMutableArray new];
     });
     
-    GDataServiceGoogleContact *service = [GDataContactsBridge contactServiceWithAuthToken:token];
+    GDataServiceGoogleContact *service = [GDataContactsBridge contactServiceWithAuthObject:authorizer];
     
     GDataContactsRequest* request = [[GDataContactsRequest alloc] initWithGoogleContactService:service];
     
@@ -181,14 +203,14 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
     }];
 }
 
-+ (GDataServiceGoogleContact *)contactServiceWithAuthToken:(NSString*)token
++ (GDataServiceGoogleContact *)contactServiceWithAuthObject:(GTMOAuth2Authentication*)authorizer
 {
     //  Create a service object that doesn't cache response data as this
     //  object will be short-lived.
     GDataServiceGoogleContact* service = [GDataServiceGoogleContact new];
     //  Follow next links when there is more data than what can fit in a single batch.
     [service setServiceShouldFollowNextLinks:YES];
-    [service setAuthToken:token];
+    [service setAuthorizer:authorizer];
     return service;
 }
 

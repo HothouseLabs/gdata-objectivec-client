@@ -16,11 +16,13 @@ extern NSString* kGDataContactsBridgeFirstNameProperty;
 extern NSString* kGDataContactsBridgeLastNameProperty;
 extern NSString* kGDataContactsBridgeFullNameProperty;
 
+@class GTMOAuth2Authentication;
+
 //  Offers simplest retrieval of Google Contacts without exposing
 //  the interface user to any GData implementation details.
 @interface GDataContactsBridge : NSObject
 
 +(void)retrieveUserContacts:(GDataContactsBridgeRetrieveUserContactsCallback)callback
-              withAuthToken:(NSString*)token;
+             withAuthorizer:(GTMOAuth2Authentication*)authorizer;
 
 @end
