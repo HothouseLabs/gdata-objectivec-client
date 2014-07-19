@@ -12,6 +12,7 @@
 #import "GDataContacts.h"
 #import "GTMOAuth2Authentication.h"
 
+NSString* kGDataContactsBridgePrimaryEmailAddressProperty = @"kGDataContactsBridgePrimaryEmailAddressProperty";
 NSString* kGDataContactsBridgeEmailAddressesProperty = @"kGDataContactsBridgeEmailAddressesProperty";
 NSString* kGDataContactsBridgeProfileImageUrlProperty = @"kGDataContactsBridgeProfileImageUrlProperty";
 NSString* kGDataContactsBridgeFirstNameProperty = @"kGDataContactsBridgeFirstNameProperty";
@@ -68,6 +69,11 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
                                           delegate:self
                                  didFinishSelector:@selector(contactsFetchTicket:finishedWithFeed:error:)];
     });
+}
+
++(NSString*)extractPrimaryEmailAddressFromContact:(GDataEntryContact*)contact
+{
+    return [GDataContactsRequest emptyIfStringIsNull:[contact.primaryEmailAddress address]];
 }
 
 +(NSArray*)extractEmailAddressesFromContact:(GDataEntryContact*)contact
@@ -130,6 +136,7 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
         //  Extract all the information that interests us.
         NSMutableArray* contacts = [NSMutableArray new];
         for(GDataEntryContact* contact in [feed entries]) {
+            NSString* primaryEmailAddress = [GDataContactsRequest extractPrimaryEmailAddressFromContact:contact];
             
             NSArray* emailAddresses = [GDataContactsRequest extractEmailAddressesFromContact:contact];
             
@@ -150,6 +157,7 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
             //  We can't pass nils as object or keys so we ensured that all our data is at least
             //  empty (e.g. empty array, empty string and so on)
             NSDictionary* contactProperties = @{
+                                                kGDataContactsBridgePrimaryEmailAddressProperty: primaryEmailAddress,
                                                 kGDataContactsBridgeEmailAddressesProperty: emailAddresses,
                                                 kGDataContactsBridgeProfileImageUrlProperty: profileImageUrl,
                                                 kGDataContactsBridgeFullNameProperty: fullName,

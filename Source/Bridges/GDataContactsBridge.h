@@ -10,6 +10,7 @@
 
 typedef void (^GDataContactsBridgeRetrieveUserContactsCallback)(NSError* error, NSArray* contacts);
 
+extern NSString* kGDataContactsBridgePrimaryEmailAddressProperty;
 extern NSString* kGDataContactsBridgeEmailAddressesProperty;
 extern NSString* kGDataContactsBridgeProfileImageUrlProperty;
 extern NSString* kGDataContactsBridgeFirstNameProperty;
