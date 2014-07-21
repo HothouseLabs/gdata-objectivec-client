@@ -1,6 +1,6 @@
 [submodule "Source/OAuth2"]
 	path = Source/OAuth2
-	url = git@github.com:HothouseLabs/google-api-objectivec-client-read-only.git
+	url = https://github.com/svn2github/gtm-oauth2-Source.git
 [submodule "Source/HTTPFetcher"]
 	path = Source/HTTPFetcher
 	url = git@github.com:SoftwareMarbles/gtm-http-fetcher-Source.git
