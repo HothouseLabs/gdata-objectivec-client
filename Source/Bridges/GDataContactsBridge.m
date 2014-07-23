@@ -28,6 +28,7 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
 @property (nonatomic, strong) GDataServiceGoogleContact* service;
 @property (nonatomic, strong) GDataContactsBridgeRetrieveUserContactsCallback callback;
 @property (nonatomic, strong) GDataServiceTicket* ticket;
+@property (nonatomic, strong) GDataDateTime* updateMinDateTime;
 
 @end
 
@@ -58,6 +59,8 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
     
     //  Setup the contact query object.
     GDataQueryContact *query = [GDataQueryContact contactQueryWithFeedURL:feedURL];
+    query.updatedMinDateTime = self.updateMinDateTime;
+    
     //  We want to retrieve the deleted contacts as well.
     [query setShouldShowDeleted:TRUE];
     const int ARBITRARY_BATCH_SIZE = 2000;
@@ -179,6 +182,7 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
 
 +(void)retrieveUserContacts:(GDataContactsBridgeRetrieveUserContactsCallback)callback
              withAuthorizer:(GTMOAuth2Authentication*)authorizer
+               changedSince:(NSDate*)updateMinDateTime
 {
     //  Initialize the singleton array of pending requests.
     static NSMutableArray* s_pendingRequests;
@@ -190,6 +194,7 @@ NSString* kGDataContactsBridgeFullNameProperty = @"kGDataContactsBridgeFullNameP
     GDataServiceGoogleContact *service = [GDataContactsBridge contactServiceWithAuthObject:authorizer];
     
     GDataContactsRequest* request = [[GDataContactsRequest alloc] initWithGoogleContactService:service];
+    request.updateMinDateTime = [GDataDateTime dateTimeWithDate:updateMinDateTime timeZone:nil];
     
     //  To keep the request object live while the request is being executed
     //  we keep track of all pending requets.
