@@ -6385,7 +6385,14 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = "-DDEBUG=1";
+				OTHER_CFLAGS = (
+					"-DDEBUG=1",
+					"-DGDATA_REQUIRE_SERVICE_INCLUDES=1",
+					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
+				);
+				SDKROOT = iphoneos7.1;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "i386 x86_64 arm64 armv7";
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Werror",
@@ -6411,6 +6418,13 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = (
+					"-DGDATA_REQUIRE_SERVICE_INCLUDES=1",
+					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
+				);
+				SDKROOT = iphoneos7.1;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "i386 x86_64 arm64 armv7";
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Werror",
@@ -6506,9 +6520,13 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DGDATA_IPHONE=1",
+					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
+					"-DGTM_INCLUDE_OAUTH2=1",
 				);
 				PRODUCT_NAME = GDataTouchStaticLib;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -6521,10 +6539,13 @@
 					"$(inherited)",
 					"-DGDATA_IPHONE=1",
 					"-DGDATA_REQUIRE_SERVICE_INCLUDES=1",
-					"-DGDATA_INCLUDE_nameServiceHere_SERVICE=1",
+					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
+					"-DGTM_INCLUDE_OAUTH2=1",
 				);
 				PRODUCT_NAME = GDataTouchStaticLib;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -6550,7 +6571,9 @@
 				);
 				PRODUCT_NAME = GData;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -6574,7 +6597,9 @@
 				);
 				PRODUCT_NAME = GData;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
