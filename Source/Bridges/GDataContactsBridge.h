@@ -24,6 +24,7 @@ extern NSString* kGDataContactsBridgeFullNameProperty;
 @interface GDataContactsBridge : NSObject
 
 +(void)retrieveUserContacts:(GDataContactsBridgeRetrieveUserContactsCallback)callback
-             withAuthorizer:(GTMOAuth2Authentication*)authorizer;
+             withAuthorizer:(GTMOAuth2Authentication*)authorizer
+               changedSince:(NSDate*)updateMinDateTime;
 
 @end
