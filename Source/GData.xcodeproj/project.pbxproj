@@ -6390,6 +6390,7 @@
 					"-DDEBUG=1",
 					"-DGDATA_REQUIRE_SERVICE_INCLUDES=1",
 					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
+					"-DGDATA_INCLUDE_YOUTUBE_SERVICE=1",
 				);
 				SDKROOT = iphoneos7.1;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -6423,6 +6424,7 @@
 				OTHER_CFLAGS = (
 					"-DGDATA_REQUIRE_SERVICE_INCLUDES=1",
 					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
+					"-DGDATA_INCLUDE_YOUTUBE_SERVICE=1",
 				);
 				SDKROOT = iphoneos7.1;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -6526,6 +6528,11 @@
 					"-DGDATA_IPHONE=1",
 					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
 					"-DGTM_INCLUDE_OAUTH2=1",
+					"-DGDATA_INCLUDE_YOUTUBE_SERVICE=1",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_NAME = GDataTouchStaticLib;
 				SDKROOT = iphoneos;
@@ -6546,6 +6553,11 @@
 					"-DGDATA_REQUIRE_SERVICE_INCLUDES=1",
 					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
 					"-DGTM_INCLUDE_OAUTH2=1",
+					"-DGDATA_INCLUDE_YOUTUBE_SERVICE=1",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_NAME = GDataTouchStaticLib;
 				SDKROOT = iphoneos;
@@ -6568,6 +6580,12 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				INFOPLIST_FILE = "Resources/GDataFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
+				OTHER_CFLAGS = (
+					"-DDEBUG=1",
+					"-DGDATA_REQUIRE_SERVICE_INCLUDES=1",
+					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
+					"-DGDATA_INCLUDE_YOUTUBE_SERVICE=1",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -6594,6 +6612,11 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Resources/GDataFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
+				OTHER_CFLAGS = (
+					"-DGDATA_REQUIRE_SERVICE_INCLUDES=1",
+					"-DGDATA_INCLUDE_CONTACTS_SERVICE=1",
+					"-DGDATA_INCLUDE_YOUTUBE_SERVICE=1",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
