@@ -24,7 +24,6 @@
 		4F00C38E1355028700DEC154 /* GTMOAuth2Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F00C3891355028700DEC154 /* GTMOAuth2Window.xib */; };
 		4F00C38F1355028700DEC154 /* GTMOAuth2WindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F00C38A1355028700DEC154 /* GTMOAuth2WindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F00C3901355028700DEC154 /* GTMOAuth2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00C38B1355028700DEC154 /* GTMOAuth2WindowController.m */; };
-		4F00C3941355029900DEC154 /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F00C3921355029900DEC154 /* GTMOAuth2ViewControllerTouch.m */; };
 		4F0108A114EDAFB4001E7FFA /* GDataEntryTableDoc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F01089F14EDAFB4001E7FFA /* GDataEntryTableDoc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0108A214EDAFB4001E7FFA /* GDataEntryTableDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0108A014EDAFB4001E7FFA /* GDataEntryTableDoc.m */; };
 		4F0108A314EDAFB4001E7FFA /* GDataEntryTableDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0108A014EDAFB4001E7FFA /* GDataEntryTableDoc.m */; };
@@ -5735,7 +5734,6 @@
 				4F61C6C11353A654009CEDA4 /* GTMHTTPUploadFetcher.m in Sources */,
 				4F00C3821355026B00DEC154 /* GTMOAuth2Authentication.m in Sources */,
 				4F00C3831355026B00DEC154 /* GTMOAuth2SignIn.m in Sources */,
-				4F00C3941355029900DEC154 /* GTMOAuth2ViewControllerTouch.m in Sources */,
 				4F2EA5CD13AAD74000E9C96E /* GDataFeedDocChange.m in Sources */,
 				4F2EA5DC13AAE6EE00E9C96E /* GDataEntryDocChange.m in Sources */,
 				4F71B1F513DA13E500B955AC /* GDataDocElements.m in Sources */,
