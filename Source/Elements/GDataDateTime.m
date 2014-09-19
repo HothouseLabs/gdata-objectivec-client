@@ -99,7 +99,7 @@ static NSMutableDictionary *gCalendarsForTimeZones = nil;
           && [dc1 hour] == [dc2 hour]
           && [dc1 minute] == [dc2 minute]
           && [dc1 second] == [dc2 second]
-          && [dc1 week] == [dc2 week]
+          && [dc1 weekOfYear] == [dc2 weekOfYear]
           && [dc1 weekday] == [dc2 weekday]
           && [dc1 weekdayOrdinal] == [dc2 weekdayOrdinal];
 }
